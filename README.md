@@ -5,7 +5,7 @@ This repository contains 32,774 *different* pre-compiled bootloaders in the dire
 [`mcus`](https://github.com/stefanrueger/urboot.hex/tree/main/mcus/) sorted by MCU name, eg,
 autobaud bootloaders for the
 [ATmega328P](https://github.com/stefanrueger/urboot.hex/blob/main/mcus/atmega328p/autobaud/README.md), and
-[`boards`](https://github.com/stefanrueger/urboot.hex/tree/main/mcus/) sorted by board name, eg,
+[`boards`](https://github.com/stefanrueger/urboot.hex/tree/main/boards/) sorted by board name, eg,
 autobaud bootloaders for the venerable ATmega328P based
 [Uno](https://github.com/stefanrueger/urboot.hex/blob/main/boards/uno/autobaud/README.md)
 with a LED on PB5, the [Arduino Pro
