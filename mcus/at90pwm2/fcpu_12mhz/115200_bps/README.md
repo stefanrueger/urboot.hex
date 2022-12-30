@@ -1,0 +1,30 @@
+|Size|Usage|Version|Features|Hex file|
+|:-:|:-:|:-:|:-:|:--|
+|242|256|u7.7|`w-u-hpr--`|[urboot_at90pwm2_12mhz_115200bps_lednop_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90pwm2/fcpu_12mhz/115200_bps/urboot_at90pwm2_12mhz_115200bps_lednop_ur.hex)|
+|290|320|u7.7|`w-u-hpr-c`|[urboot_at90pwm2_12mhz_115200bps_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90pwm2/fcpu_12mhz/115200_bps/urboot_at90pwm2_12mhz_115200bps_lednop_fr_ce_ur.hex)|
+|306|320|u7.7|`weu-hpr--`|[urboot_at90pwm2_12mhz_115200bps_ee_lednop_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90pwm2/fcpu_12mhz/115200_bps/urboot_at90pwm2_12mhz_115200bps_ee_lednop_ur.hex)|
+|350|384|u7.7|`weu-hpr-c`|[urboot_at90pwm2_12mhz_115200bps_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90pwm2/fcpu_12mhz/115200_bps/urboot_at90pwm2_12mhz_115200bps_ee_lednop_fr_ce_ur.hex)|
+|364|384|u7.7|`w-s-hpr--`|[urboot_at90pwm2_12mhz_115200bps_lednop_fr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90pwm2/fcpu_12mhz/115200_bps/urboot_at90pwm2_12mhz_115200bps_lednop_fr.hex)|
+|404|448|u7.7|`w-s-hpr-c`|[urboot_at90pwm2_12mhz_115200bps_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90pwm2/fcpu_12mhz/115200_bps/urboot_at90pwm2_12mhz_115200bps_lednop_fr_ce.hex)|
+|414|448|u7.7|`wes-hpr--`|[urboot_at90pwm2_12mhz_115200bps_ee_lednop_fr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90pwm2/fcpu_12mhz/115200_bps/urboot_at90pwm2_12mhz_115200bps_ee_lednop_fr.hex)|
+|450|512|u7.7|`wes-hpr-c`|[urboot_at90pwm2_12mhz_115200bps_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90pwm2/fcpu_12mhz/115200_bps/urboot_at90pwm2_12mhz_115200bps_ee_lednop_fr_ce.hex)|
+
+- **Size:** Bootloader code size including small table at top end
+- **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
+- **Version:** For example, u7.6 is an urboot version, o5.2 is an optiboot version
+- **Features:**
+  + `w` bootloader provides `pgm_write_page(sram, flash)` for the application at `FLASHEND-4+1`
+  + `e` EEPROM read/write support
+  + `u` uses urprotocol requiring `avrdude -c urclock` for programming
+  + `s` uses skeleton of STK500v1 protocol (deprecated); `-c urclock` and `-c arduino` both work
+  + `h` hardware boot section: make sure fuses are set for reset to jump to boot section
+  + `p` bootloader protects itself from being overwritten
+  + `r` preserves reset flags for the application in the register R2
+  + `c` bootloader provides chip erase functionality (recommended for large MCUs)
+  + `-` corresponding feature not present
+- **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
+  + `ee` bootloader supports EEPROM read/write
+  + `lednop` is a template bootloader with `mov rx,rx` nops as placeholders for LED operations
+  + `fr` bootloader provides non-essential code for smoother error handing
+  + `ce` bootloader provides a chip erase command
+  + `ur` uses urprotocol and requires `avrdude -c urclock` for programming
