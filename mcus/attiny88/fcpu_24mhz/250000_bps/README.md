@@ -1,12 +1,12 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|256|256|u7.7|`w-u-jpr--`|[urboot_attiny88_24mhz_250000bps_rxd7_txd6_led+b0_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny88/fcpu_24mhz/250000_bps/urboot_attiny88_24mhz_250000bps_rxd7_txd6_led+b0_ur_vbl.hex)|
+|256|256|u7.7|`w-u-jpr--`|[urboot_attiny88_24mhz_250000bps_rxd7_txd6_led+d0_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny88/fcpu_24mhz/250000_bps/urboot_attiny88_24mhz_250000bps_rxd7_txd6_led+d0_ur_vbl.hex)|
 |256|256|u7.7|`w-u-jpr--`|[urboot_attiny88_24mhz_250000bps_rxd7_txd6_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny88/fcpu_24mhz/250000_bps/urboot_attiny88_24mhz_250000bps_rxd7_txd6_lednop_ur_vbl.hex)|
-|318|320|u7.7|`w-u-jPr-c`|[urboot_attiny88_24mhz_250000bps_rxd7_txd6_led+b0_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny88/fcpu_24mhz/250000_bps/urboot_attiny88_24mhz_250000bps_rxd7_txd6_led+b0_fr_ce_ur_vbl.hex)|
+|318|320|u7.7|`w-u-jPr-c`|[urboot_attiny88_24mhz_250000bps_rxd7_txd6_led+d0_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny88/fcpu_24mhz/250000_bps/urboot_attiny88_24mhz_250000bps_rxd7_txd6_led+d0_fr_ce_ur_vbl.hex)|
 |318|320|u7.7|`w-u-jPr-c`|[urboot_attiny88_24mhz_250000bps_rxd7_txd6_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny88/fcpu_24mhz/250000_bps/urboot_attiny88_24mhz_250000bps_rxd7_txd6_lednop_fr_ce_ur_vbl.hex)|
-|318|320|u7.7|`weu-jpr--`|[urboot_attiny88_24mhz_250000bps_rxd7_txd6_ee_led+b0_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny88/fcpu_24mhz/250000_bps/urboot_attiny88_24mhz_250000bps_rxd7_txd6_ee_led+b0_ur_vbl.hex)|
+|318|320|u7.7|`weu-jpr--`|[urboot_attiny88_24mhz_250000bps_rxd7_txd6_ee_led+d0_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny88/fcpu_24mhz/250000_bps/urboot_attiny88_24mhz_250000bps_rxd7_txd6_ee_led+d0_ur_vbl.hex)|
 |318|320|u7.7|`weu-jpr--`|[urboot_attiny88_24mhz_250000bps_rxd7_txd6_ee_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny88/fcpu_24mhz/250000_bps/urboot_attiny88_24mhz_250000bps_rxd7_txd6_ee_lednop_ur_vbl.hex)|
-|376|384|u7.7|`weu-jPr-c`|[urboot_attiny88_24mhz_250000bps_rxd7_txd6_ee_led+b0_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny88/fcpu_24mhz/250000_bps/urboot_attiny88_24mhz_250000bps_rxd7_txd6_ee_led+b0_fr_ce_ur_vbl.hex)|
+|376|384|u7.7|`weu-jPr-c`|[urboot_attiny88_24mhz_250000bps_rxd7_txd6_ee_led+d0_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny88/fcpu_24mhz/250000_bps/urboot_attiny88_24mhz_250000bps_rxd7_txd6_ee_led+d0_fr_ce_ur_vbl.hex)|
 |376|384|u7.7|`weu-jPr-c`|[urboot_attiny88_24mhz_250000bps_rxd7_txd6_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny88/fcpu_24mhz/250000_bps/urboot_attiny88_24mhz_250000bps_rxd7_txd6_ee_lednop_fr_ce_ur_vbl.hex)|
 
 - **Size:** Bootloader code size including small table at top end

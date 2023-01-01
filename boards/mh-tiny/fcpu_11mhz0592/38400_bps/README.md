@@ -1,9 +1,9 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|256|256|u7.7|`w-u-jpr--`|[urboot_mh-tiny_11mhz0592_38400bps_rxd7_txd6_led+b0_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mh-tiny/fcpu_11mhz0592/38400_bps/urboot_mh-tiny_11mhz0592_38400bps_rxd7_txd6_led+b0_ur_vbl.hex)|
-|318|320|u7.7|`w-u-jPr-c`|[urboot_mh-tiny_11mhz0592_38400bps_rxd7_txd6_led+b0_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mh-tiny/fcpu_11mhz0592/38400_bps/urboot_mh-tiny_11mhz0592_38400bps_rxd7_txd6_led+b0_fr_ce_ur_vbl.hex)|
-|318|320|u7.7|`weu-jpr--`|[urboot_mh-tiny_11mhz0592_38400bps_rxd7_txd6_ee_led+b0_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mh-tiny/fcpu_11mhz0592/38400_bps/urboot_mh-tiny_11mhz0592_38400bps_rxd7_txd6_ee_led+b0_ur_vbl.hex)|
-|376|384|u7.7|`weu-jPr-c`|[urboot_mh-tiny_11mhz0592_38400bps_rxd7_txd6_ee_led+b0_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mh-tiny/fcpu_11mhz0592/38400_bps/urboot_mh-tiny_11mhz0592_38400bps_rxd7_txd6_ee_led+b0_fr_ce_ur_vbl.hex)|
+|256|256|u7.7|`w-u-jpr--`|[urboot_mh-tiny_11mhz0592_38400bps_rxd7_txd6_led+d0_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mh-tiny/fcpu_11mhz0592/38400_bps/urboot_mh-tiny_11mhz0592_38400bps_rxd7_txd6_led+d0_ur_vbl.hex)|
+|318|320|u7.7|`w-u-jPr-c`|[urboot_mh-tiny_11mhz0592_38400bps_rxd7_txd6_led+d0_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mh-tiny/fcpu_11mhz0592/38400_bps/urboot_mh-tiny_11mhz0592_38400bps_rxd7_txd6_led+d0_fr_ce_ur_vbl.hex)|
+|318|320|u7.7|`weu-jpr--`|[urboot_mh-tiny_11mhz0592_38400bps_rxd7_txd6_ee_led+d0_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mh-tiny/fcpu_11mhz0592/38400_bps/urboot_mh-tiny_11mhz0592_38400bps_rxd7_txd6_ee_led+d0_ur_vbl.hex)|
+|376|384|u7.7|`weu-jPr-c`|[urboot_mh-tiny_11mhz0592_38400bps_rxd7_txd6_ee_led+d0_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mh-tiny/fcpu_11mhz0592/38400_bps/urboot_mh-tiny_11mhz0592_38400bps_rxd7_txd6_ee_led+d0_fr_ce_ur_vbl.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

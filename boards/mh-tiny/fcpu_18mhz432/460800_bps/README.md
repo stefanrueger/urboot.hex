@@ -1,8 +1,8 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|320|320|u7.7|`w-u-jPr-c`|[urboot_mh-tiny_18mhz432_460800bps_rxd7_txd6_led+b0_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mh-tiny/fcpu_18mhz432/460800_bps/urboot_mh-tiny_18mhz432_460800bps_rxd7_txd6_led+b0_fr_ce_ur_vbl.hex)|
-|320|320|u7.7|`weu-jpr--`|[urboot_mh-tiny_18mhz432_460800bps_rxd7_txd6_ee_led+b0_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mh-tiny/fcpu_18mhz432/460800_bps/urboot_mh-tiny_18mhz432_460800bps_rxd7_txd6_ee_led+b0_ur_vbl.hex)|
-|378|384|u7.7|`weu-jPr-c`|[urboot_mh-tiny_18mhz432_460800bps_rxd7_txd6_ee_led+b0_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mh-tiny/fcpu_18mhz432/460800_bps/urboot_mh-tiny_18mhz432_460800bps_rxd7_txd6_ee_led+b0_fr_ce_ur_vbl.hex)|
+|320|320|u7.7|`w-u-jPr-c`|[urboot_mh-tiny_18mhz432_460800bps_rxd7_txd6_led+d0_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mh-tiny/fcpu_18mhz432/460800_bps/urboot_mh-tiny_18mhz432_460800bps_rxd7_txd6_led+d0_fr_ce_ur_vbl.hex)|
+|320|320|u7.7|`weu-jpr--`|[urboot_mh-tiny_18mhz432_460800bps_rxd7_txd6_ee_led+d0_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mh-tiny/fcpu_18mhz432/460800_bps/urboot_mh-tiny_18mhz432_460800bps_rxd7_txd6_ee_led+d0_ur_vbl.hex)|
+|378|384|u7.7|`weu-jPr-c`|[urboot_mh-tiny_18mhz432_460800bps_rxd7_txd6_ee_led+d0_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mh-tiny/fcpu_18mhz432/460800_bps/urboot_mh-tiny_18mhz432_460800bps_rxd7_txd6_ee_led+d0_fr_ce_ur_vbl.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
