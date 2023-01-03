@@ -1,12 +1,10 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
 |242|256|u7.7|`w-u-hpr--`|[urboot_at90pwm2_18mhz432_460800bps_lednop_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90pwm2/fcpu_18mhz432/460800_bps/urboot_at90pwm2_18mhz432_460800bps_lednop_ur.hex)|
-|290|320|u7.7|`w-u-hpr-c`|[urboot_at90pwm2_18mhz432_460800bps_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90pwm2/fcpu_18mhz432/460800_bps/urboot_at90pwm2_18mhz432_460800bps_lednop_fr_ce_ur.hex)|
-|306|320|u7.7|`weu-hpr--`|[urboot_at90pwm2_18mhz432_460800bps_ee_lednop_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90pwm2/fcpu_18mhz432/460800_bps/urboot_at90pwm2_18mhz432_460800bps_ee_lednop_ur.hex)|
-|350|384|u7.7|`weu-hpr-c`|[urboot_at90pwm2_18mhz432_460800bps_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90pwm2/fcpu_18mhz432/460800_bps/urboot_at90pwm2_18mhz432_460800bps_ee_lednop_fr_ce_ur.hex)|
-|364|384|u7.7|`w-s-hpr--`|[urboot_at90pwm2_18mhz432_460800bps_lednop_fr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90pwm2/fcpu_18mhz432/460800_bps/urboot_at90pwm2_18mhz432_460800bps_lednop_fr.hex)|
-|404|448|u7.7|`w-s-hpr-c`|[urboot_at90pwm2_18mhz432_460800bps_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90pwm2/fcpu_18mhz432/460800_bps/urboot_at90pwm2_18mhz432_460800bps_lednop_fr_ce.hex)|
-|414|448|u7.7|`wes-hpr--`|[urboot_at90pwm2_18mhz432_460800bps_ee_lednop_fr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90pwm2/fcpu_18mhz432/460800_bps/urboot_at90pwm2_18mhz432_460800bps_ee_lednop_fr.hex)|
+|304|320|u7.7|`w-u-jPr-c`|[urboot_at90pwm2_18mhz432_460800bps_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90pwm2/fcpu_18mhz432/460800_bps/urboot_at90pwm2_18mhz432_460800bps_lednop_fr_ce_ur_vbl.hex)|
+|320|320|u7.7|`weu-jPr--`|[urboot_at90pwm2_18mhz432_460800bps_ee_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90pwm2/fcpu_18mhz432/460800_bps/urboot_at90pwm2_18mhz432_460800bps_ee_lednop_ur_vbl.hex)|
+|364|384|u7.7|`weu-jPr-c`|[urboot_at90pwm2_18mhz432_460800bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90pwm2/fcpu_18mhz432/460800_bps/urboot_at90pwm2_18mhz432_460800bps_ee_lednop_fr_ce_ur_vbl.hex)|
+|346|512|u7.7|`weu-hpr-c`|[urboot_at90pwm2_18mhz432_460800bps_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90pwm2/fcpu_18mhz432/460800_bps/urboot_at90pwm2_18mhz432_460800bps_ee_lednop_fr_ce_ur.hex)|
 |450|512|u7.7|`wes-hpr-c`|[urboot_at90pwm2_18mhz432_460800bps_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90pwm2/fcpu_18mhz432/460800_bps/urboot_at90pwm2_18mhz432_460800bps_ee_lednop_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
@@ -18,7 +16,9 @@
   + `u` uses urprotocol requiring `avrdude -c urclock` for programming
   + `s` uses skeleton of STK500v1 protocol (deprecated); `-c urclock` and `-c arduino` both work
   + `h` hardware boot section: make sure fuses are set for reset to jump to boot section
+  + `j` vector bootloader: applications *need to be patched externally*, eg, using `avrdude -c urclock`
   + `p` bootloader protects itself from being overwritten
+  + `P` vector bootloader only: protects itself and reset vector from being overwritten
   + `r` preserves reset flags for the application in the register R2
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present
@@ -28,3 +28,4 @@
   + `fr` bootloader provides non-essential code for smoother error handing
   + `ce` bootloader provides a chip erase command
   + `ur` uses urprotocol and requires `avrdude -c urclock` for programming
+  + `vbl` vector bootloader: set fuses to jump to reset, not the HW boot section
