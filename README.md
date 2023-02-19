@@ -23,7 +23,7 @@ Disgispark](https://github.com/stefanrueger/urboot.hex/tree/main/boards/digispar
 and the [ATtiny84 based
 Luminet](https://github.com/stefanrueger/urboot.hex/tree/main/boards/luminet/fcpu_16mhz/115200_bps/README.md).
 
-The trees actually contain 98,564 hex files, but they are somewhat
+The trees actually contain 101,789 hex files, but they are somewhat
 redundant because a bootloader on 115,200 baud for 16 MHz is *exactly* the
 same as a bootloader on 57,600 baud for 8 MHz.
 
