@@ -1,11 +1,10 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|244|256|u7.7|`w-u-jPr--`|[urboot_atmega48p_20mhz_115200bps_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48p/fcpu_20mhz/115200_bps/urboot_atmega48p_20mhz_115200bps_lednop_ur_vbl.hex)|
-|248|256|u7.7|`w-u-jpr--`|[urboot_atmega48p_20mhz_115200bps_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48p/fcpu_20mhz/115200_bps/urboot_atmega48p_20mhz_115200bps_lednop_fr_ur_vbl.hex)|
-|292|320|u7.7|`w-u-jPr-c`|[urboot_atmega48p_20mhz_115200bps_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48p/fcpu_20mhz/115200_bps/urboot_atmega48p_20mhz_115200bps_lednop_fr_ce_ur_vbl.hex)|
-|306|320|u7.7|`weu-jPr--`|[urboot_atmega48p_20mhz_115200bps_ee_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48p/fcpu_20mhz/115200_bps/urboot_atmega48p_20mhz_115200bps_ee_lednop_ur_vbl.hex)|
-|310|320|u7.7|`weu-jpr--`|[urboot_atmega48p_20mhz_115200bps_ee_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48p/fcpu_20mhz/115200_bps/urboot_atmega48p_20mhz_115200bps_ee_lednop_fr_ur_vbl.hex)|
-|350|384|u7.7|`weu-jPr-c`|[urboot_atmega48p_20mhz_115200bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48p/fcpu_20mhz/115200_bps/urboot_atmega48p_20mhz_115200bps_ee_lednop_fr_ce_ur_vbl.hex)|
+|240|256|u7.7|`w-u-jPr--`|[urboot_atmega48p_20mhz_115200bps_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48p/fcpu_20mhz/115200_bps/urboot_atmega48p_20mhz_115200bps_lednop_ur_vbl.hex)|
+|244|256|u7.7|`w-u-jpr--`|[urboot_atmega48p_20mhz_115200bps_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48p/fcpu_20mhz/115200_bps/urboot_atmega48p_20mhz_115200bps_lednop_fr_ur_vbl.hex)|
+|288|320|u7.7|`w-u-jPr-c`|[urboot_atmega48p_20mhz_115200bps_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48p/fcpu_20mhz/115200_bps/urboot_atmega48p_20mhz_115200bps_lednop_fr_ce_ur_vbl.hex)|
+|320|320|u7.7|`weu-jPr--`|[urboot_atmega48p_20mhz_115200bps_ee_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48p/fcpu_20mhz/115200_bps/urboot_atmega48p_20mhz_115200bps_ee_lednop_fr_ur_vbl.hex)|
+|346|384|u7.7|`weu-jPr-c`|[urboot_atmega48p_20mhz_115200bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48p/fcpu_20mhz/115200_bps/urboot_atmega48p_20mhz_115200bps_ee_lednop_fr_ce_ur_vbl.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

@@ -1,7 +1,8 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|256|256|u7.7|`w-u-jpr--`|[urboot_ata664251_3mhz6864_115200bps_rxb0_txb1_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata664251/fcpu_3mhz6864/115200_bps/urboot_ata664251_3mhz6864_115200bps_rxb0_txb1_lednop_ur_vbl.hex)|
-|382|384|u7.7|`weu-jPr-c`|[urboot_ata664251_3mhz6864_115200bps_rxb0_txb1_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata664251/fcpu_3mhz6864/115200_bps/urboot_ata664251_3mhz6864_115200bps_rxb0_txb1_ee_lednop_fr_ce_ur_vbl.hex)|
+|246|256|u7.7|`w-u-jPr--`|[urboot_ata664251_3mhz6864_115200bps_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata664251/fcpu_3mhz6864/115200_bps/urboot_ata664251_3mhz6864_115200bps_lednop_ur_vbl.hex)|
+|250|256|u7.7|`w-u-jpr--`|[urboot_ata664251_3mhz6864_115200bps_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata664251/fcpu_3mhz6864/115200_bps/urboot_ata664251_3mhz6864_115200bps_lednop_fr_ur_vbl.hex)|
+|358|384|u7.7|`weu-jPr-c`|[urboot_ata664251_3mhz6864_115200bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata664251/fcpu_3mhz6864/115200_bps/urboot_ata664251_3mhz6864_115200bps_ee_lednop_fr_ce_ur_vbl.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -17,7 +18,6 @@
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present
 - **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
-  + `rxd0 txd1` software I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `lednop` is a template bootloader with `mov rx,rx` nops as placeholders for LED operations
   + `fr` bootloader provides non-essential code for smoother error handing

@@ -1,14 +1,15 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|402|512|u7.7|`weu-jPrac`|[urboot_moteinomega_autobaud_ee_led+d7_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_ee_led+d7_fr_ce_ur_vbl.hex)|
-|510|512|u7.7|`w-udjPrac`|[urboot_moteinomega_autobaud_led+d7_csc7_dual_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_led+d7_csc7_dual_fr_ce_ur_vbl.hex)|
-|510|512|u7.7|`weudjPra-`|[urboot_moteinomega_autobaud_ee_led+d7_csc7_dual_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_ee_led+d7_csc7_dual_ur_vbl.hex)|
-|510|512|u7.7|`weudjpra-`|[urboot_moteinomega_autobaud_ee_led+d7_csc7_dual_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_ee_led+d7_csc7_dual_fr_ur_vbl.hex)|
-|572|768|u7.7|`weudjPrac`|[urboot_moteinomega_autobaud_ee_led+d7_csc7_dual_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_ee_led+d7_csc7_dual_fr_ce_ur_vbl.hex)|
-|384|1024|u7.7|`weu-hprac`|[urboot_moteinomega_autobaud_ee_led+d7_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_ee_led+d7_fr_ce_ur.hex)|
-|490|1024|u7.7|`wes-hprac`|[urboot_moteinomega_autobaud_ee_led+d7_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_ee_led+d7_fr_ce.hex)|
-|554|1024|u7.7|`weudhprac`|[urboot_moteinomega_autobaud_ee_led+d7_csc7_dual_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_ee_led+d7_csc7_dual_fr_ce_ur.hex)|
-|660|1024|u7.7|`wesdhprac`|[urboot_moteinomega_autobaud_ee_led+d7_csc7_dual_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_ee_led+d7_csc7_dual_fr_ce.hex)|
+|256|256|u7.7|`w-u-jpra-`|[urboot_moteinomega_autobaud_led+d7_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_led+d7_ur_vbl.hex)|
+|398|512|u7.7|`weu-jPrac`|[urboot_moteinomega_autobaud_ee_led+d7_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_ee_led+d7_fr_ce_ur_vbl.hex)|
+|506|512|u7.7|`w-udjPrac`|[urboot_moteinomega_autobaud_led+d7_csc7_dual_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_led+d7_csc7_dual_fr_ce_ur_vbl.hex)|
+|506|512|u7.7|`weudjPra-`|[urboot_moteinomega_autobaud_ee_led+d7_csc7_dual_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_ee_led+d7_csc7_dual_ur_vbl.hex)|
+|506|512|u7.7|`weudjpra-`|[urboot_moteinomega_autobaud_ee_led+d7_csc7_dual_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_ee_led+d7_csc7_dual_fr_ur_vbl.hex)|
+|568|768|u7.7|`weudjPrac`|[urboot_moteinomega_autobaud_ee_led+d7_csc7_dual_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_ee_led+d7_csc7_dual_fr_ce_ur_vbl.hex)|
+|380|1024|u7.7|`weu-hprac`|[urboot_moteinomega_autobaud_ee_led+d7_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_ee_led+d7_fr_ce_ur.hex)|
+|486|1024|u7.7|`wes-hprac`|[urboot_moteinomega_autobaud_ee_led+d7_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_ee_led+d7_fr_ce.hex)|
+|550|1024|u7.7|`weudhprac`|[urboot_moteinomega_autobaud_ee_led+d7_csc7_dual_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_ee_led+d7_csc7_dual_fr_ce_ur.hex)|
+|656|1024|u7.7|`wesdhprac`|[urboot_moteinomega_autobaud_ee_led+d7_csc7_dual_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_ee_led+d7_csc7_dual_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

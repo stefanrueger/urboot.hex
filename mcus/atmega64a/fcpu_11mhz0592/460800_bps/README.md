@@ -1,10 +1,9 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|240|256|u7.7|`w-u-jPr--`|[urboot_atmega64a_11mhz0592_460800bps_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/fcpu_11mhz0592/460800_bps/urboot_atmega64a_11mhz0592_460800bps_lednop_ur_vbl.hex)|
-|244|256|u7.7|`w-u-jpr--`|[urboot_atmega64a_11mhz0592_460800bps_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/fcpu_11mhz0592/460800_bps/urboot_atmega64a_11mhz0592_460800bps_lednop_fr_ur_vbl.hex)|
-|342|512|u7.7|`weu-jPr-c`|[urboot_atmega64a_11mhz0592_460800bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/fcpu_11mhz0592/460800_bps/urboot_atmega64a_11mhz0592_460800bps_ee_lednop_fr_ce_ur_vbl.hex)|
-|328|1024|u7.7|`weu-hpr-c`|[urboot_atmega64a_11mhz0592_460800bps_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/fcpu_11mhz0592/460800_bps/urboot_atmega64a_11mhz0592_460800bps_ee_lednop_fr_ce_ur.hex)|
-|432|1024|u7.7|`wes-hpr-c`|[urboot_atmega64a_11mhz0592_460800bps_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/fcpu_11mhz0592/460800_bps/urboot_atmega64a_11mhz0592_460800bps_ee_lednop_fr_ce.hex)|
+|252|256|u7.7|`w-u-jPr--`|[urboot_atmega64a_11mhz0592_460800bps_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/fcpu_11mhz0592/460800_bps/urboot_atmega64a_11mhz0592_460800bps_lednop_fr_ur_vbl.hex)|
+|336|512|u7.7|`weu-jPr-c`|[urboot_atmega64a_11mhz0592_460800bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/fcpu_11mhz0592/460800_bps/urboot_atmega64a_11mhz0592_460800bps_ee_lednop_fr_ce_ur_vbl.hex)|
+|322|1024|u7.7|`weu-hpr-c`|[urboot_atmega64a_11mhz0592_460800bps_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/fcpu_11mhz0592/460800_bps/urboot_atmega64a_11mhz0592_460800bps_ee_lednop_fr_ce_ur.hex)|
+|426|1024|u7.7|`wes-hpr-c`|[urboot_atmega64a_11mhz0592_460800bps_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/fcpu_11mhz0592/460800_bps/urboot_atmega64a_11mhz0592_460800bps_ee_lednop_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

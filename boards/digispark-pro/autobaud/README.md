@@ -1,0 +1,26 @@
+|Size|Usage|Version|Features|Hex file|
+|:-:|:-:|:-:|:-:|:--|
+|256|256|u7.7|`w-u-jPra-`|[urboot_digispark-pro_autobaud_led+b1_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/digispark-pro/autobaud/urboot_digispark-pro_autobaud_led+b1_ur_vbl.hex)|
+|366|384|u7.7|`weu-jPrac`|[urboot_digispark-pro_autobaud_ee_led+b1_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/digispark-pro/autobaud/urboot_digispark-pro_autobaud_ee_led+b1_fr_ce_ur_vbl.hex)|
+
+- **Size:** Bootloader code size including small table at top end
+- **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
+- **Version:** For example, u7.6 is an urboot version, o5.2 is an optiboot version
+- **Features:**
+  + `w` bootloader provides `pgm_write_page(sram, flash)` for the application at `FLASHEND-4+1`
+  + `e` EEPROM read/write support
+  + `u` uses urprotocol requiring `avrdude -c urclock` for programming
+  + `j` vector bootloader: applications *need to be patched externally*, eg, using `avrdude -c urclock`
+  + `P` vector bootloader only: protects itself and reset vector from being overwritten
+  + `r` preserves reset flags for the application in the register R2
+  + `a` autobaud detection (f_cpu/8n using discrete divisors, n = 1, 2, ..., 256)
+  + `c` bootloader provides chip erase functionality (recommended for large MCUs)
+  + `-` corresponding feature not present
+- **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
+  + `autobaud` tries to match host baud rate; can be f/8, f/16, f/24, ..., f/2048 (f=F<sub>CPU</sub>)
+  + `ee` bootloader supports EEPROM read/write
+  + `led-b1` toggles an active-low LED on pin `B1`, `+` designates an active-high LED
+  + `fr` bootloader provides non-essential code for smoother error handing
+  + `ce` bootloader provides a chip erase command
+  + `ur` uses urprotocol and requires `avrdude -c urclock` for programming
+  + `vbl` vector bootloader: set fuses to jump to reset, not the HW boot section

@@ -1,9 +1,10 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|242|256|u7.7|`w-u-hpra-`|[urboot_atmega16a_autobaud_lednop_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega16a/autobaud/urboot_atmega16a_autobaud_lednop_ur.hex)|
-|370|384|u7.7|`weu-jPrac`|[urboot_atmega16a_autobaud_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega16a/autobaud/urboot_atmega16a_autobaud_ee_lednop_fr_ce_ur_vbl.hex)|
-|352|512|u7.7|`weu-hprac`|[urboot_atmega16a_autobaud_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega16a/autobaud/urboot_atmega16a_autobaud_ee_lednop_fr_ce_ur.hex)|
-|456|512|u7.7|`wes-hprac`|[urboot_atmega16a_autobaud_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega16a/autobaud/urboot_atmega16a_autobaud_ee_lednop_fr_ce.hex)|
+|252|256|u7.7|`w-u-jPra-`|[urboot_atmega16a_autobaud_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega16a/autobaud/urboot_atmega16a_autobaud_lednop_ur_vbl.hex)|
+|256|256|u7.7|`w-u-hpra-`|[urboot_atmega16a_autobaud_lednop_fr_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega16a/autobaud/urboot_atmega16a_autobaud_lednop_fr_ur.hex)|
+|366|384|u7.7|`weu-jPrac`|[urboot_atmega16a_autobaud_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega16a/autobaud/urboot_atmega16a_autobaud_ee_lednop_fr_ce_ur_vbl.hex)|
+|348|512|u7.7|`weu-hprac`|[urboot_atmega16a_autobaud_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega16a/autobaud/urboot_atmega16a_autobaud_ee_lednop_fr_ce_ur.hex)|
+|452|512|u7.7|`wes-hprac`|[urboot_atmega16a_autobaud_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega16a/autobaud/urboot_atmega16a_autobaud_ee_lednop_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

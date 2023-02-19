@@ -1,11 +1,9 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|240|256|u7.7|`w-u-jPr--`|[urboot_atmega48a_14mhz7456_9600bps_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48a/fcpu_14mhz7456/9600_bps/urboot_atmega48a_14mhz7456_9600bps_lednop_ur_vbl.hex)|
-|244|256|u7.7|`w-u-jpr--`|[urboot_atmega48a_14mhz7456_9600bps_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48a/fcpu_14mhz7456/9600_bps/urboot_atmega48a_14mhz7456_9600bps_lednop_fr_ur_vbl.hex)|
-|288|320|u7.7|`w-u-jPr-c`|[urboot_atmega48a_14mhz7456_9600bps_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48a/fcpu_14mhz7456/9600_bps/urboot_atmega48a_14mhz7456_9600bps_lednop_fr_ce_ur_vbl.hex)|
-|306|320|u7.7|`weu-jPr--`|[urboot_atmega48a_14mhz7456_9600bps_ee_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48a/fcpu_14mhz7456/9600_bps/urboot_atmega48a_14mhz7456_9600bps_ee_lednop_ur_vbl.hex)|
-|310|320|u7.7|`weu-jpr--`|[urboot_atmega48a_14mhz7456_9600bps_ee_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48a/fcpu_14mhz7456/9600_bps/urboot_atmega48a_14mhz7456_9600bps_ee_lednop_fr_ur_vbl.hex)|
-|350|384|u7.7|`weu-jPr-c`|[urboot_atmega48a_14mhz7456_9600bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48a/fcpu_14mhz7456/9600_bps/urboot_atmega48a_14mhz7456_9600bps_ee_lednop_fr_ce_ur_vbl.hex)|
+|254|256|u7.7|`w-u-jPr--`|[urboot_atmega48a_14mhz7456_9600bps_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48a/fcpu_14mhz7456/9600_bps/urboot_atmega48a_14mhz7456_9600bps_lednop_fr_ur_vbl.hex)|
+|284|320|u7.7|`w-u-jPr-c`|[urboot_atmega48a_14mhz7456_9600bps_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48a/fcpu_14mhz7456/9600_bps/urboot_atmega48a_14mhz7456_9600bps_lednop_fr_ce_ur_vbl.hex)|
+|320|320|u7.7|`weu-jPr--`|[urboot_atmega48a_14mhz7456_9600bps_ee_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48a/fcpu_14mhz7456/9600_bps/urboot_atmega48a_14mhz7456_9600bps_ee_lednop_fr_ur_vbl.hex)|
+|346|384|u7.7|`weu-jPr-c`|[urboot_atmega48a_14mhz7456_9600bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48a/fcpu_14mhz7456/9600_bps/urboot_atmega48a_14mhz7456_9600bps_ee_lednop_fr_ce_ur_vbl.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -15,7 +13,6 @@
   + `e` EEPROM read/write support
   + `u` uses urprotocol requiring `avrdude -c urclock` for programming
   + `j` vector bootloader: applications *need to be patched externally*, eg, using `avrdude -c urclock`
-  + `p` bootloader protects itself from being overwritten
   + `P` vector bootloader only: protects itself and reset vector from being overwritten
   + `r` preserves reset flags for the application in the register R2
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)

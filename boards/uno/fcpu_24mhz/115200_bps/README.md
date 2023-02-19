@@ -1,10 +1,10 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|244|256|u7.7|`w-u-jPr--`|[urboot_uno_24mhz_115200bps_led+b5_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/uno/fcpu_24mhz/115200_bps/urboot_uno_24mhz_115200bps_led+b5_ur_vbl.hex)|
-|248|256|u7.7|`w-u-jpr--`|[urboot_uno_24mhz_115200bps_led+b5_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/uno/fcpu_24mhz/115200_bps/urboot_uno_24mhz_115200bps_led+b5_fr_ur_vbl.hex)|
-|354|384|u7.7|`weu-jPr-c`|[urboot_uno_24mhz_115200bps_ee_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/uno/fcpu_24mhz/115200_bps/urboot_uno_24mhz_115200bps_ee_led+b5_fr_ce_ur_vbl.hex)|
-|336|512|u7.7|`weu-hpr-c`|[urboot_uno_24mhz_115200bps_ee_led+b5_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/uno/fcpu_24mhz/115200_bps/urboot_uno_24mhz_115200bps_ee_led+b5_fr_ce_ur.hex)|
-|440|512|u7.7|`wes-hpr-c`|[urboot_uno_24mhz_115200bps_ee_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/uno/fcpu_24mhz/115200_bps/urboot_uno_24mhz_115200bps_ee_led+b5_fr_ce.hex)|
+|240|256|u7.7|`w-u-jPr--`|[urboot_uno_24mhz_115200bps_led+b5_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/uno/fcpu_24mhz/115200_bps/urboot_uno_24mhz_115200bps_led+b5_ur_vbl.hex)|
+|244|256|u7.7|`w-u-jpr--`|[urboot_uno_24mhz_115200bps_led+b5_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/uno/fcpu_24mhz/115200_bps/urboot_uno_24mhz_115200bps_led+b5_fr_ur_vbl.hex)|
+|350|384|u7.7|`weu-jPr-c`|[urboot_uno_24mhz_115200bps_ee_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/uno/fcpu_24mhz/115200_bps/urboot_uno_24mhz_115200bps_ee_led+b5_fr_ce_ur_vbl.hex)|
+|332|512|u7.7|`weu-hpr-c`|[urboot_uno_24mhz_115200bps_ee_led+b5_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/uno/fcpu_24mhz/115200_bps/urboot_uno_24mhz_115200bps_ee_led+b5_fr_ce_ur.hex)|
+|436|512|u7.7|`wes-hpr-c`|[urboot_uno_24mhz_115200bps_ee_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/uno/fcpu_24mhz/115200_bps/urboot_uno_24mhz_115200bps_ee_led+b5_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

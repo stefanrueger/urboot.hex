@@ -1,8 +1,7 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|242|256|u7.7|`w-u-jPr--`|[urboot_attiny1634_22mhz1184_57600bps_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny1634/fcpu_22mhz1184/57600_bps/urboot_attiny1634_22mhz1184_57600bps_lednop_ur_vbl.hex)|
-|246|256|u7.7|`w-u-jpr--`|[urboot_attiny1634_22mhz1184_57600bps_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny1634/fcpu_22mhz1184/57600_bps/urboot_attiny1634_22mhz1184_57600bps_lednop_fr_ur_vbl.hex)|
-|352|384|u7.7|`weu-jPr-c`|[urboot_attiny1634_22mhz1184_57600bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny1634/fcpu_22mhz1184/57600_bps/urboot_attiny1634_22mhz1184_57600bps_ee_lednop_fr_ce_ur_vbl.hex)|
+|256|256|u7.7|`w-u-jPr--`|[urboot_attiny1634_22mhz1184_57600bps_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny1634/fcpu_22mhz1184/57600_bps/urboot_attiny1634_22mhz1184_57600bps_lednop_fr_ur_vbl.hex)|
+|348|384|u7.7|`weu-jPr-c`|[urboot_attiny1634_22mhz1184_57600bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny1634/fcpu_22mhz1184/57600_bps/urboot_attiny1634_22mhz1184_57600bps_ee_lednop_fr_ce_ur_vbl.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -12,7 +11,6 @@
   + `e` EEPROM read/write support
   + `u` uses urprotocol requiring `avrdude -c urclock` for programming
   + `j` vector bootloader: applications *need to be patched externally*, eg, using `avrdude -c urclock`
-  + `p` bootloader protects itself from being overwritten
   + `P` vector bootloader only: protects itself and reset vector from being overwritten
   + `r` preserves reset flags for the application in the register R2
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)

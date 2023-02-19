@@ -1,9 +1,10 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|248|256|u7.7|`w-u-jpr--`|[urboot_at90can128_20mhz_19200bps_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90can128/fcpu_20mhz/19200_bps/urboot_at90can128_20mhz_19200bps_lednop_ur_vbl.hex)|
-|388|512|u7.7|`weu-jPr-c`|[urboot_at90can128_20mhz_19200bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90can128/fcpu_20mhz/19200_bps/urboot_at90can128_20mhz_19200bps_ee_lednop_fr_ce_ur_vbl.hex)|
-|370|1024|u7.7|`weu-hpr-c`|[urboot_at90can128_20mhz_19200bps_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90can128/fcpu_20mhz/19200_bps/urboot_at90can128_20mhz_19200bps_ee_lednop_fr_ce_ur.hex)|
-|476|1024|u7.7|`wes-hpr-c`|[urboot_at90can128_20mhz_19200bps_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90can128/fcpu_20mhz/19200_bps/urboot_at90can128_20mhz_19200bps_ee_lednop_fr_ce.hex)|
+|244|256|u7.7|`w-u-jpr--`|[urboot_at90can128_20mhz_19200bps_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90can128/fcpu_20mhz/19200_bps/urboot_at90can128_20mhz_19200bps_lednop_ur_vbl.hex)|
+|256|256|u7.7|`w-u-jPr--`|[urboot_at90can128_20mhz_19200bps_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90can128/fcpu_20mhz/19200_bps/urboot_at90can128_20mhz_19200bps_ur_vbl.hex)|
+|384|512|u7.7|`weu-jPr-c`|[urboot_at90can128_20mhz_19200bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90can128/fcpu_20mhz/19200_bps/urboot_at90can128_20mhz_19200bps_ee_lednop_fr_ce_ur_vbl.hex)|
+|366|1024|u7.7|`weu-hpr-c`|[urboot_at90can128_20mhz_19200bps_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90can128/fcpu_20mhz/19200_bps/urboot_at90can128_20mhz_19200bps_ee_lednop_fr_ce_ur.hex)|
+|472|1024|u7.7|`wes-hpr-c`|[urboot_at90can128_20mhz_19200bps_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90can128/fcpu_20mhz/19200_bps/urboot_at90can128_20mhz_19200bps_ee_lednop_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

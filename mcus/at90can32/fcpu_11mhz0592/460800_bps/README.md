@@ -1,9 +1,10 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|254|256|u7.7|`w-u-jPr--`|[urboot_at90can32_11mhz0592_460800bps_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90can32/fcpu_11mhz0592/460800_bps/urboot_at90can32_11mhz0592_460800bps_lednop_ur_vbl.hex)|
-|356|512|u7.7|`weu-jPr-c`|[urboot_at90can32_11mhz0592_460800bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90can32/fcpu_11mhz0592/460800_bps/urboot_at90can32_11mhz0592_460800bps_ee_lednop_fr_ce_ur_vbl.hex)|
-|342|1024|u7.7|`weu-hpr-c`|[urboot_at90can32_11mhz0592_460800bps_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90can32/fcpu_11mhz0592/460800_bps/urboot_at90can32_11mhz0592_460800bps_ee_lednop_fr_ce_ur.hex)|
-|446|1024|u7.7|`wes-hpr-c`|[urboot_at90can32_11mhz0592_460800bps_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90can32/fcpu_11mhz0592/460800_bps/urboot_at90can32_11mhz0592_460800bps_ee_lednop_fr_ce.hex)|
+|250|256|u7.7|`w-u-jPr--`|[urboot_at90can32_11mhz0592_460800bps_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90can32/fcpu_11mhz0592/460800_bps/urboot_at90can32_11mhz0592_460800bps_lednop_ur_vbl.hex)|
+|254|256|u7.7|`w-u-jpr--`|[urboot_at90can32_11mhz0592_460800bps_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90can32/fcpu_11mhz0592/460800_bps/urboot_at90can32_11mhz0592_460800bps_lednop_fr_ur_vbl.hex)|
+|352|512|u7.7|`weu-jPr-c`|[urboot_at90can32_11mhz0592_460800bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90can32/fcpu_11mhz0592/460800_bps/urboot_at90can32_11mhz0592_460800bps_ee_lednop_fr_ce_ur_vbl.hex)|
+|338|1024|u7.7|`weu-hpr-c`|[urboot_at90can32_11mhz0592_460800bps_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90can32/fcpu_11mhz0592/460800_bps/urboot_at90can32_11mhz0592_460800bps_ee_lednop_fr_ce_ur.hex)|
+|442|1024|u7.7|`wes-hpr-c`|[urboot_at90can32_11mhz0592_460800bps_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90can32/fcpu_11mhz0592/460800_bps/urboot_at90can32_11mhz0592_460800bps_ee_lednop_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

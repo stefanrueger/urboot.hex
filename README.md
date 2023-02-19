@@ -1,7 +1,7 @@
 # urboot.hex
 ### Pre-compiled [urboot](https://github.com/stefanrueger/urboot/) bootloaders
 
-This repository contains 32,774 *different* pre-compiled bootloaders in the directory trees
+This repository contains 33,779 *different* pre-compiled bootloaders in the directory trees
 [`mcus`](https://github.com/stefanrueger/urboot.hex/tree/main/mcus/) sorted by MCU name, eg,
 autobaud bootloaders for the
 [ATmega328P](https://github.com/stefanrueger/urboot.hex/blob/main/mcus/atmega328p/autobaud/README.md), and

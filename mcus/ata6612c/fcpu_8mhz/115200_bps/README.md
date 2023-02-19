@@ -1,12 +1,12 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|254|256|u7.7|`w-u-hpr--`|[urboot_ata6612c_8mhz_115200bps_rxb0_txb1_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/fcpu_8mhz/115200_bps/urboot_ata6612c_8mhz_115200bps_rxb0_txb1_ur.hex)|
-|296|320|u7.7|`w-u-jPr--`|[urboot_ata6612c_8mhz_115200bps_rxb0_txb1_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/fcpu_8mhz/115200_bps/urboot_ata6612c_8mhz_115200bps_rxb0_txb1_lednop_fr_ur_vbl.hex)|
-|308|320|u7.7|`w-u-jpr-c`|[urboot_ata6612c_8mhz_115200bps_rxb0_txb1_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/fcpu_8mhz/115200_bps/urboot_ata6612c_8mhz_115200bps_rxb0_txb1_lednop_fr_ce_ur_vbl.hex)|
-|320|320|u7.7|`weu-jpr--`|[urboot_ata6612c_8mhz_115200bps_rxb0_txb1_ee_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/fcpu_8mhz/115200_bps/urboot_ata6612c_8mhz_115200bps_rxb0_txb1_ee_ur_vbl.hex)|
-|384|384|u7.7|`weu-jPr-c`|[urboot_ata6612c_8mhz_115200bps_rxb0_txb1_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/fcpu_8mhz/115200_bps/urboot_ata6612c_8mhz_115200bps_rxb0_txb1_ee_lednop_fr_ce_ur_vbl.hex)|
-|366|512|u7.7|`weu-hpr-c`|[urboot_ata6612c_8mhz_115200bps_rxb0_txb1_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/fcpu_8mhz/115200_bps/urboot_ata6612c_8mhz_115200bps_rxb0_txb1_ee_lednop_fr_ce_ur.hex)|
-|470|512|u7.7|`wes-hpr-c`|[urboot_ata6612c_8mhz_115200bps_rxb0_txb1_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/fcpu_8mhz/115200_bps/urboot_ata6612c_8mhz_115200bps_rxb0_txb1_ee_lednop_fr_ce.hex)|
+|254|256|u7.7|`w-u-hpr--`|[urboot_ata6612c_8mhz_115200bps_rxd0_txd1_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/fcpu_8mhz/115200_bps/urboot_ata6612c_8mhz_115200bps_rxd0_txd1_ur.hex)|
+|296|320|u7.7|`w-u-jPr--`|[urboot_ata6612c_8mhz_115200bps_rxd0_txd1_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/fcpu_8mhz/115200_bps/urboot_ata6612c_8mhz_115200bps_rxd0_txd1_lednop_fr_ur_vbl.hex)|
+|308|320|u7.7|`w-u-jpr-c`|[urboot_ata6612c_8mhz_115200bps_rxd0_txd1_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/fcpu_8mhz/115200_bps/urboot_ata6612c_8mhz_115200bps_rxd0_txd1_lednop_fr_ce_ur_vbl.hex)|
+|320|320|u7.7|`weu-jpr--`|[urboot_ata6612c_8mhz_115200bps_rxd0_txd1_ee_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/fcpu_8mhz/115200_bps/urboot_ata6612c_8mhz_115200bps_rxd0_txd1_ee_ur_vbl.hex)|
+|384|384|u7.7|`weu-jPr-c`|[urboot_ata6612c_8mhz_115200bps_rxd0_txd1_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/fcpu_8mhz/115200_bps/urboot_ata6612c_8mhz_115200bps_rxd0_txd1_ee_lednop_fr_ce_ur_vbl.hex)|
+|366|512|u7.7|`weu-hpr-c`|[urboot_ata6612c_8mhz_115200bps_rxd0_txd1_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/fcpu_8mhz/115200_bps/urboot_ata6612c_8mhz_115200bps_rxd0_txd1_ee_lednop_fr_ce_ur.hex)|
+|470|512|u7.7|`wes-hpr-c`|[urboot_ata6612c_8mhz_115200bps_rxd0_txd1_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/fcpu_8mhz/115200_bps/urboot_ata6612c_8mhz_115200bps_rxd0_txd1_ee_lednop_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

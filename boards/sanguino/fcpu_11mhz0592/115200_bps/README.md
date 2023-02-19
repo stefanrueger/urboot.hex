@@ -1,10 +1,9 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|242|256|u7.7|`w-u-jPr--`|[urboot_sanguino_11mhz0592_115200bps_led+b0_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/sanguino/fcpu_11mhz0592/115200_bps/urboot_sanguino_11mhz0592_115200bps_led+b0_ur_vbl.hex)|
-|246|256|u7.7|`w-u-jpr--`|[urboot_sanguino_11mhz0592_115200bps_led+b0_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/sanguino/fcpu_11mhz0592/115200_bps/urboot_sanguino_11mhz0592_115200bps_led+b0_fr_ur_vbl.hex)|
-|346|512|u7.7|`weu-jPr-c`|[urboot_sanguino_11mhz0592_115200bps_ee_led+b0_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/sanguino/fcpu_11mhz0592/115200_bps/urboot_sanguino_11mhz0592_115200bps_ee_led+b0_fr_ce_ur_vbl.hex)|
-|332|1024|u7.7|`weu-hpr-c`|[urboot_sanguino_11mhz0592_115200bps_ee_led+b0_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/sanguino/fcpu_11mhz0592/115200_bps/urboot_sanguino_11mhz0592_115200bps_ee_led+b0_fr_ce_ur.hex)|
-|436|1024|u7.7|`wes-hpr-c`|[urboot_sanguino_11mhz0592_115200bps_ee_led+b0_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/sanguino/fcpu_11mhz0592/115200_bps/urboot_sanguino_11mhz0592_115200bps_ee_led+b0_fr_ce.hex)|
+|256|256|u7.7|`w-u-jPr--`|[urboot_sanguino_11mhz0592_115200bps_led+b0_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/sanguino/fcpu_11mhz0592/115200_bps/urboot_sanguino_11mhz0592_115200bps_led+b0_fr_ur_vbl.hex)|
+|342|512|u7.7|`weu-jPr-c`|[urboot_sanguino_11mhz0592_115200bps_ee_led+b0_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/sanguino/fcpu_11mhz0592/115200_bps/urboot_sanguino_11mhz0592_115200bps_ee_led+b0_fr_ce_ur_vbl.hex)|
+|328|1024|u7.7|`weu-hpr-c`|[urboot_sanguino_11mhz0592_115200bps_ee_led+b0_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/sanguino/fcpu_11mhz0592/115200_bps/urboot_sanguino_11mhz0592_115200bps_ee_led+b0_fr_ce_ur.hex)|
+|432|1024|u7.7|`wes-hpr-c`|[urboot_sanguino_11mhz0592_115200bps_ee_led+b0_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/sanguino/fcpu_11mhz0592/115200_bps/urboot_sanguino_11mhz0592_115200bps_ee_led+b0_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

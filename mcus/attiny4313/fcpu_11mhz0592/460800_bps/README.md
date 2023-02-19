@@ -1,9 +1,9 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|252|256|u7.7|`w-u-jPr--`|[urboot_attiny4313_11mhz0592_460800bps_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny4313/fcpu_11mhz0592/460800_bps/urboot_attiny4313_11mhz0592_460800bps_lednop_fr_ur_vbl.hex)|
-|282|320|u7.7|`w-u-jPr-c`|[urboot_attiny4313_11mhz0592_460800bps_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny4313/fcpu_11mhz0592/460800_bps/urboot_attiny4313_11mhz0592_460800bps_lednop_fr_ce_ur_vbl.hex)|
-|320|320|u7.7|`weu-jPr--`|[urboot_attiny4313_11mhz0592_460800bps_ee_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny4313/fcpu_11mhz0592/460800_bps/urboot_attiny4313_11mhz0592_460800bps_ee_lednop_fr_ur_vbl.hex)|
-|346|384|u7.7|`weu-jPr-c`|[urboot_attiny4313_11mhz0592_460800bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny4313/fcpu_11mhz0592/460800_bps/urboot_attiny4313_11mhz0592_460800bps_ee_lednop_fr_ce_ur_vbl.hex)|
+|248|256|u7.7|`w-u-jPr--`|[urboot_attiny4313_11mhz0592_460800bps_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny4313/fcpu_11mhz0592/460800_bps/urboot_attiny4313_11mhz0592_460800bps_lednop_fr_ur_vbl.hex)|
+|278|320|u7.7|`w-u-jPr-c`|[urboot_attiny4313_11mhz0592_460800bps_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny4313/fcpu_11mhz0592/460800_bps/urboot_attiny4313_11mhz0592_460800bps_lednop_fr_ce_ur_vbl.hex)|
+|316|320|u7.7|`weu-jPr--`|[urboot_attiny4313_11mhz0592_460800bps_ee_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny4313/fcpu_11mhz0592/460800_bps/urboot_attiny4313_11mhz0592_460800bps_ee_lednop_fr_ur_vbl.hex)|
+|342|384|u7.7|`weu-jPr-c`|[urboot_attiny4313_11mhz0592_460800bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny4313/fcpu_11mhz0592/460800_bps/urboot_attiny4313_11mhz0592_460800bps_ee_lednop_fr_ce_ur_vbl.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

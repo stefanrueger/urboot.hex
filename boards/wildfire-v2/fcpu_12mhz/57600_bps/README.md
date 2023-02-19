@@ -1,9 +1,10 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|240|256|u7.7|`w-u-jpr--`|[urboot_wildfire-v2_12mhz_57600bps_led+b7_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/wildfire-v2/fcpu_12mhz/57600_bps/urboot_wildfire-v2_12mhz_57600bps_led+b7_ur_vbl.hex)|
-|382|512|u7.7|`weu-jPr-c`|[urboot_wildfire-v2_12mhz_57600bps_ee_led+b7_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/wildfire-v2/fcpu_12mhz/57600_bps/urboot_wildfire-v2_12mhz_57600bps_ee_led+b7_fr_ce_ur_vbl.hex)|
-|364|1024|u7.7|`weu-hpr-c`|[urboot_wildfire-v2_12mhz_57600bps_ee_led+b7_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/wildfire-v2/fcpu_12mhz/57600_bps/urboot_wildfire-v2_12mhz_57600bps_ee_led+b7_fr_ce_ur.hex)|
-|470|1024|u7.7|`wes-hpr-c`|[urboot_wildfire-v2_12mhz_57600bps_ee_led+b7_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/wildfire-v2/fcpu_12mhz/57600_bps/urboot_wildfire-v2_12mhz_57600bps_ee_led+b7_fr_ce.hex)|
+|254|256|u7.7|`w-u-jPr--`|[urboot_wildfire-v2_12mhz_57600bps_led+b7_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/wildfire-v2/fcpu_12mhz/57600_bps/urboot_wildfire-v2_12mhz_57600bps_led+b7_ur_vbl.hex)|
+|254|256|u7.7|`w-u-jpr--`|[urboot_wildfire-v2_12mhz_57600bps_led+b7_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/wildfire-v2/fcpu_12mhz/57600_bps/urboot_wildfire-v2_12mhz_57600bps_led+b7_fr_ur_vbl.hex)|
+|378|512|u7.7|`weu-jPr-c`|[urboot_wildfire-v2_12mhz_57600bps_ee_led+b7_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/wildfire-v2/fcpu_12mhz/57600_bps/urboot_wildfire-v2_12mhz_57600bps_ee_led+b7_fr_ce_ur_vbl.hex)|
+|360|1024|u7.7|`weu-hpr-c`|[urboot_wildfire-v2_12mhz_57600bps_ee_led+b7_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/wildfire-v2/fcpu_12mhz/57600_bps/urboot_wildfire-v2_12mhz_57600bps_ee_led+b7_fr_ce_ur.hex)|
+|466|1024|u7.7|`wes-hpr-c`|[urboot_wildfire-v2_12mhz_57600bps_ee_led+b7_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/wildfire-v2/fcpu_12mhz/57600_bps/urboot_wildfire-v2_12mhz_57600bps_ee_led+b7_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

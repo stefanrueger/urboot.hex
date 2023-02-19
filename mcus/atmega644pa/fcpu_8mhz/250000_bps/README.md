@@ -1,10 +1,9 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|242|256|u7.7|`w-u-jPr--`|[urboot_atmega644pa_8mhz_250000bps_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega644pa/fcpu_8mhz/250000_bps/urboot_atmega644pa_8mhz_250000bps_lednop_ur_vbl.hex)|
-|246|256|u7.7|`w-u-jpr--`|[urboot_atmega644pa_8mhz_250000bps_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega644pa/fcpu_8mhz/250000_bps/urboot_atmega644pa_8mhz_250000bps_lednop_fr_ur_vbl.hex)|
-|346|512|u7.7|`weu-jPr-c`|[urboot_atmega644pa_8mhz_250000bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega644pa/fcpu_8mhz/250000_bps/urboot_atmega644pa_8mhz_250000bps_ee_lednop_fr_ce_ur_vbl.hex)|
-|332|1024|u7.7|`weu-hpr-c`|[urboot_atmega644pa_8mhz_250000bps_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega644pa/fcpu_8mhz/250000_bps/urboot_atmega644pa_8mhz_250000bps_ee_lednop_fr_ce_ur.hex)|
-|436|1024|u7.7|`wes-hpr-c`|[urboot_atmega644pa_8mhz_250000bps_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega644pa/fcpu_8mhz/250000_bps/urboot_atmega644pa_8mhz_250000bps_ee_lednop_fr_ce.hex)|
+|256|256|u7.7|`w-u-jPr--`|[urboot_atmega644pa_8mhz_250000bps_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega644pa/fcpu_8mhz/250000_bps/urboot_atmega644pa_8mhz_250000bps_lednop_fr_ur_vbl.hex)|
+|342|512|u7.7|`weu-jPr-c`|[urboot_atmega644pa_8mhz_250000bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega644pa/fcpu_8mhz/250000_bps/urboot_atmega644pa_8mhz_250000bps_ee_lednop_fr_ce_ur_vbl.hex)|
+|328|1024|u7.7|`weu-hpr-c`|[urboot_atmega644pa_8mhz_250000bps_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega644pa/fcpu_8mhz/250000_bps/urboot_atmega644pa_8mhz_250000bps_ee_lednop_fr_ce_ur.hex)|
+|432|1024|u7.7|`wes-hpr-c`|[urboot_atmega644pa_8mhz_250000bps_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega644pa/fcpu_8mhz/250000_bps/urboot_atmega644pa_8mhz_250000bps_ee_lednop_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

@@ -1,8 +1,9 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|402|512|u7.7|`weu-jPrac`|[urboot_mighty1284_autobaud_ee_led+b7_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mighty1284/autobaud/urboot_mighty1284_autobaud_ee_led+b7_fr_ce_ur_vbl.hex)|
-|384|1024|u7.7|`weu-hprac`|[urboot_mighty1284_autobaud_ee_led+b7_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mighty1284/autobaud/urboot_mighty1284_autobaud_ee_led+b7_fr_ce_ur.hex)|
-|490|1024|u7.7|`wes-hprac`|[urboot_mighty1284_autobaud_ee_led+b7_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mighty1284/autobaud/urboot_mighty1284_autobaud_ee_led+b7_fr_ce.hex)|
+|256|256|u7.7|`w-u-jpra-`|[urboot_mighty1284_autobaud_led+b7_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mighty1284/autobaud/urboot_mighty1284_autobaud_led+b7_ur_vbl.hex)|
+|398|512|u7.7|`weu-jPrac`|[urboot_mighty1284_autobaud_ee_led+b7_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mighty1284/autobaud/urboot_mighty1284_autobaud_ee_led+b7_fr_ce_ur_vbl.hex)|
+|380|1024|u7.7|`weu-hprac`|[urboot_mighty1284_autobaud_ee_led+b7_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mighty1284/autobaud/urboot_mighty1284_autobaud_ee_led+b7_fr_ce_ur.hex)|
+|486|1024|u7.7|`wes-hprac`|[urboot_mighty1284_autobaud_ee_led+b7_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mighty1284/autobaud/urboot_mighty1284_autobaud_ee_led+b7_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

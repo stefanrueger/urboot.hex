@@ -1,10 +1,10 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|248|256|u7.7|`w-u-jpra-`|[urboot_atmega640_autobaud_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega640/autobaud/urboot_atmega640_autobaud_lednop_ur_vbl.hex)|
-|256|256|u7.7|`w-u-jPra-`|[urboot_atmega640_autobaud_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega640/autobaud/urboot_atmega640_autobaud_ur_vbl.hex)|
-|366|512|u7.7|`weu-jPrac`|[urboot_atmega640_autobaud_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega640/autobaud/urboot_atmega640_autobaud_ee_lednop_fr_ce_ur_vbl.hex)|
-|352|1024|u7.7|`weu-hprac`|[urboot_atmega640_autobaud_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega640/autobaud/urboot_atmega640_autobaud_ee_lednop_fr_ce_ur.hex)|
-|456|1024|u7.7|`wes-hprac`|[urboot_atmega640_autobaud_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega640/autobaud/urboot_atmega640_autobaud_ee_lednop_fr_ce.hex)|
+|244|256|u7.7|`w-u-jpra-`|[urboot_atmega640_autobaud_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega640/autobaud/urboot_atmega640_autobaud_lednop_ur_vbl.hex)|
+|252|256|u7.7|`w-u-jPra-`|[urboot_atmega640_autobaud_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega640/autobaud/urboot_atmega640_autobaud_ur_vbl.hex)|
+|362|512|u7.7|`weu-jPrac`|[urboot_atmega640_autobaud_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega640/autobaud/urboot_atmega640_autobaud_ee_lednop_fr_ce_ur_vbl.hex)|
+|348|1024|u7.7|`weu-hprac`|[urboot_atmega640_autobaud_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega640/autobaud/urboot_atmega640_autobaud_ee_lednop_fr_ce_ur.hex)|
+|452|1024|u7.7|`wes-hprac`|[urboot_atmega640_autobaud_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega640/autobaud/urboot_atmega640_autobaud_ee_lednop_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

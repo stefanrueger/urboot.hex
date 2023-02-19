@@ -1,14 +1,14 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|250|256|u7.7|`w-u-jpra-`|[urboot_anarduino_autobaud_led+b1_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_led+b1_ur_vbl.hex)|
-|374|384|u7.7|`weu-jPrac`|[urboot_anarduino_autobaud_ee_led+b1_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_ee_led+b1_fr_ce_ur_vbl.hex)|
-|356|512|u7.7|`weu-hprac`|[urboot_anarduino_autobaud_ee_led+b1_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_ee_led+b1_fr_ce_ur.hex)|
-|456|512|u7.7|`w-udjPrac`|[urboot_anarduino_autobaud_led+b1_csd5_dual_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_led+b1_csd5_dual_fr_ce_ur_vbl.hex)|
-|460|512|u7.7|`wes-hprac`|[urboot_anarduino_autobaud_ee_led+b1_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_ee_led+b1_fr_ce.hex)|
-|492|512|u7.7|`w-sdhpra-`|[urboot_anarduino_autobaud_led+b1_csd5_dual.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_led+b1_csd5_dual.hex)|
-|496|512|u7.7|`weudjPra-`|[urboot_anarduino_autobaud_ee_led+b1_csd5_dual_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_ee_led+b1_csd5_dual_fr_ur_vbl.hex)|
-|508|512|u7.7|`weudhprac`|[urboot_anarduino_autobaud_ee_led+b1_csd5_dual_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_ee_led+b1_csd5_dual_fr_ce_ur.hex)|
-|612|1024|u7.7|`wesdhprac`|[urboot_anarduino_autobaud_ee_led+b1_csd5_dual_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_ee_led+b1_csd5_dual_fr_ce.hex)|
+|246|256|u7.7|`w-u-jpra-`|[urboot_anarduino_autobaud_led+b1_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_led+b1_ur_vbl.hex)|
+|370|384|u7.7|`weu-jPrac`|[urboot_anarduino_autobaud_ee_led+b1_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_ee_led+b1_fr_ce_ur_vbl.hex)|
+|352|512|u7.7|`weu-hprac`|[urboot_anarduino_autobaud_ee_led+b1_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_ee_led+b1_fr_ce_ur.hex)|
+|452|512|u7.7|`w-udjPrac`|[urboot_anarduino_autobaud_led+b1_csd5_dual_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_led+b1_csd5_dual_fr_ce_ur_vbl.hex)|
+|456|512|u7.7|`wes-hprac`|[urboot_anarduino_autobaud_ee_led+b1_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_ee_led+b1_fr_ce.hex)|
+|492|512|u7.7|`weudjPra-`|[urboot_anarduino_autobaud_ee_led+b1_csd5_dual_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_ee_led+b1_csd5_dual_fr_ur_vbl.hex)|
+|504|512|u7.7|`weudhprac`|[urboot_anarduino_autobaud_ee_led+b1_csd5_dual_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_ee_led+b1_csd5_dual_fr_ce_ur.hex)|
+|512|512|u7.7|`w-sdhpra-`|[urboot_anarduino_autobaud_led+b1_csd5_dual_fr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_led+b1_csd5_dual_fr.hex)|
+|608|1024|u7.7|`wesdhprac`|[urboot_anarduino_autobaud_ee_led+b1_csd5_dual_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_ee_led+b1_csd5_dual_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
