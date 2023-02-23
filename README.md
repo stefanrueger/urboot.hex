@@ -1,7 +1,7 @@
 # urboot.hex
 ### Pre-compiled [urboot](https://github.com/stefanrueger/urboot/) bootloaders
 
-This repository contains 33,779 *different* pre-compiled bootloaders in the directory trees
+This repository contains 33,953 *different* pre-compiled bootloaders in the directory trees
 [`mcus`](https://github.com/stefanrueger/urboot.hex/tree/main/mcus/) sorted by MCU name, eg,
 autobaud bootloaders for the
 [ATmega328P](https://github.com/stefanrueger/urboot.hex/blob/main/mcus/atmega328p/autobaud/README.md), and
@@ -23,7 +23,7 @@ Disgispark](https://github.com/stefanrueger/urboot.hex/tree/main/boards/digispar
 and the [ATtiny84 based
 Luminet](https://github.com/stefanrueger/urboot.hex/tree/main/boards/luminet/fcpu_16mhz/115200_bps/README.md).
 
-The trees actually contain 101,789 hex files, but they are somewhat
+The trees actually contain 102,234 hex files, but they are somewhat
 redundant because a bootloader on 115,200 baud for 16 MHz is *exactly* the
 same as a bootloader on 57,600 baud for 8 MHz.
 
