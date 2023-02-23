@@ -1,9 +1,9 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|254|256|u7.7|`w-u-jpr--`|[urboot_atmega328pb_8mhz_115200bps_rxd0_txd1_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega328pb/fcpu_8mhz/115200_bps/urboot_atmega328pb_8mhz_115200bps_rxd0_txd1_ur_vbl.hex)|
-|384|384|u7.7|`weu-jPr-c`|[urboot_atmega328pb_8mhz_115200bps_rxd0_txd1_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega328pb/fcpu_8mhz/115200_bps/urboot_atmega328pb_8mhz_115200bps_rxd0_txd1_ee_lednop_fr_ce_ur_vbl.hex)|
-|366|512|u7.7|`weu-hpr-c`|[urboot_atmega328pb_8mhz_115200bps_rxd0_txd1_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega328pb/fcpu_8mhz/115200_bps/urboot_atmega328pb_8mhz_115200bps_rxd0_txd1_ee_lednop_fr_ce_ur.hex)|
-|470|512|u7.7|`wes-hpr-c`|[urboot_atmega328pb_8mhz_115200bps_rxd0_txd1_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega328pb/fcpu_8mhz/115200_bps/urboot_atmega328pb_8mhz_115200bps_rxd0_txd1_ee_lednop_fr_ce.hex)|
+|252|256|u7.7|`w-u-jpr--`|[urboot_atmega328pb_8mhz_115200bps_rxd0_txd1_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega328pb/fcpu_8mhz/115200_bps/urboot_atmega328pb_8mhz_115200bps_rxd0_txd1_lednop_ur_vbl.hex)|
+|376|384|u7.7|`weu-jPr-c`|[urboot_atmega328pb_8mhz_115200bps_rxd0_txd1_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega328pb/fcpu_8mhz/115200_bps/urboot_atmega328pb_8mhz_115200bps_rxd0_txd1_ee_lednop_fr_ce_ur_vbl.hex)|
+|358|512|u7.7|`weu-hpr-c`|[urboot_atmega328pb_8mhz_115200bps_rxd0_txd1_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega328pb/fcpu_8mhz/115200_bps/urboot_atmega328pb_8mhz_115200bps_rxd0_txd1_ee_lednop_fr_ce_ur.hex)|
+|462|512|u7.7|`wes-hpr-c`|[urboot_atmega328pb_8mhz_115200bps_rxd0_txd1_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega328pb/fcpu_8mhz/115200_bps/urboot_atmega328pb_8mhz_115200bps_rxd0_txd1_ee_lednop_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
