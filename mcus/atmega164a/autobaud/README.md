@@ -1,10 +1,15 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|246|256|u7.7|`w-u-hpra-`|[urboot_atmega164a_autobaud_lednop_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega164a/autobaud/urboot_atmega164a_autobaud_lednop_ur.hex)|
-|254|256|u7.7|`w-u-jPra-`|[urboot_atmega164a_autobaud_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega164a/autobaud/urboot_atmega164a_autobaud_ur_vbl.hex)|
-|370|384|u7.7|`weu-jPrac`|[urboot_atmega164a_autobaud_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega164a/autobaud/urboot_atmega164a_autobaud_ee_lednop_fr_ce_ur_vbl.hex)|
-|352|512|u7.7|`weu-hprac`|[urboot_atmega164a_autobaud_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega164a/autobaud/urboot_atmega164a_autobaud_ee_lednop_fr_ce_ur.hex)|
-|456|512|u7.7|`wes-hprac`|[urboot_atmega164a_autobaud_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega164a/autobaud/urboot_atmega164a_autobaud_ee_lednop_fr_ce.hex)|
+|246|256|u7.7|`w-u-hpra-`|[urboot_atmega164a_autobaud_uart0_rxd0_txd1_lednop_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega164a/autobaud/urboot_atmega164a_autobaud_uart0_rxd0_txd1_lednop_ur.hex)|
+|246|256|u7.7|`w-u-hpra-`|[urboot_atmega164a_autobaud_uart1_rxd2_txd3_lednop_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega164a/autobaud/urboot_atmega164a_autobaud_uart1_rxd2_txd3_lednop_ur.hex)|
+|254|256|u7.7|`w-u-jPra-`|[urboot_atmega164a_autobaud_uart0_rxd0_txd1_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega164a/autobaud/urboot_atmega164a_autobaud_uart0_rxd0_txd1_ur_vbl.hex)|
+|254|256|u7.7|`w-u-jPra-`|[urboot_atmega164a_autobaud_uart1_rxd2_txd3_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega164a/autobaud/urboot_atmega164a_autobaud_uart1_rxd2_txd3_ur_vbl.hex)|
+|370|384|u7.7|`weu-jPrac`|[urboot_atmega164a_autobaud_uart0_rxd0_txd1_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega164a/autobaud/urboot_atmega164a_autobaud_uart0_rxd0_txd1_ee_lednop_fr_ce_ur_vbl.hex)|
+|370|384|u7.7|`weu-jPrac`|[urboot_atmega164a_autobaud_uart1_rxd2_txd3_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega164a/autobaud/urboot_atmega164a_autobaud_uart1_rxd2_txd3_ee_lednop_fr_ce_ur_vbl.hex)|
+|352|512|u7.7|`weu-hprac`|[urboot_atmega164a_autobaud_uart0_rxd0_txd1_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega164a/autobaud/urboot_atmega164a_autobaud_uart0_rxd0_txd1_ee_lednop_fr_ce_ur.hex)|
+|352|512|u7.7|`weu-hprac`|[urboot_atmega164a_autobaud_uart1_rxd2_txd3_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega164a/autobaud/urboot_atmega164a_autobaud_uart1_rxd2_txd3_ee_lednop_fr_ce_ur.hex)|
+|456|512|u7.7|`wes-hprac`|[urboot_atmega164a_autobaud_uart0_rxd0_txd1_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega164a/autobaud/urboot_atmega164a_autobaud_uart0_rxd0_txd1_ee_lednop_fr_ce.hex)|
+|456|512|u7.7|`wes-hprac`|[urboot_atmega164a_autobaud_uart1_rxd2_txd3_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega164a/autobaud/urboot_atmega164a_autobaud_uart1_rxd2_txd3_ee_lednop_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -24,6 +29,8 @@
   + `-` corresponding feature not present
 - **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
   + `autobaud` tries to match host baud rate; can be f/8, f/16, f/24, ..., f/2048 (f=F<sub>CPU</sub>)
+  + `uart0` UART number, in this case `0`
+  + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `lednop` is a template bootloader with `mov rx,rx` nops as placeholders for LED operations
   + `fr` bootloader provides non-essential code for smoother error handing

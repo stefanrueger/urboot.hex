@@ -1,9 +1,13 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|256|256|u7.7|`w-u-jpra-`|[urboot_mega-r3_autobaud_led+b7_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mega-r3/autobaud/urboot_mega-r3_autobaud_led+b7_ur_vbl.hex)|
-|398|512|u7.7|`weu-jPrac`|[urboot_mega-r3_autobaud_ee_led+b7_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mega-r3/autobaud/urboot_mega-r3_autobaud_ee_led+b7_fr_ce_ur_vbl.hex)|
-|380|1024|u7.7|`weu-hprac`|[urboot_mega-r3_autobaud_ee_led+b7_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mega-r3/autobaud/urboot_mega-r3_autobaud_ee_led+b7_fr_ce_ur.hex)|
-|496|1024|u7.7|`wes-hprac`|[urboot_mega-r3_autobaud_ee_led+b7_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mega-r3/autobaud/urboot_mega-r3_autobaud_ee_led+b7_fr_ce.hex)|
+|256|256|u7.7|`w-u-jpra-`|[urboot_mega-r3_autobaud_uart0_rxe0_txe1_led+b7_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mega-r3/autobaud/urboot_mega-r3_autobaud_uart0_rxe0_txe1_led+b7_ur_vbl.hex)|
+|256|256|u7.7|`w-u-jpra-`|[urboot_mega-r3_autobaud_uart1_rxd2_txd3_led+b7_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mega-r3/autobaud/urboot_mega-r3_autobaud_uart1_rxd2_txd3_led+b7_ur_vbl.hex)|
+|398|512|u7.7|`weu-jPrac`|[urboot_mega-r3_autobaud_uart0_rxe0_txe1_ee_led+b7_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mega-r3/autobaud/urboot_mega-r3_autobaud_uart0_rxe0_txe1_ee_led+b7_fr_ce_ur_vbl.hex)|
+|398|512|u7.7|`weu-jPrac`|[urboot_mega-r3_autobaud_uart1_rxd2_txd3_ee_led+b7_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mega-r3/autobaud/urboot_mega-r3_autobaud_uart1_rxd2_txd3_ee_led+b7_fr_ce_ur_vbl.hex)|
+|380|1024|u7.7|`weu-hprac`|[urboot_mega-r3_autobaud_uart0_rxe0_txe1_ee_led+b7_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mega-r3/autobaud/urboot_mega-r3_autobaud_uart0_rxe0_txe1_ee_led+b7_fr_ce_ur.hex)|
+|380|1024|u7.7|`weu-hprac`|[urboot_mega-r3_autobaud_uart1_rxd2_txd3_ee_led+b7_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mega-r3/autobaud/urboot_mega-r3_autobaud_uart1_rxd2_txd3_ee_led+b7_fr_ce_ur.hex)|
+|496|1024|u7.7|`wes-hprac`|[urboot_mega-r3_autobaud_uart0_rxe0_txe1_ee_led+b7_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mega-r3/autobaud/urboot_mega-r3_autobaud_uart0_rxe0_txe1_ee_led+b7_fr_ce.hex)|
+|496|1024|u7.7|`wes-hprac`|[urboot_mega-r3_autobaud_uart1_rxd2_txd3_ee_led+b7_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/mega-r3/autobaud/urboot_mega-r3_autobaud_uart1_rxd2_txd3_ee_led+b7_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -23,6 +27,8 @@
   + `-` corresponding feature not present
 - **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
   + `autobaud` tries to match host baud rate; can be f/8, f/16, f/24, ..., f/2048 (f=F<sub>CPU</sub>)
+  + `uart0` UART number, in this case `0`
+  + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `led-b1` toggles an active-low LED on pin `B1`, `+` designates an active-high LED
   + `fr` bootloader provides non-essential code for smoother error handing

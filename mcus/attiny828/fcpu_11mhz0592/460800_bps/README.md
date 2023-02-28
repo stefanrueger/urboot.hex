@@ -1,13 +1,13 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|250|256|u7.7|`w-u-jPr--`|[urboot_attiny828_11mhz0592_460800bps_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny828/fcpu_11mhz0592/460800_bps/urboot_attiny828_11mhz0592_460800bps_lednop_ur_vbl.hex)|
-|254|256|u7.7|`w-u-hpr--`|[urboot_attiny828_11mhz0592_460800bps_lednop_fr_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny828/fcpu_11mhz0592/460800_bps/urboot_attiny828_11mhz0592_460800bps_lednop_fr_ur.hex)|
-|298|320|u7.7|`w-u-jPr-c`|[urboot_attiny828_11mhz0592_460800bps_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny828/fcpu_11mhz0592/460800_bps/urboot_attiny828_11mhz0592_460800bps_lednop_fr_ce_ur_vbl.hex)|
-|312|320|u7.7|`weu-jPr--`|[urboot_attiny828_11mhz0592_460800bps_ee_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny828/fcpu_11mhz0592/460800_bps/urboot_attiny828_11mhz0592_460800bps_ee_lednop_ur_vbl.hex)|
-|316|320|u7.7|`weu-jpr--`|[urboot_attiny828_11mhz0592_460800bps_ee_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny828/fcpu_11mhz0592/460800_bps/urboot_attiny828_11mhz0592_460800bps_ee_lednop_fr_ur_vbl.hex)|
-|356|384|u7.7|`weu-jPr-c`|[urboot_attiny828_11mhz0592_460800bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny828/fcpu_11mhz0592/460800_bps/urboot_attiny828_11mhz0592_460800bps_ee_lednop_fr_ce_ur_vbl.hex)|
-|338|512|u7.7|`weu-hpr-c`|[urboot_attiny828_11mhz0592_460800bps_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny828/fcpu_11mhz0592/460800_bps/urboot_attiny828_11mhz0592_460800bps_ee_lednop_fr_ce_ur.hex)|
-|442|512|u7.7|`wes-hpr-c`|[urboot_attiny828_11mhz0592_460800bps_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny828/fcpu_11mhz0592/460800_bps/urboot_attiny828_11mhz0592_460800bps_ee_lednop_fr_ce.hex)|
+|242|256|u7.7|`w-u-jPr--`|[urboot_attiny828_11mhz0592_460800bps_uart0_rxc2_txc3_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny828/fcpu_11mhz0592/460800_bps/urboot_attiny828_11mhz0592_460800bps_uart0_rxc2_txc3_lednop_ur_vbl.hex)|
+|246|256|u7.7|`w-u-hpr--`|[urboot_attiny828_11mhz0592_460800bps_uart0_rxc2_txc3_lednop_fr_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny828/fcpu_11mhz0592/460800_bps/urboot_attiny828_11mhz0592_460800bps_uart0_rxc2_txc3_lednop_fr_ur.hex)|
+|290|320|u7.7|`w-u-jPr-c`|[urboot_attiny828_11mhz0592_460800bps_uart0_rxc2_txc3_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny828/fcpu_11mhz0592/460800_bps/urboot_attiny828_11mhz0592_460800bps_uart0_rxc2_txc3_lednop_fr_ce_ur_vbl.hex)|
+|304|320|u7.7|`weu-jPr--`|[urboot_attiny828_11mhz0592_460800bps_uart0_rxc2_txc3_ee_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny828/fcpu_11mhz0592/460800_bps/urboot_attiny828_11mhz0592_460800bps_uart0_rxc2_txc3_ee_lednop_ur_vbl.hex)|
+|308|320|u7.7|`weu-jpr--`|[urboot_attiny828_11mhz0592_460800bps_uart0_rxc2_txc3_ee_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny828/fcpu_11mhz0592/460800_bps/urboot_attiny828_11mhz0592_460800bps_uart0_rxc2_txc3_ee_lednop_fr_ur_vbl.hex)|
+|348|384|u7.7|`weu-jPr-c`|[urboot_attiny828_11mhz0592_460800bps_uart0_rxc2_txc3_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny828/fcpu_11mhz0592/460800_bps/urboot_attiny828_11mhz0592_460800bps_uart0_rxc2_txc3_ee_lednop_fr_ce_ur_vbl.hex)|
+|330|512|u7.7|`weu-hpr-c`|[urboot_attiny828_11mhz0592_460800bps_uart0_rxc2_txc3_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny828/fcpu_11mhz0592/460800_bps/urboot_attiny828_11mhz0592_460800bps_uart0_rxc2_txc3_ee_lednop_fr_ce_ur.hex)|
+|434|512|u7.7|`wes-hpr-c`|[urboot_attiny828_11mhz0592_460800bps_uart0_rxc2_txc3_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny828/fcpu_11mhz0592/460800_bps/urboot_attiny828_11mhz0592_460800bps_uart0_rxc2_txc3_ee_lednop_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -25,6 +25,8 @@
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present
 - **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
+  + `uart0` UART number, in this case `0`
+  + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `lednop` is a template bootloader with `mov rx,rx` nops as placeholders for LED operations
   + `fr` bootloader provides non-essential code for smoother error handing

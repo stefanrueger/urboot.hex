@@ -1,9 +1,9 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|246|256|u7.7|`w-u-jpra-`|[urboot_promini_autobaud_led+b5_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/autobaud/urboot_promini_autobaud_led+b5_ur_vbl.hex)|
-|370|384|u7.7|`weu-jPrac`|[urboot_promini_autobaud_ee_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/autobaud/urboot_promini_autobaud_ee_led+b5_fr_ce_ur_vbl.hex)|
-|352|512|u7.7|`weu-hprac`|[urboot_promini_autobaud_ee_led+b5_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/autobaud/urboot_promini_autobaud_ee_led+b5_fr_ce_ur.hex)|
-|456|512|u7.7|`wes-hprac`|[urboot_promini_autobaud_ee_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/autobaud/urboot_promini_autobaud_ee_led+b5_fr_ce.hex)|
+|246|256|u7.7|`w-u-jpra-`|[urboot_promini_autobaud_uart0_rxd0_txd1_led+b5_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/autobaud/urboot_promini_autobaud_uart0_rxd0_txd1_led+b5_ur_vbl.hex)|
+|370|384|u7.7|`weu-jPrac`|[urboot_promini_autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/autobaud/urboot_promini_autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur_vbl.hex)|
+|352|512|u7.7|`weu-hprac`|[urboot_promini_autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/autobaud/urboot_promini_autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur.hex)|
+|456|512|u7.7|`wes-hprac`|[urboot_promini_autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/autobaud/urboot_promini_autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -23,6 +23,8 @@
   + `-` corresponding feature not present
 - **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
   + `autobaud` tries to match host baud rate; can be f/8, f/16, f/24, ..., f/2048 (f=F<sub>CPU</sub>)
+  + `uart0` UART number, in this case `0`
+  + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `led-b1` toggles an active-low LED on pin `B1`, `+` designates an active-high LED
   + `fr` bootloader provides non-essential code for smoother error handing

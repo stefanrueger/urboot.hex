@@ -1,8 +1,8 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|240|256|u7.7|`w-u-jPr--`|[urboot_digispark-pro_7mhz3728_38400bps_led+b1_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/digispark-pro/fcpu_7mhz3728/38400_bps/urboot_digispark-pro_7mhz3728_38400bps_led+b1_ur_vbl.hex)|
-|244|256|u7.7|`w-u-jpr--`|[urboot_digispark-pro_7mhz3728_38400bps_led+b1_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/digispark-pro/fcpu_7mhz3728/38400_bps/urboot_digispark-pro_7mhz3728_38400bps_led+b1_fr_ur_vbl.hex)|
-|350|384|u7.7|`weu-jPr-c`|[urboot_digispark-pro_7mhz3728_38400bps_ee_led+b1_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/digispark-pro/fcpu_7mhz3728/38400_bps/urboot_digispark-pro_7mhz3728_38400bps_ee_led+b1_fr_ce_ur_vbl.hex)|
+|240|256|u7.7|`w-u-jPr--`|[urboot_digispark-pro_7mhz3728_38400bps_uart0_rxa0_txa1_led+b1_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/digispark-pro/fcpu_7mhz3728/38400_bps/urboot_digispark-pro_7mhz3728_38400bps_uart0_rxa0_txa1_led+b1_ur_vbl.hex)|
+|244|256|u7.7|`w-u-jpr--`|[urboot_digispark-pro_7mhz3728_38400bps_uart0_rxa0_txa1_led+b1_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/digispark-pro/fcpu_7mhz3728/38400_bps/urboot_digispark-pro_7mhz3728_38400bps_uart0_rxa0_txa1_led+b1_fr_ur_vbl.hex)|
+|350|384|u7.7|`weu-jPr-c`|[urboot_digispark-pro_7mhz3728_38400bps_uart0_rxa0_txa1_ee_led+b1_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/digispark-pro/fcpu_7mhz3728/38400_bps/urboot_digispark-pro_7mhz3728_38400bps_uart0_rxa0_txa1_ee_led+b1_fr_ce_ur_vbl.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -18,6 +18,8 @@
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present
 - **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
+  + `uart0` UART number, in this case `0`
+  + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `led-b1` toggles an active-low LED on pin `B1`, `+` designates an active-high LED
   + `fr` bootloader provides non-essential code for smoother error handing

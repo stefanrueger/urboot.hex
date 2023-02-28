@@ -1,14 +1,14 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|240|256|u7.7|`w-u-jPr--`|[urboot_timeduino_8mhz_19200bps_led-b1_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/fcpu_8mhz/19200_bps/urboot_timeduino_8mhz_19200bps_led-b1_ur_vbl.hex)|
-|244|256|u7.7|`w-u-jpr--`|[urboot_timeduino_8mhz_19200bps_led-b1_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/fcpu_8mhz/19200_bps/urboot_timeduino_8mhz_19200bps_led-b1_fr_ur_vbl.hex)|
-|350|384|u7.7|`weu-jPr-c`|[urboot_timeduino_8mhz_19200bps_ee_led-b1_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/fcpu_8mhz/19200_bps/urboot_timeduino_8mhz_19200bps_ee_led-b1_fr_ce_ur_vbl.hex)|
-|384|384|u7.7|`w-udjPr--`|[urboot_timeduino_8mhz_19200bps_led-b1_csb0_dual_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/fcpu_8mhz/19200_bps/urboot_timeduino_8mhz_19200bps_led-b1_csb0_dual_ur_vbl.hex)|
-|332|512|u7.7|`weu-hpr-c`|[urboot_timeduino_8mhz_19200bps_ee_led-b1_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/fcpu_8mhz/19200_bps/urboot_timeduino_8mhz_19200bps_ee_led-b1_fr_ce_ur.hex)|
-|436|512|u7.7|`wes-hpr-c`|[urboot_timeduino_8mhz_19200bps_ee_led-b1_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/fcpu_8mhz/19200_bps/urboot_timeduino_8mhz_19200bps_ee_led-b1_fr_ce.hex)|
-|476|512|u7.7|`weudhpr-c`|[urboot_timeduino_8mhz_19200bps_ee_led-b1_csb0_dual_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/fcpu_8mhz/19200_bps/urboot_timeduino_8mhz_19200bps_ee_led-b1_csb0_dual_fr_ce_ur.hex)|
-|484|512|u7.7|`w-sdhpr--`|[urboot_timeduino_8mhz_19200bps_led-b1_csb0_dual_fr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/fcpu_8mhz/19200_bps/urboot_timeduino_8mhz_19200bps_led-b1_csb0_dual_fr.hex)|
-|580|1024|u7.7|`wesdhpr-c`|[urboot_timeduino_8mhz_19200bps_ee_led-b1_csb0_dual_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/fcpu_8mhz/19200_bps/urboot_timeduino_8mhz_19200bps_ee_led-b1_csb0_dual_fr_ce.hex)|
+|240|256|u7.7|`w-u-jPr--`|[urboot_timeduino_8mhz_19200bps_uart0_rxd0_txd1_led-b1_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/fcpu_8mhz/19200_bps/urboot_timeduino_8mhz_19200bps_uart0_rxd0_txd1_led-b1_ur_vbl.hex)|
+|244|256|u7.7|`w-u-jpr--`|[urboot_timeduino_8mhz_19200bps_uart0_rxd0_txd1_led-b1_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/fcpu_8mhz/19200_bps/urboot_timeduino_8mhz_19200bps_uart0_rxd0_txd1_led-b1_fr_ur_vbl.hex)|
+|350|384|u7.7|`weu-jPr-c`|[urboot_timeduino_8mhz_19200bps_uart0_rxd0_txd1_ee_led-b1_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/fcpu_8mhz/19200_bps/urboot_timeduino_8mhz_19200bps_uart0_rxd0_txd1_ee_led-b1_fr_ce_ur_vbl.hex)|
+|384|384|u7.7|`w-udjPr--`|[urboot_timeduino_8mhz_19200bps_uart0_rxd0_txd1_led-b1_csb0_dual_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/fcpu_8mhz/19200_bps/urboot_timeduino_8mhz_19200bps_uart0_rxd0_txd1_led-b1_csb0_dual_ur_vbl.hex)|
+|332|512|u7.7|`weu-hpr-c`|[urboot_timeduino_8mhz_19200bps_uart0_rxd0_txd1_ee_led-b1_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/fcpu_8mhz/19200_bps/urboot_timeduino_8mhz_19200bps_uart0_rxd0_txd1_ee_led-b1_fr_ce_ur.hex)|
+|436|512|u7.7|`wes-hpr-c`|[urboot_timeduino_8mhz_19200bps_uart0_rxd0_txd1_ee_led-b1_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/fcpu_8mhz/19200_bps/urboot_timeduino_8mhz_19200bps_uart0_rxd0_txd1_ee_led-b1_fr_ce.hex)|
+|476|512|u7.7|`weudhpr-c`|[urboot_timeduino_8mhz_19200bps_uart0_rxd0_txd1_ee_led-b1_csb0_dual_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/fcpu_8mhz/19200_bps/urboot_timeduino_8mhz_19200bps_uart0_rxd0_txd1_ee_led-b1_csb0_dual_fr_ce_ur.hex)|
+|484|512|u7.7|`w-sdhpr--`|[urboot_timeduino_8mhz_19200bps_uart0_rxd0_txd1_led-b1_csb0_dual_fr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/fcpu_8mhz/19200_bps/urboot_timeduino_8mhz_19200bps_uart0_rxd0_txd1_led-b1_csb0_dual_fr.hex)|
+|580|1024|u7.7|`wesdhpr-c`|[urboot_timeduino_8mhz_19200bps_uart0_rxd0_txd1_ee_led-b1_csb0_dual_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/fcpu_8mhz/19200_bps/urboot_timeduino_8mhz_19200bps_uart0_rxd0_txd1_ee_led-b1_csb0_dual_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -27,6 +27,8 @@
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present
 - **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
+  + `uart0` UART number, in this case `0`
+  + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `led-b1` toggles an active-low LED on pin `B1`, `+` designates an active-high LED
   + `csb0` for dual boot uses, in this example, pin B0 as chip select of external SPI flash memory

@@ -1,11 +1,11 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|256|256|u7.7|`w-u-jpr--`|[urboot_atmega16hvbrevb_7mhz3728_115200bps_rxb0_txb1_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega16hvbrevb/fcpu_7mhz3728/115200_bps/urboot_atmega16hvbrevb_7mhz3728_115200bps_rxb0_txb1_ur_vbl.hex)|
-|324|384|u7.7|`w-u-jPr-c`|[urboot_atmega16hvbrevb_7mhz3728_115200bps_rxb0_txb1_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega16hvbrevb/fcpu_7mhz3728/115200_bps/urboot_atmega16hvbrevb_7mhz3728_115200bps_rxb0_txb1_lednop_fr_ce_ur_vbl.hex)|
-|360|384|u7.7|`weu-jPr--`|[urboot_atmega16hvbrevb_7mhz3728_115200bps_rxb0_txb1_ee_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega16hvbrevb/fcpu_7mhz3728/115200_bps/urboot_atmega16hvbrevb_7mhz3728_115200bps_rxb0_txb1_ee_lednop_fr_ur_vbl.hex)|
-|372|384|u7.7|`weu-jpr-c`|[urboot_atmega16hvbrevb_7mhz3728_115200bps_rxb0_txb1_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega16hvbrevb/fcpu_7mhz3728/115200_bps/urboot_atmega16hvbrevb_7mhz3728_115200bps_rxb0_txb1_ee_lednop_fr_ce_ur_vbl.hex)|
-|368|512|u7.7|`weu-hpr-c`|[urboot_atmega16hvbrevb_7mhz3728_115200bps_rxb0_txb1_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega16hvbrevb/fcpu_7mhz3728/115200_bps/urboot_atmega16hvbrevb_7mhz3728_115200bps_rxb0_txb1_ee_lednop_fr_ce_ur.hex)|
-|472|512|u7.7|`wes-hpr-c`|[urboot_atmega16hvbrevb_7mhz3728_115200bps_rxb0_txb1_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega16hvbrevb/fcpu_7mhz3728/115200_bps/urboot_atmega16hvbrevb_7mhz3728_115200bps_rxb0_txb1_ee_lednop_fr_ce.hex)|
+|256|256|u7.7|`w-u-jpr--`|[urboot_atmega16hvbrevb_7mhz3728_115200bps_swio_rxb0_txb1_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega16hvbrevb/fcpu_7mhz3728/115200_bps/urboot_atmega16hvbrevb_7mhz3728_115200bps_swio_rxb0_txb1_ur_vbl.hex)|
+|324|384|u7.7|`w-u-jPr-c`|[urboot_atmega16hvbrevb_7mhz3728_115200bps_swio_rxb0_txb1_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega16hvbrevb/fcpu_7mhz3728/115200_bps/urboot_atmega16hvbrevb_7mhz3728_115200bps_swio_rxb0_txb1_lednop_fr_ce_ur_vbl.hex)|
+|360|384|u7.7|`weu-jPr--`|[urboot_atmega16hvbrevb_7mhz3728_115200bps_swio_rxb0_txb1_ee_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega16hvbrevb/fcpu_7mhz3728/115200_bps/urboot_atmega16hvbrevb_7mhz3728_115200bps_swio_rxb0_txb1_ee_lednop_fr_ur_vbl.hex)|
+|372|384|u7.7|`weu-jpr-c`|[urboot_atmega16hvbrevb_7mhz3728_115200bps_swio_rxb0_txb1_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega16hvbrevb/fcpu_7mhz3728/115200_bps/urboot_atmega16hvbrevb_7mhz3728_115200bps_swio_rxb0_txb1_ee_lednop_fr_ce_ur_vbl.hex)|
+|368|512|u7.7|`weu-hpr-c`|[urboot_atmega16hvbrevb_7mhz3728_115200bps_swio_rxb0_txb1_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega16hvbrevb/fcpu_7mhz3728/115200_bps/urboot_atmega16hvbrevb_7mhz3728_115200bps_swio_rxb0_txb1_ee_lednop_fr_ce_ur.hex)|
+|472|512|u7.7|`wes-hpr-c`|[urboot_atmega16hvbrevb_7mhz3728_115200bps_swio_rxb0_txb1_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega16hvbrevb/fcpu_7mhz3728/115200_bps/urboot_atmega16hvbrevb_7mhz3728_115200bps_swio_rxb0_txb1_ee_lednop_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -23,7 +23,8 @@
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present
 - **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
-  + `rxd0 txd1` software I/O using, in this example, lines RX `D0` and TX `D1`
+  + `swio` software I/O (not UART)
+  + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `lednop` is a template bootloader with `mov rx,rx` nops as placeholders for LED operations
   + `fr` bootloader provides non-essential code for smoother error handing

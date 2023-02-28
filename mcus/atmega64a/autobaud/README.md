@@ -1,10 +1,14 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|252|256|u7.7|`w-u-jPra-`|[urboot_atmega64a_autobaud_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/autobaud/urboot_atmega64a_autobaud_lednop_ur_vbl.hex)|
-|256|256|u7.7|`w-u-jpra-`|[urboot_atmega64a_autobaud_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/autobaud/urboot_atmega64a_autobaud_lednop_fr_ur_vbl.hex)|
-|354|512|u7.7|`weu-jPrac`|[urboot_atmega64a_autobaud_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/autobaud/urboot_atmega64a_autobaud_ee_lednop_fr_ce_ur_vbl.hex)|
-|340|1024|u7.7|`weu-hprac`|[urboot_atmega64a_autobaud_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/autobaud/urboot_atmega64a_autobaud_ee_lednop_fr_ce_ur.hex)|
-|444|1024|u7.7|`wes-hprac`|[urboot_atmega64a_autobaud_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/autobaud/urboot_atmega64a_autobaud_ee_lednop_fr_ce.hex)|
+|252|256|u7.7|`w-u-jPra-`|[urboot_atmega64a_autobaud_uart0_rxe0_txe1_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/autobaud/urboot_atmega64a_autobaud_uart0_rxe0_txe1_lednop_ur_vbl.hex)|
+|252|256|u7.7|`w-u-jpra-`|[urboot_atmega64a_autobaud_uart1_rxd2_txd3_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/autobaud/urboot_atmega64a_autobaud_uart1_rxd2_txd3_lednop_ur_vbl.hex)|
+|256|256|u7.7|`w-u-jpra-`|[urboot_atmega64a_autobaud_uart0_rxe0_txe1_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/autobaud/urboot_atmega64a_autobaud_uart0_rxe0_txe1_lednop_fr_ur_vbl.hex)|
+|354|512|u7.7|`weu-jPrac`|[urboot_atmega64a_autobaud_uart0_rxe0_txe1_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/autobaud/urboot_atmega64a_autobaud_uart0_rxe0_txe1_ee_lednop_fr_ce_ur_vbl.hex)|
+|368|512|u7.7|`weu-jPrac`|[urboot_atmega64a_autobaud_uart1_rxd2_txd3_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/autobaud/urboot_atmega64a_autobaud_uart1_rxd2_txd3_ee_lednop_fr_ce_ur_vbl.hex)|
+|340|1024|u7.7|`weu-hprac`|[urboot_atmega64a_autobaud_uart0_rxe0_txe1_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/autobaud/urboot_atmega64a_autobaud_uart0_rxe0_txe1_ee_lednop_fr_ce_ur.hex)|
+|354|1024|u7.7|`weu-hprac`|[urboot_atmega64a_autobaud_uart1_rxd2_txd3_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/autobaud/urboot_atmega64a_autobaud_uart1_rxd2_txd3_ee_lednop_fr_ce_ur.hex)|
+|444|1024|u7.7|`wes-hprac`|[urboot_atmega64a_autobaud_uart0_rxe0_txe1_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/autobaud/urboot_atmega64a_autobaud_uart0_rxe0_txe1_ee_lednop_fr_ce.hex)|
+|458|1024|u7.7|`wes-hprac`|[urboot_atmega64a_autobaud_uart1_rxd2_txd3_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64a/autobaud/urboot_atmega64a_autobaud_uart1_rxd2_txd3_ee_lednop_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -24,6 +28,8 @@
   + `-` corresponding feature not present
 - **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
   + `autobaud` tries to match host baud rate; can be f/8, f/16, f/24, ..., f/2048 (f=F<sub>CPU</sub>)
+  + `uart0` UART number, in this case `0`
+  + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `lednop` is a template bootloader with `mov rx,rx` nops as placeholders for LED operations
   + `fr` bootloader provides non-essential code for smoother error handing

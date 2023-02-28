@@ -1,14 +1,14 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|244|256|u7.7|`w-u-jpr--`|[urboot_attiny85_7mhz3728_19200bps_rxb4_txb3_led+b1_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny85/fcpu_7mhz3728/19200_bps/urboot_attiny85_7mhz3728_19200bps_rxb4_txb3_led+b1_ur_vbl.hex)|
-|244|256|u7.7|`w-u-jpr--`|[urboot_attiny85_7mhz3728_19200bps_rxb4_txb3_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny85/fcpu_7mhz3728/19200_bps/urboot_attiny85_7mhz3728_19200bps_rxb4_txb3_lednop_ur_vbl.hex)|
-|252|256|u7.7|`w-u-jPr--`|[urboot_attiny85_7mhz3728_19200bps_rxb4_txb3_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny85/fcpu_7mhz3728/19200_bps/urboot_attiny85_7mhz3728_19200bps_rxb4_txb3_ur_vbl.hex)|
-|306|320|u7.7|`w-u-jPr-c`|[urboot_attiny85_7mhz3728_19200bps_rxb4_txb3_led+b1_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny85/fcpu_7mhz3728/19200_bps/urboot_attiny85_7mhz3728_19200bps_rxb4_txb3_led+b1_fr_ce_ur_vbl.hex)|
-|306|320|u7.7|`w-u-jPr-c`|[urboot_attiny85_7mhz3728_19200bps_rxb4_txb3_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny85/fcpu_7mhz3728/19200_bps/urboot_attiny85_7mhz3728_19200bps_rxb4_txb3_lednop_fr_ce_ur_vbl.hex)|
-|316|320|u7.7|`weu-jpr--`|[urboot_attiny85_7mhz3728_19200bps_rxb4_txb3_ee_led+b1_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny85/fcpu_7mhz3728/19200_bps/urboot_attiny85_7mhz3728_19200bps_rxb4_txb3_ee_led+b1_ur_vbl.hex)|
-|316|320|u7.7|`weu-jpr--`|[urboot_attiny85_7mhz3728_19200bps_rxb4_txb3_ee_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny85/fcpu_7mhz3728/19200_bps/urboot_attiny85_7mhz3728_19200bps_rxb4_txb3_ee_lednop_ur_vbl.hex)|
-|374|384|u7.7|`weu-jPr-c`|[urboot_attiny85_7mhz3728_19200bps_rxb4_txb3_ee_led+b1_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny85/fcpu_7mhz3728/19200_bps/urboot_attiny85_7mhz3728_19200bps_rxb4_txb3_ee_led+b1_fr_ce_ur_vbl.hex)|
-|374|384|u7.7|`weu-jPr-c`|[urboot_attiny85_7mhz3728_19200bps_rxb4_txb3_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny85/fcpu_7mhz3728/19200_bps/urboot_attiny85_7mhz3728_19200bps_rxb4_txb3_ee_lednop_fr_ce_ur_vbl.hex)|
+|244|256|u7.7|`w-u-jpr--`|[urboot_attiny85_7mhz3728_19200bps_swio_rxb4_txb3_led+b1_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny85/fcpu_7mhz3728/19200_bps/urboot_attiny85_7mhz3728_19200bps_swio_rxb4_txb3_led+b1_ur_vbl.hex)|
+|244|256|u7.7|`w-u-jpr--`|[urboot_attiny85_7mhz3728_19200bps_swio_rxb4_txb3_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny85/fcpu_7mhz3728/19200_bps/urboot_attiny85_7mhz3728_19200bps_swio_rxb4_txb3_lednop_ur_vbl.hex)|
+|252|256|u7.7|`w-u-jPr--`|[urboot_attiny85_7mhz3728_19200bps_swio_rxb4_txb3_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny85/fcpu_7mhz3728/19200_bps/urboot_attiny85_7mhz3728_19200bps_swio_rxb4_txb3_ur_vbl.hex)|
+|306|320|u7.7|`w-u-jPr-c`|[urboot_attiny85_7mhz3728_19200bps_swio_rxb4_txb3_led+b1_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny85/fcpu_7mhz3728/19200_bps/urboot_attiny85_7mhz3728_19200bps_swio_rxb4_txb3_led+b1_fr_ce_ur_vbl.hex)|
+|306|320|u7.7|`w-u-jPr-c`|[urboot_attiny85_7mhz3728_19200bps_swio_rxb4_txb3_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny85/fcpu_7mhz3728/19200_bps/urboot_attiny85_7mhz3728_19200bps_swio_rxb4_txb3_lednop_fr_ce_ur_vbl.hex)|
+|316|320|u7.7|`weu-jpr--`|[urboot_attiny85_7mhz3728_19200bps_swio_rxb4_txb3_ee_led+b1_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny85/fcpu_7mhz3728/19200_bps/urboot_attiny85_7mhz3728_19200bps_swio_rxb4_txb3_ee_led+b1_ur_vbl.hex)|
+|316|320|u7.7|`weu-jpr--`|[urboot_attiny85_7mhz3728_19200bps_swio_rxb4_txb3_ee_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny85/fcpu_7mhz3728/19200_bps/urboot_attiny85_7mhz3728_19200bps_swio_rxb4_txb3_ee_lednop_ur_vbl.hex)|
+|374|384|u7.7|`weu-jPr-c`|[urboot_attiny85_7mhz3728_19200bps_swio_rxb4_txb3_ee_led+b1_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny85/fcpu_7mhz3728/19200_bps/urboot_attiny85_7mhz3728_19200bps_swio_rxb4_txb3_ee_led+b1_fr_ce_ur_vbl.hex)|
+|374|384|u7.7|`weu-jPr-c`|[urboot_attiny85_7mhz3728_19200bps_swio_rxb4_txb3_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny85/fcpu_7mhz3728/19200_bps/urboot_attiny85_7mhz3728_19200bps_swio_rxb4_txb3_ee_lednop_fr_ce_ur_vbl.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -24,7 +24,8 @@
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present
 - **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
-  + `rxd0 txd1` software I/O using, in this example, lines RX `D0` and TX `D1`
+  + `swio` software I/O (not UART)
+  + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `led-b1` toggles an active-low LED on pin `B1`, `+` designates an active-high LED
   + `lednop` is a template bootloader with `mov rx,rx` nops as placeholders for LED operations

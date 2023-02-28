@@ -1,9 +1,15 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|248|256|u7.7|`w-u-jpr--`|[urboot_atmega1284rfr2_16mhz_115200bps_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1284rfr2/fcpu_16mhz/115200_bps/urboot_atmega1284rfr2_16mhz_115200bps_lednop_ur_vbl.hex)|
-|390|512|u7.7|`weu-jPr-c`|[urboot_atmega1284rfr2_16mhz_115200bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1284rfr2/fcpu_16mhz/115200_bps/urboot_atmega1284rfr2_16mhz_115200bps_ee_lednop_fr_ce_ur_vbl.hex)|
-|372|1024|u7.7|`weu-hpr-c`|[urboot_atmega1284rfr2_16mhz_115200bps_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1284rfr2/fcpu_16mhz/115200_bps/urboot_atmega1284rfr2_16mhz_115200bps_ee_lednop_fr_ce_ur.hex)|
-|478|1024|u7.7|`wes-hpr-c`|[urboot_atmega1284rfr2_16mhz_115200bps_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1284rfr2/fcpu_16mhz/115200_bps/urboot_atmega1284rfr2_16mhz_115200bps_ee_lednop_fr_ce.hex)|
+|240|256|u7.7|`w-u-jpr--`|[urboot_atmega1284rfr2_16mhz_115200bps_uart0_rxe0_txe1_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1284rfr2/fcpu_16mhz/115200_bps/urboot_atmega1284rfr2_16mhz_115200bps_uart0_rxe0_txe1_lednop_ur_vbl.hex)|
+|240|256|u7.7|`w-u-jpr--`|[urboot_atmega1284rfr2_16mhz_115200bps_uart1_rxd2_txd3_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1284rfr2/fcpu_16mhz/115200_bps/urboot_atmega1284rfr2_16mhz_115200bps_uart1_rxd2_txd3_lednop_ur_vbl.hex)|
+|252|256|u7.7|`w-u-jPr--`|[urboot_atmega1284rfr2_16mhz_115200bps_uart0_rxe0_txe1_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1284rfr2/fcpu_16mhz/115200_bps/urboot_atmega1284rfr2_16mhz_115200bps_uart0_rxe0_txe1_ur_vbl.hex)|
+|252|256|u7.7|`w-u-jPr--`|[urboot_atmega1284rfr2_16mhz_115200bps_uart1_rxd2_txd3_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1284rfr2/fcpu_16mhz/115200_bps/urboot_atmega1284rfr2_16mhz_115200bps_uart1_rxd2_txd3_ur_vbl.hex)|
+|382|512|u7.7|`weu-jPr-c`|[urboot_atmega1284rfr2_16mhz_115200bps_uart0_rxe0_txe1_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1284rfr2/fcpu_16mhz/115200_bps/urboot_atmega1284rfr2_16mhz_115200bps_uart0_rxe0_txe1_ee_lednop_fr_ce_ur_vbl.hex)|
+|382|512|u7.7|`weu-jPr-c`|[urboot_atmega1284rfr2_16mhz_115200bps_uart1_rxd2_txd3_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1284rfr2/fcpu_16mhz/115200_bps/urboot_atmega1284rfr2_16mhz_115200bps_uart1_rxd2_txd3_ee_lednop_fr_ce_ur_vbl.hex)|
+|364|1024|u7.7|`weu-hpr-c`|[urboot_atmega1284rfr2_16mhz_115200bps_uart0_rxe0_txe1_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1284rfr2/fcpu_16mhz/115200_bps/urboot_atmega1284rfr2_16mhz_115200bps_uart0_rxe0_txe1_ee_lednop_fr_ce_ur.hex)|
+|364|1024|u7.7|`weu-hpr-c`|[urboot_atmega1284rfr2_16mhz_115200bps_uart1_rxd2_txd3_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1284rfr2/fcpu_16mhz/115200_bps/urboot_atmega1284rfr2_16mhz_115200bps_uart1_rxd2_txd3_ee_lednop_fr_ce_ur.hex)|
+|470|1024|u7.7|`wes-hpr-c`|[urboot_atmega1284rfr2_16mhz_115200bps_uart0_rxe0_txe1_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1284rfr2/fcpu_16mhz/115200_bps/urboot_atmega1284rfr2_16mhz_115200bps_uart0_rxe0_txe1_ee_lednop_fr_ce.hex)|
+|470|1024|u7.7|`wes-hpr-c`|[urboot_atmega1284rfr2_16mhz_115200bps_uart1_rxd2_txd3_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1284rfr2/fcpu_16mhz/115200_bps/urboot_atmega1284rfr2_16mhz_115200bps_uart1_rxd2_txd3_ee_lednop_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -21,6 +27,8 @@
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present
 - **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
+  + `uart0` UART number, in this case `0`
+  + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `lednop` is a template bootloader with `mov rx,rx` nops as placeholders for LED operations
   + `fr` bootloader provides non-essential code for smoother error handing

@@ -1,11 +1,11 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|252|256|u7.7|`w-u-jpr--`|[urboot_ata8510_1mhz8432_9600bps_rxb0_txb1_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata8510/fcpu_1mhz8432/9600_bps/urboot_ata8510_1mhz8432_9600bps_rxb0_txb1_ur_vbl.hex)|
-|306|320|u7.7|`w-u-jPr-c`|[urboot_ata8510_1mhz8432_9600bps_rxb0_txb1_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata8510/fcpu_1mhz8432/9600_bps/urboot_ata8510_1mhz8432_9600bps_rxb0_txb1_lednop_fr_ce_ur_vbl.hex)|
-|318|320|u7.7|`weu-jpr--`|[urboot_ata8510_1mhz8432_9600bps_rxb0_txb1_ee_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata8510/fcpu_1mhz8432/9600_bps/urboot_ata8510_1mhz8432_9600bps_rxb0_txb1_ee_ur_vbl.hex)|
-|368|384|u7.7|`weu-jPr-c`|[urboot_ata8510_1mhz8432_9600bps_rxb0_txb1_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata8510/fcpu_1mhz8432/9600_bps/urboot_ata8510_1mhz8432_9600bps_rxb0_txb1_ee_lednop_fr_ce_ur_vbl.hex)|
-|348|20464|u7.7|`weu-hpr-c`|[urboot_ata8510_1mhz8432_9600bps_rxb0_txb1_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata8510/fcpu_1mhz8432/9600_bps/urboot_ata8510_1mhz8432_9600bps_rxb0_txb1_ee_lednop_fr_ce_ur.hex)|
-|452|20464|u7.7|`wes-hpr-c`|[urboot_ata8510_1mhz8432_9600bps_rxb0_txb1_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata8510/fcpu_1mhz8432/9600_bps/urboot_ata8510_1mhz8432_9600bps_rxb0_txb1_ee_lednop_fr_ce.hex)|
+|252|256|u7.7|`w-u-jpr--`|[urboot_ata8510_1mhz8432_9600bps_swio_rxb0_txb1_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata8510/fcpu_1mhz8432/9600_bps/urboot_ata8510_1mhz8432_9600bps_swio_rxb0_txb1_ur_vbl.hex)|
+|306|320|u7.7|`w-u-jPr-c`|[urboot_ata8510_1mhz8432_9600bps_swio_rxb0_txb1_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata8510/fcpu_1mhz8432/9600_bps/urboot_ata8510_1mhz8432_9600bps_swio_rxb0_txb1_lednop_fr_ce_ur_vbl.hex)|
+|318|320|u7.7|`weu-jpr--`|[urboot_ata8510_1mhz8432_9600bps_swio_rxb0_txb1_ee_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata8510/fcpu_1mhz8432/9600_bps/urboot_ata8510_1mhz8432_9600bps_swio_rxb0_txb1_ee_ur_vbl.hex)|
+|368|384|u7.7|`weu-jPr-c`|[urboot_ata8510_1mhz8432_9600bps_swio_rxb0_txb1_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata8510/fcpu_1mhz8432/9600_bps/urboot_ata8510_1mhz8432_9600bps_swio_rxb0_txb1_ee_lednop_fr_ce_ur_vbl.hex)|
+|348|20464|u7.7|`weu-hpr-c`|[urboot_ata8510_1mhz8432_9600bps_swio_rxb0_txb1_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata8510/fcpu_1mhz8432/9600_bps/urboot_ata8510_1mhz8432_9600bps_swio_rxb0_txb1_ee_lednop_fr_ce_ur.hex)|
+|452|20464|u7.7|`wes-hpr-c`|[urboot_ata8510_1mhz8432_9600bps_swio_rxb0_txb1_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata8510/fcpu_1mhz8432/9600_bps/urboot_ata8510_1mhz8432_9600bps_swio_rxb0_txb1_ee_lednop_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -23,7 +23,8 @@
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present
 - **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
-  + `rxd0 txd1` software I/O using, in this example, lines RX `D0` and TX `D1`
+  + `swio` software I/O (not UART)
+  + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `lednop` is a template bootloader with `mov rx,rx` nops as placeholders for LED operations
   + `fr` bootloader provides non-essential code for smoother error handing

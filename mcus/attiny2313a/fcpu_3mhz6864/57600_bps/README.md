@@ -1,13 +1,11 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|214|224|u7.7|`w-u-jpr--`|[urboot_attiny2313a_3mhz6864_57600bps_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny2313a/fcpu_3mhz6864/57600_bps/urboot_attiny2313a_3mhz6864_57600bps_lednop_ur_vbl.hex)|
-|222|224|u7.7|`w-u-jPr--`|[urboot_attiny2313a_3mhz6864_57600bps_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny2313a/fcpu_3mhz6864/57600_bps/urboot_attiny2313a_3mhz6864_57600bps_ur_vbl.hex)|
-|242|256|u7.7|`w-u-jPr--`|[urboot_attiny2313a_3mhz6864_57600bps_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny2313a/fcpu_3mhz6864/57600_bps/urboot_attiny2313a_3mhz6864_57600bps_lednop_fr_ur_vbl.hex)|
-|252|256|u7.7|`w-u-jpr-c`|[urboot_attiny2313a_3mhz6864_57600bps_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny2313a/fcpu_3mhz6864/57600_bps/urboot_attiny2313a_3mhz6864_57600bps_lednop_fr_ce_ur_vbl.hex)|
-|278|288|u7.7|`weu-jpr--`|[urboot_attiny2313a_3mhz6864_57600bps_ee_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny2313a/fcpu_3mhz6864/57600_bps/urboot_attiny2313a_3mhz6864_57600bps_ee_lednop_ur_vbl.hex)|
-|286|288|u7.7|`weu-jPr--`|[urboot_attiny2313a_3mhz6864_57600bps_ee_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny2313a/fcpu_3mhz6864/57600_bps/urboot_attiny2313a_3mhz6864_57600bps_ee_ur_vbl.hex)|
-|310|320|u7.7|`weu-jPr--`|[urboot_attiny2313a_3mhz6864_57600bps_ee_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny2313a/fcpu_3mhz6864/57600_bps/urboot_attiny2313a_3mhz6864_57600bps_ee_lednop_fr_ur_vbl.hex)|
-|320|320|u7.7|`weu-jpr-c`|[urboot_attiny2313a_3mhz6864_57600bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny2313a/fcpu_3mhz6864/57600_bps/urboot_attiny2313a_3mhz6864_57600bps_ee_lednop_fr_ce_ur_vbl.hex)|
+|224|224|u7.7|`w-u-jPr--`|[urboot_attiny2313a_3mhz6864_57600bps_uart0_rxd0_txd1_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny2313a/fcpu_3mhz6864/57600_bps/urboot_attiny2313a_3mhz6864_57600bps_uart0_rxd0_txd1_lednop_ur_vbl.hex)|
+|238|256|u7.7|`w-u-jPr--`|[urboot_attiny2313a_3mhz6864_57600bps_uart0_rxd0_txd1_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny2313a/fcpu_3mhz6864/57600_bps/urboot_attiny2313a_3mhz6864_57600bps_uart0_rxd0_txd1_lednop_fr_ur_vbl.hex)|
+|248|256|u7.7|`w-u-jpr-c`|[urboot_attiny2313a_3mhz6864_57600bps_uart0_rxd0_txd1_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny2313a/fcpu_3mhz6864/57600_bps/urboot_attiny2313a_3mhz6864_57600bps_uart0_rxd0_txd1_lednop_fr_ce_ur_vbl.hex)|
+|288|288|u7.7|`weu-jPr--`|[urboot_attiny2313a_3mhz6864_57600bps_uart0_rxd0_txd1_ee_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny2313a/fcpu_3mhz6864/57600_bps/urboot_attiny2313a_3mhz6864_57600bps_uart0_rxd0_txd1_ee_lednop_ur_vbl.hex)|
+|306|320|u7.7|`weu-jPr--`|[urboot_attiny2313a_3mhz6864_57600bps_uart0_rxd0_txd1_ee_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny2313a/fcpu_3mhz6864/57600_bps/urboot_attiny2313a_3mhz6864_57600bps_uart0_rxd0_txd1_ee_lednop_fr_ur_vbl.hex)|
+|316|320|u7.7|`weu-jpr-c`|[urboot_attiny2313a_3mhz6864_57600bps_uart0_rxd0_txd1_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny2313a/fcpu_3mhz6864/57600_bps/urboot_attiny2313a_3mhz6864_57600bps_uart0_rxd0_txd1_ee_lednop_fr_ce_ur_vbl.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -23,6 +21,8 @@
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present
 - **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
+  + `uart0` UART number, in this case `0`
+  + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `lednop` is a template bootloader with `mov rx,rx` nops as placeholders for LED operations
   + `fr` bootloader provides non-essential code for smoother error handing

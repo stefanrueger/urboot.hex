@@ -1,9 +1,9 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|254|256|u7.7|`w-u-jPr--`|[urboot_atmega48a_24mhz_250000bps_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48a/fcpu_24mhz/250000_bps/urboot_atmega48a_24mhz_250000bps_lednop_fr_ur_vbl.hex)|
-|284|320|u7.7|`w-u-jPr-c`|[urboot_atmega48a_24mhz_250000bps_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48a/fcpu_24mhz/250000_bps/urboot_atmega48a_24mhz_250000bps_lednop_fr_ce_ur_vbl.hex)|
-|320|320|u7.7|`weu-jPr--`|[urboot_atmega48a_24mhz_250000bps_ee_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48a/fcpu_24mhz/250000_bps/urboot_atmega48a_24mhz_250000bps_ee_lednop_fr_ur_vbl.hex)|
-|346|384|u7.7|`weu-jPr-c`|[urboot_atmega48a_24mhz_250000bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48a/fcpu_24mhz/250000_bps/urboot_atmega48a_24mhz_250000bps_ee_lednop_fr_ce_ur_vbl.hex)|
+|254|256|u7.7|`w-u-jPr--`|[urboot_atmega48a_24mhz_250000bps_uart0_rxd0_txd1_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48a/fcpu_24mhz/250000_bps/urboot_atmega48a_24mhz_250000bps_uart0_rxd0_txd1_lednop_fr_ur_vbl.hex)|
+|284|320|u7.7|`w-u-jPr-c`|[urboot_atmega48a_24mhz_250000bps_uart0_rxd0_txd1_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48a/fcpu_24mhz/250000_bps/urboot_atmega48a_24mhz_250000bps_uart0_rxd0_txd1_lednop_fr_ce_ur_vbl.hex)|
+|320|320|u7.7|`weu-jPr--`|[urboot_atmega48a_24mhz_250000bps_uart0_rxd0_txd1_ee_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48a/fcpu_24mhz/250000_bps/urboot_atmega48a_24mhz_250000bps_uart0_rxd0_txd1_ee_lednop_fr_ur_vbl.hex)|
+|346|384|u7.7|`weu-jPr-c`|[urboot_atmega48a_24mhz_250000bps_uart0_rxd0_txd1_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48a/fcpu_24mhz/250000_bps/urboot_atmega48a_24mhz_250000bps_uart0_rxd0_txd1_ee_lednop_fr_ce_ur_vbl.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -18,6 +18,8 @@
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present
 - **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
+  + `uart0` UART number, in this case `0`
+  + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `lednop` is a template bootloader with `mov rx,rx` nops as placeholders for LED operations
   + `fr` bootloader provides non-essential code for smoother error handing

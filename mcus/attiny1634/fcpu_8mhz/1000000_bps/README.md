@@ -1,8 +1,10 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|242|256|u7.7|`w-u-jPr--`|[urboot_attiny1634_8mhz_1000000bps_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny1634/fcpu_8mhz/1000000_bps/urboot_attiny1634_8mhz_1000000bps_lednop_ur_vbl.hex)|
-|246|256|u7.7|`w-u-jpr--`|[urboot_attiny1634_8mhz_1000000bps_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny1634/fcpu_8mhz/1000000_bps/urboot_attiny1634_8mhz_1000000bps_lednop_fr_ur_vbl.hex)|
-|352|384|u7.7|`weu-jPr-c`|[urboot_attiny1634_8mhz_1000000bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny1634/fcpu_8mhz/1000000_bps/urboot_attiny1634_8mhz_1000000bps_ee_lednop_fr_ce_ur_vbl.hex)|
+|242|256|u7.7|`w-u-jPr--`|[urboot_attiny1634_8mhz_1000000bps_uart1_rxb1_txb2_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny1634/fcpu_8mhz/1000000_bps/urboot_attiny1634_8mhz_1000000bps_uart1_rxb1_txb2_lednop_ur_vbl.hex)|
+|246|256|u7.7|`w-u-jpr--`|[urboot_attiny1634_8mhz_1000000bps_uart1_rxb1_txb2_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny1634/fcpu_8mhz/1000000_bps/urboot_attiny1634_8mhz_1000000bps_uart1_rxb1_txb2_lednop_fr_ur_vbl.hex)|
+|252|256|u7.7|`w-u-jPr--`|[urboot_attiny1634_8mhz_1000000bps_uart0_rxa7_txb0_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny1634/fcpu_8mhz/1000000_bps/urboot_attiny1634_8mhz_1000000bps_uart0_rxa7_txb0_lednop_fr_ur_vbl.hex)|
+|344|384|u7.7|`weu-jPr-c`|[urboot_attiny1634_8mhz_1000000bps_uart0_rxa7_txb0_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny1634/fcpu_8mhz/1000000_bps/urboot_attiny1634_8mhz_1000000bps_uart0_rxa7_txb0_ee_lednop_fr_ce_ur_vbl.hex)|
+|352|384|u7.7|`weu-jPr-c`|[urboot_attiny1634_8mhz_1000000bps_uart1_rxb1_txb2_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny1634/fcpu_8mhz/1000000_bps/urboot_attiny1634_8mhz_1000000bps_uart1_rxb1_txb2_ee_lednop_fr_ce_ur_vbl.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -18,6 +20,8 @@
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present
 - **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
+  + `uart0` UART number, in this case `0`
+  + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `lednop` is a template bootloader with `mov rx,rx` nops as placeholders for LED operations
   + `fr` bootloader provides non-essential code for smoother error handing

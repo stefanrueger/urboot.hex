@@ -1,8 +1,9 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|254|256|u7.7|`w-u-jpr--`|[urboot_luminet_3mhz6864_19200bps_rxa3_txa2_led+a4_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/luminet/fcpu_3mhz6864/19200_bps/urboot_luminet_3mhz6864_19200bps_rxa3_txa2_led+a4_ur_vbl.hex)|
-|316|320|u7.7|`w-u-jPr-c`|[urboot_luminet_3mhz6864_19200bps_rxa3_txa2_led+a4_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/luminet/fcpu_3mhz6864/19200_bps/urboot_luminet_3mhz6864_19200bps_rxa3_txa2_led+a4_fr_ce_ur_vbl.hex)|
-|384|384|u7.7|`weu-jPr-c`|[urboot_luminet_3mhz6864_19200bps_rxa3_txa2_ee_led+a4_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/luminet/fcpu_3mhz6864/19200_bps/urboot_luminet_3mhz6864_19200bps_rxa3_txa2_ee_led+a4_fr_ce_ur_vbl.hex)|
+|246|256|u7.7|`w-u-jpr--`|[urboot_luminet_3mhz6864_19200bps_swio_rxa3_txa2_led+a4_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/luminet/fcpu_3mhz6864/19200_bps/urboot_luminet_3mhz6864_19200bps_swio_rxa3_txa2_led+a4_ur_vbl.hex)|
+|308|320|u7.7|`w-u-jPr-c`|[urboot_luminet_3mhz6864_19200bps_swio_rxa3_txa2_led+a4_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/luminet/fcpu_3mhz6864/19200_bps/urboot_luminet_3mhz6864_19200bps_swio_rxa3_txa2_led+a4_fr_ce_ur_vbl.hex)|
+|318|320|u7.7|`weu-jpr--`|[urboot_luminet_3mhz6864_19200bps_swio_rxa3_txa2_ee_led+a4_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/luminet/fcpu_3mhz6864/19200_bps/urboot_luminet_3mhz6864_19200bps_swio_rxa3_txa2_ee_led+a4_ur_vbl.hex)|
+|376|384|u7.7|`weu-jPr-c`|[urboot_luminet_3mhz6864_19200bps_swio_rxa3_txa2_ee_led+a4_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/luminet/fcpu_3mhz6864/19200_bps/urboot_luminet_3mhz6864_19200bps_swio_rxa3_txa2_ee_led+a4_fr_ce_ur_vbl.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -18,7 +19,8 @@
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present
 - **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
-  + `rxd0 txd1` software I/O using, in this example, lines RX `D0` and TX `D1`
+  + `swio` software I/O (not UART)
+  + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `led-b1` toggles an active-low LED on pin `B1`, `+` designates an active-high LED
   + `fr` bootloader provides non-essential code for smoother error handing

@@ -1,8 +1,11 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|244|256|u7.7|`w-u-jpra-`|[urboot_attiny1634_autobaud_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny1634/autobaud/urboot_attiny1634_autobaud_lednop_ur_vbl.hex)|
-|252|256|u7.7|`w-u-jPra-`|[urboot_attiny1634_autobaud_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny1634/autobaud/urboot_attiny1634_autobaud_ur_vbl.hex)|
-|368|384|u7.7|`weu-jPrac`|[urboot_attiny1634_autobaud_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny1634/autobaud/urboot_attiny1634_autobaud_ee_lednop_fr_ce_ur_vbl.hex)|
+|244|256|u7.7|`w-u-jpra-`|[urboot_attiny1634_autobaud_uart1_rxb1_txb2_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny1634/autobaud/urboot_attiny1634_autobaud_uart1_rxb1_txb2_lednop_ur_vbl.hex)|
+|250|256|u7.7|`w-u-jPra-`|[urboot_attiny1634_autobaud_uart0_rxa7_txb0_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny1634/autobaud/urboot_attiny1634_autobaud_uart0_rxa7_txb0_lednop_ur_vbl.hex)|
+|252|256|u7.7|`w-u-jPra-`|[urboot_attiny1634_autobaud_uart1_rxb1_txb2_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny1634/autobaud/urboot_attiny1634_autobaud_uart1_rxb1_txb2_ur_vbl.hex)|
+|254|256|u7.7|`w-u-jpra-`|[urboot_attiny1634_autobaud_uart0_rxa7_txb0_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny1634/autobaud/urboot_attiny1634_autobaud_uart0_rxa7_txb0_lednop_fr_ur_vbl.hex)|
+|360|384|u7.7|`weu-jPrac`|[urboot_attiny1634_autobaud_uart0_rxa7_txb0_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny1634/autobaud/urboot_attiny1634_autobaud_uart0_rxa7_txb0_ee_lednop_fr_ce_ur_vbl.hex)|
+|368|384|u7.7|`weu-jPrac`|[urboot_attiny1634_autobaud_uart1_rxb1_txb2_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny1634/autobaud/urboot_attiny1634_autobaud_uart1_rxb1_txb2_ee_lednop_fr_ce_ur_vbl.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -20,6 +23,8 @@
   + `-` corresponding feature not present
 - **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
   + `autobaud` tries to match host baud rate; can be f/8, f/16, f/24, ..., f/2048 (f=F<sub>CPU</sub>)
+  + `uart0` UART number, in this case `0`
+  + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `lednop` is a template bootloader with `mov rx,rx` nops as placeholders for LED operations
   + `fr` bootloader provides non-essential code for smoother error handing

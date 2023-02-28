@@ -1,9 +1,13 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|256|256|u7.7|`w-u-jPr--`|[urboot_sanguino_1mhz8432_115200bps_led+b0_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/sanguino/fcpu_1mhz8432/115200_bps/urboot_sanguino_1mhz8432_115200bps_led+b0_fr_ur_vbl.hex)|
-|342|512|u7.7|`weu-jPr-c`|[urboot_sanguino_1mhz8432_115200bps_ee_led+b0_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/sanguino/fcpu_1mhz8432/115200_bps/urboot_sanguino_1mhz8432_115200bps_ee_led+b0_fr_ce_ur_vbl.hex)|
-|328|1024|u7.7|`weu-hpr-c`|[urboot_sanguino_1mhz8432_115200bps_ee_led+b0_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/sanguino/fcpu_1mhz8432/115200_bps/urboot_sanguino_1mhz8432_115200bps_ee_led+b0_fr_ce_ur.hex)|
-|432|1024|u7.7|`wes-hpr-c`|[urboot_sanguino_1mhz8432_115200bps_ee_led+b0_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/sanguino/fcpu_1mhz8432/115200_bps/urboot_sanguino_1mhz8432_115200bps_ee_led+b0_fr_ce.hex)|
+|256|256|u7.7|`w-u-jPr--`|[urboot_sanguino_1mhz8432_115200bps_uart0_rxd0_txd1_led+b0_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/sanguino/fcpu_1mhz8432/115200_bps/urboot_sanguino_1mhz8432_115200bps_uart0_rxd0_txd1_led+b0_fr_ur_vbl.hex)|
+|256|256|u7.7|`w-u-jPr--`|[urboot_sanguino_1mhz8432_115200bps_uart1_rxd2_txd3_led+b0_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/sanguino/fcpu_1mhz8432/115200_bps/urboot_sanguino_1mhz8432_115200bps_uart1_rxd2_txd3_led+b0_fr_ur_vbl.hex)|
+|342|512|u7.7|`weu-jPr-c`|[urboot_sanguino_1mhz8432_115200bps_uart0_rxd0_txd1_ee_led+b0_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/sanguino/fcpu_1mhz8432/115200_bps/urboot_sanguino_1mhz8432_115200bps_uart0_rxd0_txd1_ee_led+b0_fr_ce_ur_vbl.hex)|
+|342|512|u7.7|`weu-jPr-c`|[urboot_sanguino_1mhz8432_115200bps_uart1_rxd2_txd3_ee_led+b0_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/sanguino/fcpu_1mhz8432/115200_bps/urboot_sanguino_1mhz8432_115200bps_uart1_rxd2_txd3_ee_led+b0_fr_ce_ur_vbl.hex)|
+|328|1024|u7.7|`weu-hpr-c`|[urboot_sanguino_1mhz8432_115200bps_uart0_rxd0_txd1_ee_led+b0_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/sanguino/fcpu_1mhz8432/115200_bps/urboot_sanguino_1mhz8432_115200bps_uart0_rxd0_txd1_ee_led+b0_fr_ce_ur.hex)|
+|328|1024|u7.7|`weu-hpr-c`|[urboot_sanguino_1mhz8432_115200bps_uart1_rxd2_txd3_ee_led+b0_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/sanguino/fcpu_1mhz8432/115200_bps/urboot_sanguino_1mhz8432_115200bps_uart1_rxd2_txd3_ee_led+b0_fr_ce_ur.hex)|
+|432|1024|u7.7|`wes-hpr-c`|[urboot_sanguino_1mhz8432_115200bps_uart0_rxd0_txd1_ee_led+b0_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/sanguino/fcpu_1mhz8432/115200_bps/urboot_sanguino_1mhz8432_115200bps_uart0_rxd0_txd1_ee_led+b0_fr_ce.hex)|
+|432|1024|u7.7|`wes-hpr-c`|[urboot_sanguino_1mhz8432_115200bps_uart1_rxd2_txd3_ee_led+b0_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/sanguino/fcpu_1mhz8432/115200_bps/urboot_sanguino_1mhz8432_115200bps_uart1_rxd2_txd3_ee_led+b0_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -21,6 +25,8 @@
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present
 - **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
+  + `uart0` UART number, in this case `0`
+  + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `led-b1` toggles an active-low LED on pin `B1`, `+` designates an active-high LED
   + `fr` bootloader provides non-essential code for smoother error handing

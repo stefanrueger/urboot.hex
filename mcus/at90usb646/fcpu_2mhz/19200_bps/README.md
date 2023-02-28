@@ -1,10 +1,10 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|250|256|u7.7|`w-u-jPr--`|[urboot_at90usb646_2mhz_19200bps_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90usb646/fcpu_2mhz/19200_bps/urboot_at90usb646_2mhz_19200bps_lednop_ur_vbl.hex)|
-|254|256|u7.7|`w-u-jpr--`|[urboot_at90usb646_2mhz_19200bps_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90usb646/fcpu_2mhz/19200_bps/urboot_at90usb646_2mhz_19200bps_lednop_fr_ur_vbl.hex)|
-|354|512|u7.7|`weu-jPr-c`|[urboot_at90usb646_2mhz_19200bps_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90usb646/fcpu_2mhz/19200_bps/urboot_at90usb646_2mhz_19200bps_ee_lednop_fr_ce_ur_vbl.hex)|
-|340|1024|u7.7|`weu-hpr-c`|[urboot_at90usb646_2mhz_19200bps_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90usb646/fcpu_2mhz/19200_bps/urboot_at90usb646_2mhz_19200bps_ee_lednop_fr_ce_ur.hex)|
-|444|1024|u7.7|`wes-hpr-c`|[urboot_at90usb646_2mhz_19200bps_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90usb646/fcpu_2mhz/19200_bps/urboot_at90usb646_2mhz_19200bps_ee_lednop_fr_ce.hex)|
+|242|256|u7.7|`w-u-jPr--`|[urboot_at90usb646_2mhz_19200bps_uart0_rxd2_txd3_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90usb646/fcpu_2mhz/19200_bps/urboot_at90usb646_2mhz_19200bps_uart0_rxd2_txd3_lednop_ur_vbl.hex)|
+|246|256|u7.7|`w-u-jpr--`|[urboot_at90usb646_2mhz_19200bps_uart0_rxd2_txd3_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90usb646/fcpu_2mhz/19200_bps/urboot_at90usb646_2mhz_19200bps_uart0_rxd2_txd3_lednop_fr_ur_vbl.hex)|
+|346|512|u7.7|`weu-jPr-c`|[urboot_at90usb646_2mhz_19200bps_uart0_rxd2_txd3_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90usb646/fcpu_2mhz/19200_bps/urboot_at90usb646_2mhz_19200bps_uart0_rxd2_txd3_ee_lednop_fr_ce_ur_vbl.hex)|
+|332|1024|u7.7|`weu-hpr-c`|[urboot_at90usb646_2mhz_19200bps_uart0_rxd2_txd3_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90usb646/fcpu_2mhz/19200_bps/urboot_at90usb646_2mhz_19200bps_uart0_rxd2_txd3_ee_lednop_fr_ce_ur.hex)|
+|436|1024|u7.7|`wes-hpr-c`|[urboot_at90usb646_2mhz_19200bps_uart0_rxd2_txd3_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/at90usb646/fcpu_2mhz/19200_bps/urboot_at90usb646_2mhz_19200bps_uart0_rxd2_txd3_ee_lednop_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -22,6 +22,8 @@
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present
 - **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
+  + `uart0` UART number, in this case `0`
+  + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `lednop` is a template bootloader with `mov rx,rx` nops as placeholders for LED operations
   + `fr` bootloader provides non-essential code for smoother error handing
