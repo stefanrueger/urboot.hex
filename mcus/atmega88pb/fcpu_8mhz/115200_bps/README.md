@@ -1,11 +1,16 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
 |254|256|u7.7|`w-u-hpr--`|[urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega88pb/fcpu_8mhz/115200_bps/urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_ur.hex)|
+|296|320|u7.7|`w-u-jPr--`|[urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_led+b5_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega88pb/fcpu_8mhz/115200_bps/urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_led+b5_fr_ur_vbl.hex)|
 |296|320|u7.7|`w-u-jPr--`|[urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega88pb/fcpu_8mhz/115200_bps/urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_lednop_fr_ur_vbl.hex)|
+|308|320|u7.7|`w-u-jpr-c`|[urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega88pb/fcpu_8mhz/115200_bps/urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_led+b5_fr_ce_ur_vbl.hex)|
 |308|320|u7.7|`w-u-jpr-c`|[urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega88pb/fcpu_8mhz/115200_bps/urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_lednop_fr_ce_ur_vbl.hex)|
 |320|320|u7.7|`weu-jpr--`|[urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_ee_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega88pb/fcpu_8mhz/115200_bps/urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_ee_ur_vbl.hex)|
+|384|384|u7.7|`weu-jPr-c`|[urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_ee_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega88pb/fcpu_8mhz/115200_bps/urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_ee_led+b5_fr_ce_ur_vbl.hex)|
 |384|384|u7.7|`weu-jPr-c`|[urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega88pb/fcpu_8mhz/115200_bps/urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_ee_lednop_fr_ce_ur_vbl.hex)|
+|366|512|u7.7|`weu-hpr-c`|[urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_ee_led+b5_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega88pb/fcpu_8mhz/115200_bps/urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_ee_led+b5_fr_ce_ur.hex)|
 |366|512|u7.7|`weu-hpr-c`|[urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega88pb/fcpu_8mhz/115200_bps/urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_ee_lednop_fr_ce_ur.hex)|
+|470|512|u7.7|`wes-hpr-c`|[urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_ee_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega88pb/fcpu_8mhz/115200_bps/urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_ee_led+b5_fr_ce.hex)|
 |470|512|u7.7|`wes-hpr-c`|[urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega88pb/fcpu_8mhz/115200_bps/urboot_atmega88pb_8mhz_115200bps_swio_rxd0_txd1_ee_lednop_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
@@ -27,6 +32,7 @@
   + `swio` software I/O (not UART)
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
+  + `led-b1` toggles an active-low LED on pin `B1`, `+` designates an active-high LED
   + `lednop` is a template bootloader with `mov rx,rx` nops as placeholders for LED operations
   + `fr` bootloader provides non-essential code for smoother error handing
   + `ce` bootloader provides a chip erase command

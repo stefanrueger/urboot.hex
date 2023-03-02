@@ -1,8 +1,11 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
 |246|256|u7.7|`w-u-jpra-`|[urboot_promini_autobaud_uart0_rxd0_txd1_led+b5_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/autobaud/urboot_promini_autobaud_uart0_rxd0_txd1_led+b5_ur_vbl.hex)|
+|308|384|u7.7|`w-u-jPrac`|[urboot_promini_autobaud_uart0_rxd0_txd1_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/autobaud/urboot_promini_autobaud_uart0_rxd0_txd1_led+b5_fr_ce_ur_vbl.hex)|
 |370|384|u7.7|`weu-jPrac`|[urboot_promini_autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/autobaud/urboot_promini_autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur_vbl.hex)|
+|290|512|u7.7|`w-u-hprac`|[urboot_promini_autobaud_uart0_rxd0_txd1_led+b5_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/autobaud/urboot_promini_autobaud_uart0_rxd0_txd1_led+b5_fr_ce_ur.hex)|
 |352|512|u7.7|`weu-hprac`|[urboot_promini_autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/autobaud/urboot_promini_autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur.hex)|
+|404|512|u7.7|`w-s-hprac`|[urboot_promini_autobaud_uart0_rxd0_txd1_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/autobaud/urboot_promini_autobaud_uart0_rxd0_txd1_led+b5_fr_ce.hex)|
 |456|512|u7.7|`wes-hprac`|[urboot_promini_autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/autobaud/urboot_promini_autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end

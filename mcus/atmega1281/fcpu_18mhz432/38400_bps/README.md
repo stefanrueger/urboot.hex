@@ -1,14 +1,24 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
+|254|256|u7.7|`w-u-jPr--`|[urboot_atmega1281_18mhz432_38400bps_uart0_rxe0_txe1_led+b5_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1281/fcpu_18mhz432/38400_bps/urboot_atmega1281_18mhz432_38400bps_uart0_rxe0_txe1_led+b5_ur_vbl.hex)|
 |254|256|u7.7|`w-u-jPr--`|[urboot_atmega1281_18mhz432_38400bps_uart0_rxe0_txe1_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1281/fcpu_18mhz432/38400_bps/urboot_atmega1281_18mhz432_38400bps_uart0_rxe0_txe1_lednop_ur_vbl.hex)|
+|254|256|u7.7|`w-u-jPr--`|[urboot_atmega1281_18mhz432_38400bps_uart1_rxd2_txd3_led+b5_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1281/fcpu_18mhz432/38400_bps/urboot_atmega1281_18mhz432_38400bps_uart1_rxd2_txd3_led+b5_ur_vbl.hex)|
 |254|256|u7.7|`w-u-jPr--`|[urboot_atmega1281_18mhz432_38400bps_uart1_rxd2_txd3_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1281/fcpu_18mhz432/38400_bps/urboot_atmega1281_18mhz432_38400bps_uart1_rxd2_txd3_lednop_ur_vbl.hex)|
+|254|256|u7.7|`w-u-jpr--`|[urboot_atmega1281_18mhz432_38400bps_uart0_rxe0_txe1_led+b5_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1281/fcpu_18mhz432/38400_bps/urboot_atmega1281_18mhz432_38400bps_uart0_rxe0_txe1_led+b5_fr_ur_vbl.hex)|
 |254|256|u7.7|`w-u-jpr--`|[urboot_atmega1281_18mhz432_38400bps_uart0_rxe0_txe1_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1281/fcpu_18mhz432/38400_bps/urboot_atmega1281_18mhz432_38400bps_uart0_rxe0_txe1_lednop_fr_ur_vbl.hex)|
+|254|256|u7.7|`w-u-jpr--`|[urboot_atmega1281_18mhz432_38400bps_uart1_rxd2_txd3_led+b5_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1281/fcpu_18mhz432/38400_bps/urboot_atmega1281_18mhz432_38400bps_uart1_rxd2_txd3_led+b5_fr_ur_vbl.hex)|
 |254|256|u7.7|`w-u-jpr--`|[urboot_atmega1281_18mhz432_38400bps_uart1_rxd2_txd3_lednop_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1281/fcpu_18mhz432/38400_bps/urboot_atmega1281_18mhz432_38400bps_uart1_rxd2_txd3_lednop_fr_ur_vbl.hex)|
+|378|512|u7.7|`weu-jPr-c`|[urboot_atmega1281_18mhz432_38400bps_uart0_rxe0_txe1_ee_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1281/fcpu_18mhz432/38400_bps/urboot_atmega1281_18mhz432_38400bps_uart0_rxe0_txe1_ee_led+b5_fr_ce_ur_vbl.hex)|
 |378|512|u7.7|`weu-jPr-c`|[urboot_atmega1281_18mhz432_38400bps_uart0_rxe0_txe1_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1281/fcpu_18mhz432/38400_bps/urboot_atmega1281_18mhz432_38400bps_uart0_rxe0_txe1_ee_lednop_fr_ce_ur_vbl.hex)|
+|378|512|u7.7|`weu-jPr-c`|[urboot_atmega1281_18mhz432_38400bps_uart1_rxd2_txd3_ee_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1281/fcpu_18mhz432/38400_bps/urboot_atmega1281_18mhz432_38400bps_uart1_rxd2_txd3_ee_led+b5_fr_ce_ur_vbl.hex)|
 |378|512|u7.7|`weu-jPr-c`|[urboot_atmega1281_18mhz432_38400bps_uart1_rxd2_txd3_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1281/fcpu_18mhz432/38400_bps/urboot_atmega1281_18mhz432_38400bps_uart1_rxd2_txd3_ee_lednop_fr_ce_ur_vbl.hex)|
+|360|1024|u7.7|`weu-hpr-c`|[urboot_atmega1281_18mhz432_38400bps_uart0_rxe0_txe1_ee_led+b5_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1281/fcpu_18mhz432/38400_bps/urboot_atmega1281_18mhz432_38400bps_uart0_rxe0_txe1_ee_led+b5_fr_ce_ur.hex)|
 |360|1024|u7.7|`weu-hpr-c`|[urboot_atmega1281_18mhz432_38400bps_uart0_rxe0_txe1_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1281/fcpu_18mhz432/38400_bps/urboot_atmega1281_18mhz432_38400bps_uart0_rxe0_txe1_ee_lednop_fr_ce_ur.hex)|
+|360|1024|u7.7|`weu-hpr-c`|[urboot_atmega1281_18mhz432_38400bps_uart1_rxd2_txd3_ee_led+b5_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1281/fcpu_18mhz432/38400_bps/urboot_atmega1281_18mhz432_38400bps_uart1_rxd2_txd3_ee_led+b5_fr_ce_ur.hex)|
 |360|1024|u7.7|`weu-hpr-c`|[urboot_atmega1281_18mhz432_38400bps_uart1_rxd2_txd3_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1281/fcpu_18mhz432/38400_bps/urboot_atmega1281_18mhz432_38400bps_uart1_rxd2_txd3_ee_lednop_fr_ce_ur.hex)|
+|466|1024|u7.7|`wes-hpr-c`|[urboot_atmega1281_18mhz432_38400bps_uart0_rxe0_txe1_ee_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1281/fcpu_18mhz432/38400_bps/urboot_atmega1281_18mhz432_38400bps_uart0_rxe0_txe1_ee_led+b5_fr_ce.hex)|
 |466|1024|u7.7|`wes-hpr-c`|[urboot_atmega1281_18mhz432_38400bps_uart0_rxe0_txe1_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1281/fcpu_18mhz432/38400_bps/urboot_atmega1281_18mhz432_38400bps_uart0_rxe0_txe1_ee_lednop_fr_ce.hex)|
+|466|1024|u7.7|`wes-hpr-c`|[urboot_atmega1281_18mhz432_38400bps_uart1_rxd2_txd3_ee_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1281/fcpu_18mhz432/38400_bps/urboot_atmega1281_18mhz432_38400bps_uart1_rxd2_txd3_ee_led+b5_fr_ce.hex)|
 |466|1024|u7.7|`wes-hpr-c`|[urboot_atmega1281_18mhz432_38400bps_uart1_rxd2_txd3_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega1281/fcpu_18mhz432/38400_bps/urboot_atmega1281_18mhz432_38400bps_uart1_rxd2_txd3_ee_lednop_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
@@ -30,6 +40,7 @@
   + `uart0` UART number, in this case `0`
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
+  + `led-b1` toggles an active-low LED on pin `B1`, `+` designates an active-high LED
   + `lednop` is a template bootloader with `mov rx,rx` nops as placeholders for LED operations
   + `fr` bootloader provides non-essential code for smoother error handing
   + `ce` bootloader provides a chip erase command

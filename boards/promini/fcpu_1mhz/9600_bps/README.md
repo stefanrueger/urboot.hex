@@ -2,8 +2,11 @@
 |:-:|:-:|:-:|:-:|:--|
 |244|256|u7.7|`w-u-jPr--`|[urboot_promini_1mhz_9600bps_uart0_rxd0_txd1_led+b5_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_1mhz/9600_bps/urboot_promini_1mhz_9600bps_uart0_rxd0_txd1_led+b5_ur_vbl.hex)|
 |248|256|u7.7|`w-u-jpr--`|[urboot_promini_1mhz_9600bps_uart0_rxd0_txd1_led+b5_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_1mhz/9600_bps/urboot_promini_1mhz_9600bps_uart0_rxd0_txd1_led+b5_fr_ur_vbl.hex)|
+|292|384|u7.7|`w-u-jPr-c`|[urboot_promini_1mhz_9600bps_uart0_rxd0_txd1_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_1mhz/9600_bps/urboot_promini_1mhz_9600bps_uart0_rxd0_txd1_led+b5_fr_ce_ur_vbl.hex)|
 |354|384|u7.7|`weu-jPr-c`|[urboot_promini_1mhz_9600bps_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_1mhz/9600_bps/urboot_promini_1mhz_9600bps_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur_vbl.hex)|
+|274|512|u7.7|`w-u-hpr-c`|[urboot_promini_1mhz_9600bps_uart0_rxd0_txd1_led+b5_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_1mhz/9600_bps/urboot_promini_1mhz_9600bps_uart0_rxd0_txd1_led+b5_fr_ce_ur.hex)|
 |336|512|u7.7|`weu-hpr-c`|[urboot_promini_1mhz_9600bps_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_1mhz/9600_bps/urboot_promini_1mhz_9600bps_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur.hex)|
+|388|512|u7.7|`w-s-hpr-c`|[urboot_promini_1mhz_9600bps_uart0_rxd0_txd1_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_1mhz/9600_bps/urboot_promini_1mhz_9600bps_uart0_rxd0_txd1_led+b5_fr_ce.hex)|
 |440|512|u7.7|`wes-hpr-c`|[urboot_promini_1mhz_9600bps_uart0_rxd0_txd1_ee_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_1mhz/9600_bps/urboot_promini_1mhz_9600bps_uart0_rxd0_txd1_ee_led+b5_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end

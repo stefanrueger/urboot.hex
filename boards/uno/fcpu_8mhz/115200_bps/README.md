@@ -1,8 +1,11 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
 |252|256|u7.7|`w-u-jpr--`|[urboot_uno_8mhz_115200bps_swio_rxd0_txd1_led+b5_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/uno/fcpu_8mhz/115200_bps/urboot_uno_8mhz_115200bps_swio_rxd0_txd1_led+b5_ur_vbl.hex)|
+|314|384|u7.7|`w-u-jPr-c`|[urboot_uno_8mhz_115200bps_swio_rxd0_txd1_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/uno/fcpu_8mhz/115200_bps/urboot_uno_8mhz_115200bps_swio_rxd0_txd1_led+b5_fr_ce_ur_vbl.hex)|
 |376|384|u7.7|`weu-jPr-c`|[urboot_uno_8mhz_115200bps_swio_rxd0_txd1_ee_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/uno/fcpu_8mhz/115200_bps/urboot_uno_8mhz_115200bps_swio_rxd0_txd1_ee_led+b5_fr_ce_ur_vbl.hex)|
+|296|512|u7.7|`w-u-hpr-c`|[urboot_uno_8mhz_115200bps_swio_rxd0_txd1_led+b5_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/uno/fcpu_8mhz/115200_bps/urboot_uno_8mhz_115200bps_swio_rxd0_txd1_led+b5_fr_ce_ur.hex)|
 |358|512|u7.7|`weu-hpr-c`|[urboot_uno_8mhz_115200bps_swio_rxd0_txd1_ee_led+b5_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/uno/fcpu_8mhz/115200_bps/urboot_uno_8mhz_115200bps_swio_rxd0_txd1_ee_led+b5_fr_ce_ur.hex)|
+|410|512|u7.7|`w-s-hpr-c`|[urboot_uno_8mhz_115200bps_swio_rxd0_txd1_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/uno/fcpu_8mhz/115200_bps/urboot_uno_8mhz_115200bps_swio_rxd0_txd1_led+b5_fr_ce.hex)|
 |462|512|u7.7|`wes-hpr-c`|[urboot_uno_8mhz_115200bps_swio_rxd0_txd1_ee_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/uno/fcpu_8mhz/115200_bps/urboot_uno_8mhz_115200bps_swio_rxd0_txd1_ee_led+b5_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end

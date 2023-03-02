@@ -1,11 +1,18 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
+|250|256|u7.7|`w-u-jpra-`|[urboot_atmega128_autobaud_uart0_rxe0_txe1_led+b5_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega128/autobaud/urboot_atmega128_autobaud_uart0_rxe0_txe1_led+b5_ur_vbl.hex)|
 |250|256|u7.7|`w-u-jpra-`|[urboot_atmega128_autobaud_uart0_rxe0_txe1_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega128/autobaud/urboot_atmega128_autobaud_uart0_rxe0_txe1_lednop_ur_vbl.hex)|
+|390|512|u7.7|`weu-jPrac`|[urboot_atmega128_autobaud_uart0_rxe0_txe1_ee_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega128/autobaud/urboot_atmega128_autobaud_uart0_rxe0_txe1_ee_led+b5_fr_ce_ur_vbl.hex)|
 |390|512|u7.7|`weu-jPrac`|[urboot_atmega128_autobaud_uart0_rxe0_txe1_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega128/autobaud/urboot_atmega128_autobaud_uart0_rxe0_txe1_ee_lednop_fr_ce_ur_vbl.hex)|
+|404|512|u7.7|`weu-jPrac`|[urboot_atmega128_autobaud_uart1_rxd2_txd3_ee_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega128/autobaud/urboot_atmega128_autobaud_uart1_rxd2_txd3_ee_led+b5_fr_ce_ur_vbl.hex)|
 |404|512|u7.7|`weu-jPrac`|[urboot_atmega128_autobaud_uart1_rxd2_txd3_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega128/autobaud/urboot_atmega128_autobaud_uart1_rxd2_txd3_ee_lednop_fr_ce_ur_vbl.hex)|
+|372|1024|u7.7|`weu-hprac`|[urboot_atmega128_autobaud_uart0_rxe0_txe1_ee_led+b5_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega128/autobaud/urboot_atmega128_autobaud_uart0_rxe0_txe1_ee_led+b5_fr_ce_ur.hex)|
 |372|1024|u7.7|`weu-hprac`|[urboot_atmega128_autobaud_uart0_rxe0_txe1_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega128/autobaud/urboot_atmega128_autobaud_uart0_rxe0_txe1_ee_lednop_fr_ce_ur.hex)|
+|386|1024|u7.7|`weu-hprac`|[urboot_atmega128_autobaud_uart1_rxd2_txd3_ee_led+b5_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega128/autobaud/urboot_atmega128_autobaud_uart1_rxd2_txd3_ee_led+b5_fr_ce_ur.hex)|
 |386|1024|u7.7|`weu-hprac`|[urboot_atmega128_autobaud_uart1_rxd2_txd3_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega128/autobaud/urboot_atmega128_autobaud_uart1_rxd2_txd3_ee_lednop_fr_ce_ur.hex)|
+|478|1024|u7.7|`wes-hprac`|[urboot_atmega128_autobaud_uart0_rxe0_txe1_ee_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega128/autobaud/urboot_atmega128_autobaud_uart0_rxe0_txe1_ee_led+b5_fr_ce.hex)|
 |478|1024|u7.7|`wes-hprac`|[urboot_atmega128_autobaud_uart0_rxe0_txe1_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega128/autobaud/urboot_atmega128_autobaud_uart0_rxe0_txe1_ee_lednop_fr_ce.hex)|
+|492|1024|u7.7|`wes-hprac`|[urboot_atmega128_autobaud_uart1_rxd2_txd3_ee_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega128/autobaud/urboot_atmega128_autobaud_uart1_rxd2_txd3_ee_led+b5_fr_ce.hex)|
 |492|1024|u7.7|`wes-hprac`|[urboot_atmega128_autobaud_uart1_rxd2_txd3_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega128/autobaud/urboot_atmega128_autobaud_uart1_rxd2_txd3_ee_lednop_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
@@ -29,6 +36,7 @@
   + `uart0` UART number, in this case `0`
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
+  + `led-b1` toggles an active-low LED on pin `B1`, `+` designates an active-high LED
   + `lednop` is a template bootloader with `mov rx,rx` nops as placeholders for LED operations
   + `fr` bootloader provides non-essential code for smoother error handing
   + `ce` bootloader provides a chip erase command

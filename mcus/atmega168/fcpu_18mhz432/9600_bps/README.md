@@ -1,9 +1,14 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
+|240|256|u7.7|`w-u-jPr--`|[urboot_atmega168_18mhz432_9600bps_uart0_rxd0_txd1_led+b5_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega168/fcpu_18mhz432/9600_bps/urboot_atmega168_18mhz432_9600bps_uart0_rxd0_txd1_led+b5_ur_vbl.hex)|
 |240|256|u7.7|`w-u-jPr--`|[urboot_atmega168_18mhz432_9600bps_uart0_rxd0_txd1_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega168/fcpu_18mhz432/9600_bps/urboot_atmega168_18mhz432_9600bps_uart0_rxd0_txd1_lednop_ur_vbl.hex)|
+|244|256|u7.7|`w-u-hpr--`|[urboot_atmega168_18mhz432_9600bps_uart0_rxd0_txd1_led+b5_fr_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega168/fcpu_18mhz432/9600_bps/urboot_atmega168_18mhz432_9600bps_uart0_rxd0_txd1_led+b5_fr_ur.hex)|
 |244|256|u7.7|`w-u-hpr--`|[urboot_atmega168_18mhz432_9600bps_uart0_rxd0_txd1_lednop_fr_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega168/fcpu_18mhz432/9600_bps/urboot_atmega168_18mhz432_9600bps_uart0_rxd0_txd1_lednop_fr_ur.hex)|
+|350|384|u7.7|`weu-jPr-c`|[urboot_atmega168_18mhz432_9600bps_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega168/fcpu_18mhz432/9600_bps/urboot_atmega168_18mhz432_9600bps_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur_vbl.hex)|
 |350|384|u7.7|`weu-jPr-c`|[urboot_atmega168_18mhz432_9600bps_uart0_rxd0_txd1_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega168/fcpu_18mhz432/9600_bps/urboot_atmega168_18mhz432_9600bps_uart0_rxd0_txd1_ee_lednop_fr_ce_ur_vbl.hex)|
+|332|512|u7.7|`weu-hpr-c`|[urboot_atmega168_18mhz432_9600bps_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega168/fcpu_18mhz432/9600_bps/urboot_atmega168_18mhz432_9600bps_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur.hex)|
 |332|512|u7.7|`weu-hpr-c`|[urboot_atmega168_18mhz432_9600bps_uart0_rxd0_txd1_ee_lednop_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega168/fcpu_18mhz432/9600_bps/urboot_atmega168_18mhz432_9600bps_uart0_rxd0_txd1_ee_lednop_fr_ce_ur.hex)|
+|436|512|u7.7|`wes-hpr-c`|[urboot_atmega168_18mhz432_9600bps_uart0_rxd0_txd1_ee_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega168/fcpu_18mhz432/9600_bps/urboot_atmega168_18mhz432_9600bps_uart0_rxd0_txd1_ee_led+b5_fr_ce.hex)|
 |436|512|u7.7|`wes-hpr-c`|[urboot_atmega168_18mhz432_9600bps_uart0_rxd0_txd1_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega168/fcpu_18mhz432/9600_bps/urboot_atmega168_18mhz432_9600bps_uart0_rxd0_txd1_ee_lednop_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
@@ -25,6 +30,7 @@
   + `uart0` UART number, in this case `0`
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
+  + `led-b1` toggles an active-low LED on pin `B1`, `+` designates an active-high LED
   + `lednop` is a template bootloader with `mov rx,rx` nops as placeholders for LED operations
   + `fr` bootloader provides non-essential code for smoother error handing
   + `ce` bootloader provides a chip erase command

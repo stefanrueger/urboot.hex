@@ -2,8 +2,11 @@
 |:-:|:-:|:-:|:-:|:--|
 |240|256|u7.7|`w-u-jPr--`|[urboot_promini_16mhz_250000bps_uart0_rxd0_txd1_led+b5_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_16mhz/250000_bps/urboot_promini_16mhz_250000bps_uart0_rxd0_txd1_led+b5_ur_vbl.hex)|
 |244|256|u7.7|`w-u-jpr--`|[urboot_promini_16mhz_250000bps_uart0_rxd0_txd1_led+b5_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_16mhz/250000_bps/urboot_promini_16mhz_250000bps_uart0_rxd0_txd1_led+b5_fr_ur_vbl.hex)|
+|288|384|u7.7|`w-u-jPr-c`|[urboot_promini_16mhz_250000bps_uart0_rxd0_txd1_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_16mhz/250000_bps/urboot_promini_16mhz_250000bps_uart0_rxd0_txd1_led+b5_fr_ce_ur_vbl.hex)|
 |350|384|u7.7|`weu-jPr-c`|[urboot_promini_16mhz_250000bps_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_16mhz/250000_bps/urboot_promini_16mhz_250000bps_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur_vbl.hex)|
+|270|512|u7.7|`w-u-hpr-c`|[urboot_promini_16mhz_250000bps_uart0_rxd0_txd1_led+b5_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_16mhz/250000_bps/urboot_promini_16mhz_250000bps_uart0_rxd0_txd1_led+b5_fr_ce_ur.hex)|
 |332|512|u7.7|`weu-hpr-c`|[urboot_promini_16mhz_250000bps_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_16mhz/250000_bps/urboot_promini_16mhz_250000bps_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur.hex)|
+|384|512|u7.7|`w-s-hpr-c`|[urboot_promini_16mhz_250000bps_uart0_rxd0_txd1_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_16mhz/250000_bps/urboot_promini_16mhz_250000bps_uart0_rxd0_txd1_led+b5_fr_ce.hex)|
 |436|512|u7.7|`wes-hpr-c`|[urboot_promini_16mhz_250000bps_uart0_rxd0_txd1_ee_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_16mhz/250000_bps/urboot_promini_16mhz_250000bps_uart0_rxd0_txd1_ee_led+b5_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
