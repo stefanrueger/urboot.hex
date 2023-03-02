@@ -20,23 +20,23 @@ and the ATmega2560 [Mega R3
 board](https://github.com/stefanrueger/urboot.hex/tree/main/boards/mega-r3/autobaud/README.md). The `boards`
 directory also contains fixed baud rate bootloaders, eg, some 16 MHz and 115,200 baud bootloaders for the ATtiny167 based [Digispark
 Pro](https://github.com/stefanrueger/urboot.hex/tree/main/boards/digispark-pro/fcpu_16mhz/115200_bps/README.md),
-the [ATtiny85 based
-Disgispark](https://github.com/stefanrueger/urboot.hex/tree/main/boards/digispark/fcpu_16mhz/115200_bps/README.md)
-and the [ATtiny84 based
-Luminet](https://github.com/stefanrueger/urboot.hex/tree/main/boards/luminet/fcpu_16mhz/115200_bps/README.md).
+the ATtiny85 based
+[Disgispark](https://github.com/stefanrueger/urboot.hex/tree/main/boards/digispark/fcpu_16mhz/115200_bps/README.md)
+and the ATtiny84 based
+[Luminet](https://github.com/stefanrueger/urboot.hex/tree/main/boards/luminet/fcpu_16mhz/115200_bps/README.md).
 
 Finally, there are pre-compiled urboot bootloaders for popular Arduino cores in the
 [`cores`](https://github.com/stefanrueger/urboot.hex/tree/main/cores) directory of the
 [urboot.hex](https://github.com/stefanrueger/urboot.hex) repository. The pre-compiled .hex
 bootloaders of the `boards` and `cores` directories are copies of selected relevant bootloaders
-in the `mcus` tree, typically engaging the correct ``activity'' LED for visual feedback while the
+in the `mcus` tree, typically engaging the correct activity LED for visual feedback while the
 bootloader is active. With these bootloaders the board LED comes on after an external reset of
 the board at the beginning of each character read `getc()` routine and is switched off at the end
-of each successful `getc()`. When the bootloader times out at the end of its engagement the LED
-is switched off (unless, of course, it is used thereafter in the uploaded application). There is
-no need to select a bootloader with [blinkenlights](https://en.wikipedia.org/wiki/Blinkenlights):
-a silent bootloader from the corresponding `mcus` tree which has either `_lednop` or no `_led` 
-in the filename would equally be suitable for the board/core in consideration.
+of each `getc()`. When the bootloader times out at the end of its engagement the LED is switched
+off (unless, of course, it is used thereafter in the uploaded application). There is no need to
+select a bootloader with [blinkenlights](https://en.wikipedia.org/wiki/Blinkenlights): a silent
+bootloader from the corresponding `mcus` tree which has either `_lednop` or no `_led`  in the
+filename would equally be suitable for the board/core in consideration.
 
 
 The `mcus` tree actually contains 234,168 .hex files, but these are somewhat redundant because a
