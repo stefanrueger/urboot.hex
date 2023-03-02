@@ -1,11 +1,8 @@
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
 |250|256|u7.7|`w-u-jpr--`|[urboot_promini_4mhz_115200bps_swio_rxd0_txd1_led+b5_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_4mhz/115200_bps/urboot_promini_4mhz_115200bps_swio_rxd0_txd1_led+b5_ur_vbl.hex)|
-|312|384|u7.7|`w-u-jPr-c`|[urboot_promini_4mhz_115200bps_swio_rxd0_txd1_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_4mhz/115200_bps/urboot_promini_4mhz_115200bps_swio_rxd0_txd1_led+b5_fr_ce_ur_vbl.hex)|
 |374|384|u7.7|`weu-jPr-c`|[urboot_promini_4mhz_115200bps_swio_rxd0_txd1_ee_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_4mhz/115200_bps/urboot_promini_4mhz_115200bps_swio_rxd0_txd1_ee_led+b5_fr_ce_ur_vbl.hex)|
-|294|512|u7.7|`w-u-hpr-c`|[urboot_promini_4mhz_115200bps_swio_rxd0_txd1_led+b5_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_4mhz/115200_bps/urboot_promini_4mhz_115200bps_swio_rxd0_txd1_led+b5_fr_ce_ur.hex)|
 |356|512|u7.7|`weu-hpr-c`|[urboot_promini_4mhz_115200bps_swio_rxd0_txd1_ee_led+b5_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_4mhz/115200_bps/urboot_promini_4mhz_115200bps_swio_rxd0_txd1_ee_led+b5_fr_ce_ur.hex)|
-|408|512|u7.7|`w-s-hpr-c`|[urboot_promini_4mhz_115200bps_swio_rxd0_txd1_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_4mhz/115200_bps/urboot_promini_4mhz_115200bps_swio_rxd0_txd1_led+b5_fr_ce.hex)|
 |460|512|u7.7|`wes-hpr-c`|[urboot_promini_4mhz_115200bps_swio_rxd0_txd1_ee_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/promini/fcpu_4mhz/115200_bps/urboot_promini_4mhz_115200bps_swio_rxd0_txd1_ee_led+b5_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
