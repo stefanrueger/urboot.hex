@@ -1,12 +1,14 @@
+Note that autobaud bootloaders normally can only detect host baud rates = f/8, f/16, ... f/2048 +/- 1.5%, where f=F<sub>CPU</sub>.Internal oscillators have a high unknown deviation: use baud rates under f/260 for these.
+
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|246|256|u7.7|`w-u-jpra-`|[urboot_timeduino_autobaud_uart0_rxd0_txd1_led-b1_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/autobaud/urboot_timeduino_autobaud_uart0_rxd0_txd1_led-b1_ur_vbl.hex)|
-|370|384|u7.7|`weu-jPrac`|[urboot_timeduino_autobaud_uart0_rxd0_txd1_ee_led-b1_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/autobaud/urboot_timeduino_autobaud_uart0_rxd0_txd1_ee_led-b1_fr_ce_ur_vbl.hex)|
-|352|512|u7.7|`weu-hprac`|[urboot_timeduino_autobaud_uart0_rxd0_txd1_ee_led-b1_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/autobaud/urboot_timeduino_autobaud_uart0_rxd0_txd1_ee_led-b1_fr_ce_ur.hex)|
-|456|512|u7.7|`wes-hprac`|[urboot_timeduino_autobaud_uart0_rxd0_txd1_ee_led-b1_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/autobaud/urboot_timeduino_autobaud_uart0_rxd0_txd1_ee_led-b1_fr_ce.hex)|
-|496|512|u7.7|`weudhprac`|[urboot_timeduino_autobaud_uart0_rxd0_txd1_ee_led-b1_csb0_dual_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/autobaud/urboot_timeduino_autobaud_uart0_rxd0_txd1_ee_led-b1_csb0_dual_fr_ce_ur.hex)|
-|504|512|u7.7|`w-sdhpra-`|[urboot_timeduino_autobaud_uart0_rxd0_txd1_led-b1_csb0_dual_fr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/autobaud/urboot_timeduino_autobaud_uart0_rxd0_txd1_led-b1_csb0_dual_fr.hex)|
-|600|1024|u7.7|`wesdhprac`|[urboot_timeduino_autobaud_uart0_rxd0_txd1_ee_led-b1_csb0_dual_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/autobaud/urboot_timeduino_autobaud_uart0_rxd0_txd1_ee_led-b1_csb0_dual_fr_ce.hex)|
+|244|256|u7.7|`w-u-jpra-`|[urboot+timeduino+autobaud_uart0_rxd0_txd1_led-b1.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/autobaud/urboot+timeduino+autobaud_uart0_rxd0_txd1_led-b1.hex)|
+|368|384|u7.7|`weu-jPrac`|[urboot+timeduino+autobaud_uart0_rxd0_txd1_ee_led-b1_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/autobaud/urboot+timeduino+autobaud_uart0_rxd0_txd1_ee_led-b1_fr_ce.hex)|
+|350|512|u7.7|`weu-hprac`|[urboot+timeduino+autobaud_uart0_rxd0_txd1_ee_led-b1_fr_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/autobaud/urboot+timeduino+autobaud_uart0_rxd0_txd1_ee_led-b1_fr_ce_hw.hex)|
+|454|512|u7.7|`wes-hprac`|[urboot+timeduino+autobaud_uart0_rxd0_txd1_ee_led-b1_fr_ce_stk500_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/autobaud/urboot+timeduino+autobaud_uart0_rxd0_txd1_ee_led-b1_fr_ce_stk500_hw.hex)|
+|494|512|u7.7|`weudhprac`|[urboot+timeduino+autobaud_uart0_rxd0_txd1_ee_led-b1_csb0_dual_fr_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/autobaud/urboot+timeduino+autobaud_uart0_rxd0_txd1_ee_led-b1_csb0_dual_fr_ce_hw.hex)|
+|502|512|u7.7|`w-sdhpra-`|[urboot+timeduino+autobaud_uart0_rxd0_txd1_led-b1_csb0_dual_fr_stk500_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/autobaud/urboot+timeduino+autobaud_uart0_rxd0_txd1_led-b1_csb0_dual_fr_stk500_hw.hex)|
+|598|1024|u7.7|`wesdhprac`|[urboot+timeduino+autobaud_uart0_rxd0_txd1_ee_led-b1_csb0_dual_fr_ce_stk500_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/timeduino/autobaud/urboot+timeduino+autobaud_uart0_rxd0_txd1_ee_led-b1_csb0_dual_fr_ce_stk500_hw.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -25,16 +27,15 @@
   + `a` autobaud detection (f_cpu/8n using discrete divisors, n = 1, 2, ..., 256)
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present
-- **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
-  + `autobaud` tries to match host baud rate; can be f/8, f/16, f/24, ..., f/2048 (f=F<sub>CPU</sub>)
+- **Hex file:** typically MCU name followed by
+  + `autobaud` detects host baud rate f/8, f/16, f/24, ..., f/2048 (f=F<sub>CPU</sub>)
   + `uart0` UART number, in this case `0`
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `led-b1` toggles an active-low LED on pin `B1`, `+` designates an active-high LED
   + `csb0` for dual boot uses, in this example, pin B0 as chip select of external SPI flash memory
-  + `dual` boot: serial and from external SPI flash memory
-  + `fr` bootloader provides non-essential code for smoother error handing
+  + `dual` boot both from external SPI flash memory and from serial interface
+  + `fr` bootloader provides non-essential code ("frills") for smoother error handling
   + `ce` bootloader provides a chip erase command
-  + `ur` uses urprotocol and requires `avrdude -c urclock` for programming
-  + `d` dual boot
-  + `vbl` vector bootloader: set fuses to jump to reset, not the HW boot section
+  + `stk500` uses deprecated STK500v1 protocol to communicate with bootloader
+  + `hw` hardware supported bootloader: set fuses to jump to the HW boot section, not to reset vector

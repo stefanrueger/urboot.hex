@@ -1,11 +1,13 @@
+Note that autobaud bootloaders normally can only detect host baud rates = f/8, f/16, ... f/2048 +/- 1.5%, where f=F<sub>CPU</sub>.Internal oscillators have a high unknown deviation: use baud rates under f/260 for these.
+
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|254|256|u7.7|`w-u-hpra-`|[urboot_atmega88pb_autobaud_uart0_rxd0_txd1_led+b5_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/autobaud/urboot_atmega88pb_autobaud_uart0_rxd0_txd1_led+b5_ur.hex)|
-|316|320|u7.7|`w-u-jPrac`|[urboot_atmega88pb_autobaud_uart0_rxd0_txd1_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/autobaud/urboot_atmega88pb_autobaud_uart0_rxd0_txd1_led+b5_fr_ce_ur_vbl.hex)|
-|320|320|u7.7|`weu-jpra-`|[urboot_atmega88pb_autobaud_uart0_rxd0_txd1_ee_led+b5_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/autobaud/urboot_atmega88pb_autobaud_uart0_rxd0_txd1_ee_led+b5_ur_vbl.hex)|
-|378|384|u7.7|`weu-jPrac`|[urboot_atmega88pb_autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/autobaud/urboot_atmega88pb_autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur_vbl.hex)|
-|360|512|u7.7|`weu-hprac`|[urboot_atmega88pb_autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/autobaud/urboot_atmega88pb_autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce_ur.hex)|
-|464|512|u7.7|`wes-hprac`|[urboot_atmega88pb_autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/autobaud/urboot_atmega88pb_autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce.hex)|
+|252|256|u7.7|`w-u-hpra-`|[urboot+atmega88pb+autobaud_uart0_rxd0_txd1_led+b5_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/autobaud/urboot+atmega88pb+autobaud_uart0_rxd0_txd1_led+b5_hw.hex)|
+|314|320|u7.7|`w-u-jPrac`|[urboot+atmega88pb+autobaud_uart0_rxd0_txd1_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/autobaud/urboot+atmega88pb+autobaud_uart0_rxd0_txd1_led+b5_fr_ce.hex)|
+|318|320|u7.7|`weu-jpra-`|[urboot+atmega88pb+autobaud_uart0_rxd0_txd1_ee_led+b5.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/autobaud/urboot+atmega88pb+autobaud_uart0_rxd0_txd1_ee_led+b5.hex)|
+|376|384|u7.7|`weu-jPrac`|[urboot+atmega88pb+autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/autobaud/urboot+atmega88pb+autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce.hex)|
+|358|512|u7.7|`weu-hprac`|[urboot+atmega88pb+autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/autobaud/urboot+atmega88pb+autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce_hw.hex)|
+|462|512|u7.7|`wes-hprac`|[urboot+atmega88pb+autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce_stk500_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/autobaud/urboot+atmega88pb+autobaud_uart0_rxd0_txd1_ee_led+b5_fr_ce_stk500_hw.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -23,13 +25,13 @@
   + `a` autobaud detection (f_cpu/8n using discrete divisors, n = 1, 2, ..., 256)
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present
-- **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
-  + `autobaud` tries to match host baud rate; can be f/8, f/16, f/24, ..., f/2048 (f=F<sub>CPU</sub>)
+- **Hex file:** typically MCU name followed by
+  + `autobaud` detects host baud rate f/8, f/16, f/24, ..., f/2048 (f=F<sub>CPU</sub>)
   + `uart0` UART number, in this case `0`
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `led-b1` toggles an active-low LED on pin `B1`, `+` designates an active-high LED
-  + `fr` bootloader provides non-essential code for smoother error handing
+  + `fr` bootloader provides non-essential code ("frills") for smoother error handling
   + `ce` bootloader provides a chip erase command
-  + `ur` uses urprotocol and requires `avrdude -c urclock` for programming
-  + `vbl` vector bootloader: set fuses to jump to reset, not the HW boot section
+  + `stk500` uses deprecated STK500v1 protocol to communicate with bootloader
+  + `hw` hardware supported bootloader: set fuses to jump to the HW boot section, not to reset vector

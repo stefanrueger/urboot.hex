@@ -1,25 +1,27 @@
+Note that autobaud bootloaders normally can only detect host baud rates = f/8, f/16, ... f/2048 +/- 1.5%, where f=F<sub>CPU</sub>.Internal oscillators have a high unknown deviation: use baud rates under f/260 for these.
+
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|256|256|u7.7|`w-u-jpra-`|[urboot_moteinomega_autobaud_uart0_rxd0_txd1_led+d7_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_uart0_rxd0_txd1_led+d7_ur_vbl.hex)|
-|256|256|u7.7|`w-u-jpra-`|[urboot_moteinomega_autobaud_uart1_rxd2_txd3_led+d7_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_uart1_rxd2_txd3_led+d7_ur_vbl.hex)|
-|398|512|u7.7|`weu-jPrac`|[urboot_moteinomega_autobaud_uart0_rxd0_txd1_ee_led+d7_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_uart0_rxd0_txd1_ee_led+d7_fr_ce_ur_vbl.hex)|
-|398|512|u7.7|`weu-jPrac`|[urboot_moteinomega_autobaud_uart1_rxd2_txd3_ee_led+d7_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_uart1_rxd2_txd3_ee_led+d7_fr_ce_ur_vbl.hex)|
-|506|512|u7.7|`w-udjPrac`|[urboot_moteinomega_autobaud_uart0_rxd0_txd1_led+d7_csc7_dual_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_uart0_rxd0_txd1_led+d7_csc7_dual_fr_ce_ur_vbl.hex)|
-|506|512|u7.7|`w-udjPrac`|[urboot_moteinomega_autobaud_uart1_rxd2_txd3_led+d7_csc7_dual_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_uart1_rxd2_txd3_led+d7_csc7_dual_fr_ce_ur_vbl.hex)|
-|506|512|u7.7|`weudjPra-`|[urboot_moteinomega_autobaud_uart0_rxd0_txd1_ee_led+d7_csc7_dual_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_uart0_rxd0_txd1_ee_led+d7_csc7_dual_ur_vbl.hex)|
-|506|512|u7.7|`weudjPra-`|[urboot_moteinomega_autobaud_uart1_rxd2_txd3_ee_led+d7_csc7_dual_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_uart1_rxd2_txd3_ee_led+d7_csc7_dual_ur_vbl.hex)|
-|506|512|u7.7|`weudjpra-`|[urboot_moteinomega_autobaud_uart0_rxd0_txd1_ee_led+d7_csc7_dual_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_uart0_rxd0_txd1_ee_led+d7_csc7_dual_fr_ur_vbl.hex)|
-|506|512|u7.7|`weudjpra-`|[urboot_moteinomega_autobaud_uart1_rxd2_txd3_ee_led+d7_csc7_dual_fr_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_uart1_rxd2_txd3_ee_led+d7_csc7_dual_fr_ur_vbl.hex)|
-|568|768|u7.7|`weudjPrac`|[urboot_moteinomega_autobaud_uart0_rxd0_txd1_ee_led+d7_csc7_dual_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_uart0_rxd0_txd1_ee_led+d7_csc7_dual_fr_ce_ur_vbl.hex)|
-|568|768|u7.7|`weudjPrac`|[urboot_moteinomega_autobaud_uart1_rxd2_txd3_ee_led+d7_csc7_dual_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_uart1_rxd2_txd3_ee_led+d7_csc7_dual_fr_ce_ur_vbl.hex)|
-|380|1024|u7.7|`weu-hprac`|[urboot_moteinomega_autobaud_uart0_rxd0_txd1_ee_led+d7_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_uart0_rxd0_txd1_ee_led+d7_fr_ce_ur.hex)|
-|380|1024|u7.7|`weu-hprac`|[urboot_moteinomega_autobaud_uart1_rxd2_txd3_ee_led+d7_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_uart1_rxd2_txd3_ee_led+d7_fr_ce_ur.hex)|
-|486|1024|u7.7|`wes-hprac`|[urboot_moteinomega_autobaud_uart0_rxd0_txd1_ee_led+d7_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_uart0_rxd0_txd1_ee_led+d7_fr_ce.hex)|
-|486|1024|u7.7|`wes-hprac`|[urboot_moteinomega_autobaud_uart1_rxd2_txd3_ee_led+d7_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_uart1_rxd2_txd3_ee_led+d7_fr_ce.hex)|
-|550|1024|u7.7|`weudhprac`|[urboot_moteinomega_autobaud_uart0_rxd0_txd1_ee_led+d7_csc7_dual_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_uart0_rxd0_txd1_ee_led+d7_csc7_dual_fr_ce_ur.hex)|
-|550|1024|u7.7|`weudhprac`|[urboot_moteinomega_autobaud_uart1_rxd2_txd3_ee_led+d7_csc7_dual_fr_ce_ur.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_uart1_rxd2_txd3_ee_led+d7_csc7_dual_fr_ce_ur.hex)|
-|656|1024|u7.7|`wesdhprac`|[urboot_moteinomega_autobaud_uart0_rxd0_txd1_ee_led+d7_csc7_dual_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_uart0_rxd0_txd1_ee_led+d7_csc7_dual_fr_ce.hex)|
-|656|1024|u7.7|`wesdhprac`|[urboot_moteinomega_autobaud_uart1_rxd2_txd3_ee_led+d7_csc7_dual_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot_moteinomega_autobaud_uart1_rxd2_txd3_ee_led+d7_csc7_dual_fr_ce.hex)|
+|254|256|u7.7|`w-u-jpra-`|[urboot+moteinomega+autobaud_uart0_rxd0_txd1_led+d7.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot+moteinomega+autobaud_uart0_rxd0_txd1_led+d7.hex)|
+|254|256|u7.7|`w-u-jpra-`|[urboot+moteinomega+autobaud_uart1_rxd2_txd3_led+d7.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot+moteinomega+autobaud_uart1_rxd2_txd3_led+d7.hex)|
+|396|512|u7.7|`weu-jPrac`|[urboot+moteinomega+autobaud_uart0_rxd0_txd1_ee_led+d7_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot+moteinomega+autobaud_uart0_rxd0_txd1_ee_led+d7_fr_ce.hex)|
+|396|512|u7.7|`weu-jPrac`|[urboot+moteinomega+autobaud_uart1_rxd2_txd3_ee_led+d7_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot+moteinomega+autobaud_uart1_rxd2_txd3_ee_led+d7_fr_ce.hex)|
+|504|512|u7.7|`w-udjPrac`|[urboot+moteinomega+autobaud_uart0_rxd0_txd1_led+d7_csc7_dual_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot+moteinomega+autobaud_uart0_rxd0_txd1_led+d7_csc7_dual_fr_ce.hex)|
+|504|512|u7.7|`w-udjPrac`|[urboot+moteinomega+autobaud_uart1_rxd2_txd3_led+d7_csc7_dual_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot+moteinomega+autobaud_uart1_rxd2_txd3_led+d7_csc7_dual_fr_ce.hex)|
+|504|512|u7.7|`weudjPra-`|[urboot+moteinomega+autobaud_uart0_rxd0_txd1_ee_led+d7_csc7_dual.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot+moteinomega+autobaud_uart0_rxd0_txd1_ee_led+d7_csc7_dual.hex)|
+|504|512|u7.7|`weudjPra-`|[urboot+moteinomega+autobaud_uart1_rxd2_txd3_ee_led+d7_csc7_dual.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot+moteinomega+autobaud_uart1_rxd2_txd3_ee_led+d7_csc7_dual.hex)|
+|504|512|u7.7|`weudjpra-`|[urboot+moteinomega+autobaud_uart0_rxd0_txd1_ee_led+d7_csc7_dual_fr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot+moteinomega+autobaud_uart0_rxd0_txd1_ee_led+d7_csc7_dual_fr.hex)|
+|504|512|u7.7|`weudjpra-`|[urboot+moteinomega+autobaud_uart1_rxd2_txd3_ee_led+d7_csc7_dual_fr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot+moteinomega+autobaud_uart1_rxd2_txd3_ee_led+d7_csc7_dual_fr.hex)|
+|566|768|u7.7|`weudjPrac`|[urboot+moteinomega+autobaud_uart0_rxd0_txd1_ee_led+d7_csc7_dual_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot+moteinomega+autobaud_uart0_rxd0_txd1_ee_led+d7_csc7_dual_fr_ce.hex)|
+|566|768|u7.7|`weudjPrac`|[urboot+moteinomega+autobaud_uart1_rxd2_txd3_ee_led+d7_csc7_dual_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot+moteinomega+autobaud_uart1_rxd2_txd3_ee_led+d7_csc7_dual_fr_ce.hex)|
+|378|1024|u7.7|`weu-hprac`|[urboot+moteinomega+autobaud_uart0_rxd0_txd1_ee_led+d7_fr_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot+moteinomega+autobaud_uart0_rxd0_txd1_ee_led+d7_fr_ce_hw.hex)|
+|378|1024|u7.7|`weu-hprac`|[urboot+moteinomega+autobaud_uart1_rxd2_txd3_ee_led+d7_fr_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot+moteinomega+autobaud_uart1_rxd2_txd3_ee_led+d7_fr_ce_hw.hex)|
+|484|1024|u7.7|`wes-hprac`|[urboot+moteinomega+autobaud_uart0_rxd0_txd1_ee_led+d7_fr_ce_stk500_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot+moteinomega+autobaud_uart0_rxd0_txd1_ee_led+d7_fr_ce_stk500_hw.hex)|
+|484|1024|u7.7|`wes-hprac`|[urboot+moteinomega+autobaud_uart1_rxd2_txd3_ee_led+d7_fr_ce_stk500_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot+moteinomega+autobaud_uart1_rxd2_txd3_ee_led+d7_fr_ce_stk500_hw.hex)|
+|548|1024|u7.7|`weudhprac`|[urboot+moteinomega+autobaud_uart0_rxd0_txd1_ee_led+d7_csc7_dual_fr_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot+moteinomega+autobaud_uart0_rxd0_txd1_ee_led+d7_csc7_dual_fr_ce_hw.hex)|
+|548|1024|u7.7|`weudhprac`|[urboot+moteinomega+autobaud_uart1_rxd2_txd3_ee_led+d7_csc7_dual_fr_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot+moteinomega+autobaud_uart1_rxd2_txd3_ee_led+d7_csc7_dual_fr_ce_hw.hex)|
+|654|1024|u7.7|`wesdhprac`|[urboot+moteinomega+autobaud_uart0_rxd0_txd1_ee_led+d7_csc7_dual_fr_ce_stk500_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot+moteinomega+autobaud_uart0_rxd0_txd1_ee_led+d7_csc7_dual_fr_ce_stk500_hw.hex)|
+|654|1024|u7.7|`wesdhprac`|[urboot+moteinomega+autobaud_uart1_rxd2_txd3_ee_led+d7_csc7_dual_fr_ce_stk500_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/moteinomega/autobaud/urboot+moteinomega+autobaud_uart1_rxd2_txd3_ee_led+d7_csc7_dual_fr_ce_stk500_hw.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -38,16 +40,15 @@
   + `a` autobaud detection (f_cpu/8n using discrete divisors, n = 1, 2, ..., 256)
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present
-- **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
-  + `autobaud` tries to match host baud rate; can be f/8, f/16, f/24, ..., f/2048 (f=F<sub>CPU</sub>)
+- **Hex file:** typically MCU name followed by
+  + `autobaud` detects host baud rate f/8, f/16, f/24, ..., f/2048 (f=F<sub>CPU</sub>)
   + `uart0` UART number, in this case `0`
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `led-b1` toggles an active-low LED on pin `B1`, `+` designates an active-high LED
   + `csb0` for dual boot uses, in this example, pin B0 as chip select of external SPI flash memory
-  + `dual` boot: serial and from external SPI flash memory
-  + `fr` bootloader provides non-essential code for smoother error handing
+  + `dual` boot both from external SPI flash memory and from serial interface
+  + `fr` bootloader provides non-essential code ("frills") for smoother error handling
   + `ce` bootloader provides a chip erase command
-  + `ur` uses urprotocol and requires `avrdude -c urclock` for programming
-  + `d` dual boot
-  + `vbl` vector bootloader: set fuses to jump to reset, not the HW boot section
+  + `stk500` uses deprecated STK500v1 protocol to communicate with bootloader
+  + `hw` hardware supported bootloader: set fuses to jump to the HW boot section, not to reset vector

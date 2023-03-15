@@ -1,7 +1,9 @@
+Note that autobaud bootloaders normally can only detect host baud rates = f/8, f/16, ... f/2048 +/- 1.5%, where f=F<sub>CPU</sub>.Internal oscillators have a high unknown deviation: use baud rates under f/260 for these.
+
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|256|256|u7.7|`w-u-jPra-`|[urboot_ata6617c_autobaud_uart0_rxa0_txa1_lednop_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6617c/autobaud/urboot_ata6617c_autobaud_uart0_rxa0_txa1_lednop_ur_vbl.hex)|
-|366|384|u7.7|`weu-jPrac`|[urboot_ata6617c_autobaud_uart0_rxa0_txa1_ee_lednop_fr_ce_ur_vbl.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6617c/autobaud/urboot_ata6617c_autobaud_uart0_rxa0_txa1_ee_lednop_fr_ce_ur_vbl.hex)|
+|254|256|u7.7|`w-u-jPra-`|[urboot+ata6617c+autobaud_uart0_rxa0_txa1_lednop.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6617c/autobaud/urboot+ata6617c+autobaud_uart0_rxa0_txa1_lednop.hex)|
+|364|384|u7.7|`weu-jPrac`|[urboot+ata6617c+autobaud_uart0_rxa0_txa1_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6617c/autobaud/urboot+ata6617c+autobaud_uart0_rxa0_txa1_ee_lednop_fr_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -16,13 +18,11 @@
   + `a` autobaud detection (f_cpu/8n using discrete divisors, n = 1, 2, ..., 256)
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present
-- **Hex file:** typically MCU name, oscillator frequency (16 MHz default) and baud rate (115200 default) followed by
-  + `autobaud` tries to match host baud rate; can be f/8, f/16, f/24, ..., f/2048 (f=F<sub>CPU</sub>)
+- **Hex file:** typically MCU name followed by
+  + `autobaud` detects host baud rate f/8, f/16, f/24, ..., f/2048 (f=F<sub>CPU</sub>)
   + `uart0` UART number, in this case `0`
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
   + `ee` bootloader supports EEPROM read/write
   + `lednop` is a template bootloader with `mov rx,rx` nops as placeholders for LED operations
-  + `fr` bootloader provides non-essential code for smoother error handing
+  + `fr` bootloader provides non-essential code ("frills") for smoother error handling
   + `ce` bootloader provides a chip erase command
-  + `ur` uses urprotocol and requires `avrdude -c urclock` for programming
-  + `vbl` vector bootloader: set fuses to jump to reset, not the HW boot section
