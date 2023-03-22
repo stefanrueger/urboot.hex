@@ -2,15 +2,13 @@ Note that autobaud bootloaders normally can only detect host baud rates = f/8, f
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|244|256|u7.7|`w-u-jpra-`|[urboot+anarduino+autobaud_uart0_rxd0_txd1_led+b1.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot+anarduino+autobaud_uart0_rxd0_txd1_led+b1.hex)|
-|368|384|u7.7|`weu-jPrac`|[urboot+anarduino+autobaud_uart0_rxd0_txd1_ee_led+b1_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot+anarduino+autobaud_uart0_rxd0_txd1_ee_led+b1_fr_ce.hex)|
-|350|512|u7.7|`weu-hprac`|[urboot+anarduino+autobaud_uart0_rxd0_txd1_ee_led+b1_fr_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot+anarduino+autobaud_uart0_rxd0_txd1_ee_led+b1_fr_ce_hw.hex)|
-|450|512|u7.7|`w-udjPrac`|[urboot+anarduino+autobaud_uart0_rxd0_txd1_led+b1_csd5_dual_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot+anarduino+autobaud_uart0_rxd0_txd1_led+b1_csd5_dual_fr_ce.hex)|
-|454|512|u7.7|`wes-hprac`|[urboot+anarduino+autobaud_uart0_rxd0_txd1_ee_led+b1_fr_ce_stk500_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot+anarduino+autobaud_uart0_rxd0_txd1_ee_led+b1_fr_ce_stk500_hw.hex)|
-|490|512|u7.7|`weudjPra-`|[urboot+anarduino+autobaud_uart0_rxd0_txd1_ee_led+b1_csd5_dual_fr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot+anarduino+autobaud_uart0_rxd0_txd1_ee_led+b1_csd5_dual_fr.hex)|
-|502|512|u7.7|`weudhprac`|[urboot+anarduino+autobaud_uart0_rxd0_txd1_ee_led+b1_csd5_dual_fr_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot+anarduino+autobaud_uart0_rxd0_txd1_ee_led+b1_csd5_dual_fr_ce_hw.hex)|
-|510|512|u7.7|`w-sdhpra-`|[urboot+anarduino+autobaud_uart0_rxd0_txd1_led+b1_csd5_dual_fr_stk500_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot+anarduino+autobaud_uart0_rxd0_txd1_led+b1_csd5_dual_fr_stk500_hw.hex)|
-|606|1024|u7.7|`wesdhprac`|[urboot+anarduino+autobaud_uart0_rxd0_txd1_ee_led+b1_csd5_dual_fr_ce_stk500_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot+anarduino+autobaud_uart0_rxd0_txd1_ee_led+b1_csd5_dual_fr_ce_stk500_hw.hex)|
+|244|256|u7.7|`w-u-jpra-`|[urboot_anarduino_autobaud_uart0_rxd0_txd1_led+b1.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_uart0_rxd0_txd1_led+b1.hex)|
+|368|384|u7.7|`weu-jPrac`|[urboot_anarduino_autobaud_uart0_rxd0_txd1_ee_led+b1_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_uart0_rxd0_txd1_ee_led+b1_fr_ce.hex)|
+|350|512|u7.7|`weu-hprac`|[urboot_anarduino_autobaud_uart0_rxd0_txd1_ee_led+b1_fr_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_uart0_rxd0_txd1_ee_led+b1_fr_ce_hw.hex)|
+|452|512|u7.7|`w-udjPrac`|[urboot_anarduino_autobaud_uart0_rxd0_txd1_led+b1_csd5_dual_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_uart0_rxd0_txd1_led+b1_csd5_dual_fr_ce.hex)|
+|454|512|u7.7|`wes-hprac`|[urboot_anarduino_autobaud_uart0_rxd0_txd1_ee_led+b1_fr_ce_stk500_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_uart0_rxd0_txd1_ee_led+b1_fr_ce_stk500_hw.hex)|
+|492|512|u7.7|`weudjPra-`|[urboot_anarduino_autobaud_uart0_rxd0_txd1_ee_led+b1_csd5_dual_fr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_uart0_rxd0_txd1_ee_led+b1_csd5_dual_fr.hex)|
+|504|512|u7.7|`weudhprac`|[urboot_anarduino_autobaud_uart0_rxd0_txd1_ee_led+b1_csd5_dual_fr_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/anarduino/autobaud/urboot_anarduino_autobaud_uart0_rxd0_txd1_ee_led+b1_csd5_dual_fr_ce_hw.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -29,7 +27,7 @@ Note that autobaud bootloaders normally can only detect host baud rates = f/8, f
   + `a` autobaud detection (f_cpu/8n using discrete divisors, n = 1, 2, ..., 256)
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present
-- **Hex file:** typically MCU name followed by
+- **Hex file:** typically MCU name followed by, eg, F<sub>CPU</sub>, baud rate, I/O channels etc configuration
   + `autobaud` detects host baud rate f/8, f/16, f/24, ..., f/2048 (f=F<sub>CPU</sub>)
   + `uart0` UART number, in this case `0`
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`

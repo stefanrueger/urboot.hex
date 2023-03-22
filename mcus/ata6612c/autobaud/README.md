@@ -2,14 +2,14 @@ Note that autobaud bootloaders normally can only detect host baud rates = f/8, f
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|244|256|u7.7|`w-u-hpra-`|[urboot+ata6612c+autobaud_uart0_rxd0_txd1_lednop_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/autobaud/urboot+ata6612c+autobaud_uart0_rxd0_txd1_lednop_hw.hex)|
-|252|256|u7.7|`w-u-jPra-`|[urboot+ata6612c+autobaud_uart0_rxd0_txd1.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/autobaud/urboot+ata6612c+autobaud_uart0_rxd0_txd1.hex)|
-|306|320|u7.7|`w-u-jPrac`|[urboot+ata6612c+autobaud_uart0_rxd0_txd1_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/autobaud/urboot+ata6612c+autobaud_uart0_rxd0_txd1_lednop_fr_ce.hex)|
-|310|320|u7.7|`weu-jpra-`|[urboot+ata6612c+autobaud_uart0_rxd0_txd1_ee_lednop.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/autobaud/urboot+ata6612c+autobaud_uart0_rxd0_txd1_ee_lednop.hex)|
-|318|320|u7.7|`weu-jPra-`|[urboot+ata6612c+autobaud_uart0_rxd0_txd1_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/autobaud/urboot+ata6612c+autobaud_uart0_rxd0_txd1_ee.hex)|
-|368|384|u7.7|`weu-jPrac`|[urboot+ata6612c+autobaud_uart0_rxd0_txd1_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/autobaud/urboot+ata6612c+autobaud_uart0_rxd0_txd1_ee_lednop_fr_ce.hex)|
-|350|512|u7.7|`weu-hprac`|[urboot+ata6612c+autobaud_uart0_rxd0_txd1_ee_lednop_fr_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/autobaud/urboot+ata6612c+autobaud_uart0_rxd0_txd1_ee_lednop_fr_ce_hw.hex)|
-|454|512|u7.7|`wes-hprac`|[urboot+ata6612c+autobaud_uart0_rxd0_txd1_ee_lednop_fr_ce_stk500_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/autobaud/urboot+ata6612c+autobaud_uart0_rxd0_txd1_ee_lednop_fr_ce_stk500_hw.hex)|
+|244|256|u7.7|`w-u-hpra-`|[urboot_ata6612c_autobaud_uart0_rxd0_txd1_lednop_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/autobaud/urboot_ata6612c_autobaud_uart0_rxd0_txd1_lednop_hw.hex)|
+|252|256|u7.7|`w-u-jPra-`|[urboot_ata6612c_autobaud_uart0_rxd0_txd1.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/autobaud/urboot_ata6612c_autobaud_uart0_rxd0_txd1.hex)|
+|306|320|u7.7|`w-u-jPrac`|[urboot_ata6612c_autobaud_uart0_rxd0_txd1_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/autobaud/urboot_ata6612c_autobaud_uart0_rxd0_txd1_lednop_fr_ce.hex)|
+|310|320|u7.7|`weu-jpra-`|[urboot_ata6612c_autobaud_uart0_rxd0_txd1_ee_lednop.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/autobaud/urboot_ata6612c_autobaud_uart0_rxd0_txd1_ee_lednop.hex)|
+|318|320|u7.7|`weu-jPra-`|[urboot_ata6612c_autobaud_uart0_rxd0_txd1_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/autobaud/urboot_ata6612c_autobaud_uart0_rxd0_txd1_ee.hex)|
+|368|384|u7.7|`weu-jPrac`|[urboot_ata6612c_autobaud_uart0_rxd0_txd1_ee_lednop_fr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/autobaud/urboot_ata6612c_autobaud_uart0_rxd0_txd1_ee_lednop_fr_ce.hex)|
+|350|512|u7.7|`weu-hprac`|[urboot_ata6612c_autobaud_uart0_rxd0_txd1_ee_lednop_fr_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/autobaud/urboot_ata6612c_autobaud_uart0_rxd0_txd1_ee_lednop_fr_ce_hw.hex)|
+|454|512|u7.7|`wes-hprac`|[urboot_ata6612c_autobaud_uart0_rxd0_txd1_ee_lednop_fr_ce_stk500_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata6612c/autobaud/urboot_ata6612c_autobaud_uart0_rxd0_txd1_ee_lednop_fr_ce_stk500_hw.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
@@ -27,7 +27,7 @@ Note that autobaud bootloaders normally can only detect host baud rates = f/8, f
   + `a` autobaud detection (f_cpu/8n using discrete divisors, n = 1, 2, ..., 256)
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present
-- **Hex file:** typically MCU name followed by
+- **Hex file:** typically MCU name followed by, eg, F<sub>CPU</sub>, baud rate, I/O channels etc configuration
   + `autobaud` detects host baud rate f/8, f/16, f/24, ..., f/2048 (f=F<sub>CPU</sub>)
   + `uart0` UART number, in this case `0`
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`

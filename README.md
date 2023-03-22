@@ -20,11 +20,11 @@ and the ATmega2560 [Mega R3
 board](https://github.com/stefanrueger/urboot.hex/tree/main/boards/mega-r3/autobaud/README.md). The
 `boards` directory also contains fixed baud rate bootloaders, eg, some 16 MHz and 115,200 baud
 bootloaders for the ATtiny167 based [Digispark
-Pro](https://github.com/stefanrueger/urboot.hex/tree/main/boards/digispark-pro/external_oscillator/fcpu+16m0000_Hz/br++115k2_bps/README.md),
+Pro](https://github.com/stefanrueger/urboot.hex/tree/main/boards/digispark-pro/external_oscillator/fcpu_16m0x/br_+115k2/README.md),
 the ATtiny85 based
-[Disgispark](https://github.com/stefanrueger/urboot.hex/tree/main/boards/digispark/external_oscillator/fcpu+16m0000_Hz/br++115k2_bps/README.md)
+[Disgispark](https://github.com/stefanrueger/urboot.hex/tree/main/boards/digispark/external_oscillator/fcpu_16m0x/br_+115k2/README.md)
 and the ATtiny84 based
-[Luminet](https://github.com/stefanrueger/urboot.hex/tree/main/boards/luminet/external_oscillator/fcpu+16m0000_Hz/br++115k2_bps/README.md).
+[Luminet](https://github.com/stefanrueger/urboot.hex/tree/main/boards/luminet/external_oscillator/fcpu_16m0x/br_+115k2/README.md).
 
 There is a subtle distinction between bootloaders for MCUs driven by an *external* oscillator,
 which tend to have a small (< 0.2%) deviation from the nominal F<sub>CPU</sub>, and MCUs running on
