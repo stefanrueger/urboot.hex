@@ -2,13 +2,13 @@ The AT90CAN128 exhibits a SWIO baud rate quantisation error of +0.64% for this F
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|304|512|u7.7|`w-u-jPr--`|[urboot_at90can128.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/at90can128/watchdog_2_s/external_oscillator/4000000_hz/57600_baud/uart1_rxd2_txd3/led+b5/urboot_at90can128.hex)|
-|304|512|u7.7|`w-u-jPr--`|[urboot_at90can128_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/at90can128/watchdog_2_s/external_oscillator/4000000_hz/57600_baud/uart1_rxd2_txd3/led+b5/urboot_at90can128_pr.hex)|
-|348|512|u7.7|`w-u-jPr-c`|[urboot_at90can128_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/at90can128/watchdog_2_s/external_oscillator/4000000_hz/57600_baud/uart1_rxd2_txd3/led+b5/urboot_at90can128_pr_ce.hex)|
-|364|512|u7.7|`weu-jPr--`|[urboot_at90can128_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/at90can128/watchdog_2_s/external_oscillator/4000000_hz/57600_baud/uart1_rxd2_txd3/led+b5/urboot_at90can128_pr_ee.hex)|
-|408|512|u7.7|`weu-jPr-c`|[urboot_at90can128_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/at90can128/watchdog_2_s/external_oscillator/4000000_hz/57600_baud/uart1_rxd2_txd3/led+b5/urboot_at90can128_pr_ee_ce.hex)|
-|390|1024|u7.7|`weu-hpr-c`|[urboot_at90can128_ee_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/at90can128/watchdog_2_s/external_oscillator/4000000_hz/57600_baud/uart1_rxd2_txd3/led+b5/urboot_at90can128_ee_ce_hw.hex)|
-|496|1024|u7.7|`wes-hpr-c`|[urboot_at90can128_ee_ce_hw_stk500.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/at90can128/watchdog_2_s/external_oscillator/4000000_hz/57600_baud/uart1_rxd2_txd3/led+b5/urboot_at90can128_ee_ce_hw_stk500.hex)|
+|304|512|u7.7|`w-u-jPr--`|[urboot_at90can128.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/at90can128/watchdog_2_s/external_oscillator/4000000_hz/57600_baud/uart1_rxd2_txd3/led%2Bb5/urboot_at90can128.hex)|
+|304|512|u7.7|`w-u-jPr--`|[urboot_at90can128_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/at90can128/watchdog_2_s/external_oscillator/4000000_hz/57600_baud/uart1_rxd2_txd3/led%2Bb5/urboot_at90can128_pr.hex)|
+|348|512|u7.7|`w-u-jPr-c`|[urboot_at90can128_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/at90can128/watchdog_2_s/external_oscillator/4000000_hz/57600_baud/uart1_rxd2_txd3/led%2Bb5/urboot_at90can128_pr_ce.hex)|
+|364|512|u7.7|`weu-jPr--`|[urboot_at90can128_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/at90can128/watchdog_2_s/external_oscillator/4000000_hz/57600_baud/uart1_rxd2_txd3/led%2Bb5/urboot_at90can128_pr_ee.hex)|
+|408|512|u7.7|`weu-jPr-c`|[urboot_at90can128_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/at90can128/watchdog_2_s/external_oscillator/4000000_hz/57600_baud/uart1_rxd2_txd3/led%2Bb5/urboot_at90can128_pr_ee_ce.hex)|
+|390|1024|u7.7|`weu-hpr-c`|[urboot_at90can128_ee_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/at90can128/watchdog_2_s/external_oscillator/4000000_hz/57600_baud/uart1_rxd2_txd3/led%2Bb5/urboot_at90can128_ee_ce_hw.hex)|
+|496|1024|u7.7|`wes-hpr-c`|[urboot_at90can128_ee_ce_hw_stk500.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/at90can128/watchdog_2_s/external_oscillator/4000000_hz/57600_baud/uart1_rxd2_txd3/led%2Bb5/urboot_at90can128_ee_ce_hw_stk500.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

@@ -2,11 +2,11 @@ Note that autobaud bootloaders normally can only detect host baud rates = f/8, f
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|256|256|u7.7|`w-u-jPra-`|[urboot_t167_2s_autobaud_uart0_rxa0_txa1_led+b1.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/digispark-pro/attiny167/watchdog_2_s/autobaud/uart0_rxa0_txa1/led+b1/urboot_t167_2s_autobaud_uart0_rxa0_txa1_led+b1.hex)|
-|256|256|u7.7|`w-u-jPra-`|[urboot_t167_2s_autobaud_uart0_rxa0_txa1_led+b1_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/digispark-pro/attiny167/watchdog_2_s/autobaud/uart0_rxa0_txa1/led+b1/urboot_t167_2s_autobaud_uart0_rxa0_txa1_led+b1_pr.hex)|
-|302|384|u7.7|`w-u-jPrac`|[urboot_t167_2s_autobaud_uart0_rxa0_txa1_led+b1_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/digispark-pro/attiny167/watchdog_2_s/autobaud/uart0_rxa0_txa1/led+b1/urboot_t167_2s_autobaud_uart0_rxa0_txa1_led+b1_pr_ce.hex)|
-|338|384|u7.7|`weu-jPra-`|[urboot_t167_2s_autobaud_uart0_rxa0_txa1_led+b1_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/digispark-pro/attiny167/watchdog_2_s/autobaud/uart0_rxa0_txa1/led+b1/urboot_t167_2s_autobaud_uart0_rxa0_txa1_led+b1_pr_ee.hex)|
-|364|384|u7.7|`weu-jPrac`|[urboot_t167_2s_autobaud_uart0_rxa0_txa1_led+b1_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/digispark-pro/attiny167/watchdog_2_s/autobaud/uart0_rxa0_txa1/led+b1/urboot_t167_2s_autobaud_uart0_rxa0_txa1_led+b1_pr_ee_ce.hex)|
+|256|256|u7.7|`w-u-jPra-`|[urboot_t167_2s_autobaud_uart0_rxa0_txa1_led+b1.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/digispark-pro/attiny167/watchdog_2_s/autobaud/uart0_rxa0_txa1/led%2Bb1/urboot_t167_2s_autobaud_uart0_rxa0_txa1_led%2Bb1.hex)|
+|256|256|u7.7|`w-u-jPra-`|[urboot_t167_2s_autobaud_uart0_rxa0_txa1_led+b1_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/digispark-pro/attiny167/watchdog_2_s/autobaud/uart0_rxa0_txa1/led%2Bb1/urboot_t167_2s_autobaud_uart0_rxa0_txa1_led%2Bb1_pr.hex)|
+|302|384|u7.7|`w-u-jPrac`|[urboot_t167_2s_autobaud_uart0_rxa0_txa1_led+b1_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/digispark-pro/attiny167/watchdog_2_s/autobaud/uart0_rxa0_txa1/led%2Bb1/urboot_t167_2s_autobaud_uart0_rxa0_txa1_led%2Bb1_pr_ce.hex)|
+|338|384|u7.7|`weu-jPra-`|[urboot_t167_2s_autobaud_uart0_rxa0_txa1_led+b1_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/digispark-pro/attiny167/watchdog_2_s/autobaud/uart0_rxa0_txa1/led%2Bb1/urboot_t167_2s_autobaud_uart0_rxa0_txa1_led%2Bb1_pr_ee.hex)|
+|364|384|u7.7|`weu-jPrac`|[urboot_t167_2s_autobaud_uart0_rxa0_txa1_led+b1_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/boards/digispark-pro/attiny167/watchdog_2_s/autobaud/uart0_rxa0_txa1/led%2Bb1/urboot_t167_2s_autobaud_uart0_rxa0_txa1_led%2Bb1_pr_ee_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

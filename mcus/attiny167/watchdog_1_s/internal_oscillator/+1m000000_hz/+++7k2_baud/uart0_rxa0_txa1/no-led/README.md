@@ -2,11 +2,11 @@ The ATtiny167 exhibits a SWIO baud rate quantisation error of -0.08% for this F_
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|256|256|u7.7|`w-u-jPr--`|[urboot_t167_1s_i1m0_7k2_swio_rxa0_txa1_no-led.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny167/watchdog_1_s/internal_oscillator/+1m000000_hz/+++7k2_baud/uart0_rxa0_txa1/no-led/urboot_t167_1s_i1m0_7k2_swio_rxa0_txa1_no-led.hex)|
-|256|256|u7.7|`w-u-jPr--`|[urboot_t167_1s_i1m0_7k2_swio_rxa0_txa1_no-led_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny167/watchdog_1_s/internal_oscillator/+1m000000_hz/+++7k2_baud/uart0_rxa0_txa1/no-led/urboot_t167_1s_i1m0_7k2_swio_rxa0_txa1_no-led_pr.hex)|
-|302|384|u7.7|`w-u-jPr-c`|[urboot_t167_1s_i1m0_7k2_swio_rxa0_txa1_no-led_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny167/watchdog_1_s/internal_oscillator/+1m000000_hz/+++7k2_baud/uart0_rxa0_txa1/no-led/urboot_t167_1s_i1m0_7k2_swio_rxa0_txa1_no-led_pr_ce.hex)|
-|338|384|u7.7|`weu-jPr--`|[urboot_t167_1s_i1m0_7k2_swio_rxa0_txa1_no-led_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny167/watchdog_1_s/internal_oscillator/+1m000000_hz/+++7k2_baud/uart0_rxa0_txa1/no-led/urboot_t167_1s_i1m0_7k2_swio_rxa0_txa1_no-led_pr_ee.hex)|
-|364|384|u7.7|`weu-jPr-c`|[urboot_t167_1s_i1m0_7k2_swio_rxa0_txa1_no-led_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny167/watchdog_1_s/internal_oscillator/+1m000000_hz/+++7k2_baud/uart0_rxa0_txa1/no-led/urboot_t167_1s_i1m0_7k2_swio_rxa0_txa1_no-led_pr_ee_ce.hex)|
+|256|256|u7.7|`w-u-jPr--`|[urboot_t167_1s_i1m0_7k2_swio_rxa0_txa1_no-led.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny167/watchdog_1_s/internal_oscillator/%2B1m000000_hz/%2B%2B%2B7k2_baud/uart0_rxa0_txa1/no-led/urboot_t167_1s_i1m0_7k2_swio_rxa0_txa1_no-led.hex)|
+|256|256|u7.7|`w-u-jPr--`|[urboot_t167_1s_i1m0_7k2_swio_rxa0_txa1_no-led_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny167/watchdog_1_s/internal_oscillator/%2B1m000000_hz/%2B%2B%2B7k2_baud/uart0_rxa0_txa1/no-led/urboot_t167_1s_i1m0_7k2_swio_rxa0_txa1_no-led_pr.hex)|
+|302|384|u7.7|`w-u-jPr-c`|[urboot_t167_1s_i1m0_7k2_swio_rxa0_txa1_no-led_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny167/watchdog_1_s/internal_oscillator/%2B1m000000_hz/%2B%2B%2B7k2_baud/uart0_rxa0_txa1/no-led/urboot_t167_1s_i1m0_7k2_swio_rxa0_txa1_no-led_pr_ce.hex)|
+|338|384|u7.7|`weu-jPr--`|[urboot_t167_1s_i1m0_7k2_swio_rxa0_txa1_no-led_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny167/watchdog_1_s/internal_oscillator/%2B1m000000_hz/%2B%2B%2B7k2_baud/uart0_rxa0_txa1/no-led/urboot_t167_1s_i1m0_7k2_swio_rxa0_txa1_no-led_pr_ee.hex)|
+|364|384|u7.7|`weu-jPr-c`|[urboot_t167_1s_i1m0_7k2_swio_rxa0_txa1_no-led_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny167/watchdog_1_s/internal_oscillator/%2B1m000000_hz/%2B%2B%2B7k2_baud/uart0_rxa0_txa1/no-led/urboot_t167_1s_i1m0_7k2_swio_rxa0_txa1_no-led_pr_ee_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

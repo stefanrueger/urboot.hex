@@ -2,11 +2,11 @@ The ATmega48 exhibits a SWIO baud rate quantisation error of +0.94% for this F_C
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|256|256|u7.7|`w-u-jpr--`|[urboot_m48_2s_x5m0_115k2_swio_rxd0_txd1_led+b5.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48/watchdog_2_s/external_oscillator/+5m000000_hz/+115k2_baud/uart0_rxd0_txd1/led+b5/urboot_m48_2s_x5m0_115k2_swio_rxd0_txd1_led+b5.hex)|
-|282|320|u7.7|`w-u-jPr--`|[urboot_m48_2s_x5m0_115k2_swio_rxd0_txd1_led+b5_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48/watchdog_2_s/external_oscillator/+5m000000_hz/+115k2_baud/uart0_rxd0_txd1/led+b5/urboot_m48_2s_x5m0_115k2_swio_rxd0_txd1_led+b5_pr.hex)|
-|308|320|u7.7|`w-u-jPr-c`|[urboot_m48_2s_x5m0_115k2_swio_rxd0_txd1_led+b5_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48/watchdog_2_s/external_oscillator/+5m000000_hz/+115k2_baud/uart0_rxd0_txd1/led+b5/urboot_m48_2s_x5m0_115k2_swio_rxd0_txd1_led+b5_pr_ce.hex)|
-|344|384|u7.7|`weu-jPr--`|[urboot_m48_2s_x5m0_115k2_swio_rxd0_txd1_led+b5_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48/watchdog_2_s/external_oscillator/+5m000000_hz/+115k2_baud/uart0_rxd0_txd1/led+b5/urboot_m48_2s_x5m0_115k2_swio_rxd0_txd1_led+b5_pr_ee.hex)|
-|370|384|u7.7|`weu-jPr-c`|[urboot_m48_2s_x5m0_115k2_swio_rxd0_txd1_led+b5_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48/watchdog_2_s/external_oscillator/+5m000000_hz/+115k2_baud/uart0_rxd0_txd1/led+b5/urboot_m48_2s_x5m0_115k2_swio_rxd0_txd1_led+b5_pr_ee_ce.hex)|
+|256|256|u7.7|`w-u-jpr--`|[urboot_m48_2s_x5m0_115k2_swio_rxd0_txd1_led+b5.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48/watchdog_2_s/external_oscillator/%2B5m000000_hz/%2B115k2_baud/uart0_rxd0_txd1/led%2Bb5/urboot_m48_2s_x5m0_115k2_swio_rxd0_txd1_led%2Bb5.hex)|
+|282|320|u7.7|`w-u-jPr--`|[urboot_m48_2s_x5m0_115k2_swio_rxd0_txd1_led+b5_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48/watchdog_2_s/external_oscillator/%2B5m000000_hz/%2B115k2_baud/uart0_rxd0_txd1/led%2Bb5/urboot_m48_2s_x5m0_115k2_swio_rxd0_txd1_led%2Bb5_pr.hex)|
+|308|320|u7.7|`w-u-jPr-c`|[urboot_m48_2s_x5m0_115k2_swio_rxd0_txd1_led+b5_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48/watchdog_2_s/external_oscillator/%2B5m000000_hz/%2B115k2_baud/uart0_rxd0_txd1/led%2Bb5/urboot_m48_2s_x5m0_115k2_swio_rxd0_txd1_led%2Bb5_pr_ce.hex)|
+|344|384|u7.7|`weu-jPr--`|[urboot_m48_2s_x5m0_115k2_swio_rxd0_txd1_led+b5_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48/watchdog_2_s/external_oscillator/%2B5m000000_hz/%2B115k2_baud/uart0_rxd0_txd1/led%2Bb5/urboot_m48_2s_x5m0_115k2_swio_rxd0_txd1_led%2Bb5_pr_ee.hex)|
+|370|384|u7.7|`weu-jPr-c`|[urboot_m48_2s_x5m0_115k2_swio_rxd0_txd1_led+b5_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega48/watchdog_2_s/external_oscillator/%2B5m000000_hz/%2B115k2_baud/uart0_rxd0_txd1/led%2Bb5/urboot_m48_2s_x5m0_115k2_swio_rxd0_txd1_led%2Bb5_pr_ee_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

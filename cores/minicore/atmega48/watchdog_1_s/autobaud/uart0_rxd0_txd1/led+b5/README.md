@@ -2,11 +2,11 @@ Note that autobaud bootloaders normally can only detect host baud rates = f/8, f
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|256|256|u7.7|`w-u-jPra-`|[urboot_atmega48.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega48/watchdog_1_s/autobaud/uart0_rxd0_txd1/led+b5/urboot_atmega48.hex)|
-|256|256|u7.7|`w-u-jPra-`|[urboot_atmega48_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega48/watchdog_1_s/autobaud/uart0_rxd0_txd1/led+b5/urboot_atmega48_pr.hex)|
-|302|320|u7.7|`w-u-jPrac`|[urboot_atmega48_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega48/watchdog_1_s/autobaud/uart0_rxd0_txd1/led+b5/urboot_atmega48_pr_ce.hex)|
-|320|320|u7.7|`weu-jPra-`|[urboot_atmega48_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega48/watchdog_1_s/autobaud/uart0_rxd0_txd1/led+b5/urboot_atmega48_pr_ee.hex)|
-|364|384|u7.7|`weu-jPrac`|[urboot_atmega48_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega48/watchdog_1_s/autobaud/uart0_rxd0_txd1/led+b5/urboot_atmega48_pr_ee_ce.hex)|
+|256|256|u7.7|`w-u-jPra-`|[urboot_atmega48.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega48/watchdog_1_s/autobaud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega48.hex)|
+|256|256|u7.7|`w-u-jPra-`|[urboot_atmega48_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega48/watchdog_1_s/autobaud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega48_pr.hex)|
+|302|320|u7.7|`w-u-jPrac`|[urboot_atmega48_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega48/watchdog_1_s/autobaud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega48_pr_ce.hex)|
+|320|320|u7.7|`weu-jPra-`|[urboot_atmega48_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega48/watchdog_1_s/autobaud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega48_pr_ee.hex)|
+|364|384|u7.7|`weu-jPrac`|[urboot_atmega48_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega48/watchdog_1_s/autobaud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega48_pr_ee_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

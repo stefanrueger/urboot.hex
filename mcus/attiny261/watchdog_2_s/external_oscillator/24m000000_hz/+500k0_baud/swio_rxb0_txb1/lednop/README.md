@@ -2,11 +2,11 @@ The ATtiny261 exhibits a SWIO baud rate quantisation error of +0.00% for this F_
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|254|256|u7.7|`w-u-jpr--`|[urboot_t261_2s_x24m0_500k0_swio_rxb0_txb1_lednop.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny261/watchdog_2_s/external_oscillator/24m000000_hz/+500k0_baud/swio_rxb0_txb1/lednop/urboot_t261_2s_x24m0_500k0_swio_rxb0_txb1_lednop.hex)|
-|280|288|u7.7|`w-u-jPr--`|[urboot_t261_2s_x24m0_500k0_swio_rxb0_txb1_lednop_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny261/watchdog_2_s/external_oscillator/24m000000_hz/+500k0_baud/swio_rxb0_txb1/lednop/urboot_t261_2s_x24m0_500k0_swio_rxb0_txb1_lednop_pr.hex)|
-|288|288|u7.7|`w-u-jPr-c`|[urboot_t261_2s_x24m0_500k0_swio_rxb0_txb1_lednop_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny261/watchdog_2_s/external_oscillator/24m000000_hz/+500k0_baud/swio_rxb0_txb1/lednop/urboot_t261_2s_x24m0_500k0_swio_rxb0_txb1_lednop_pr_ce.hex)|
-|348|352|u7.7|`weu-jPr--`|[urboot_t261_2s_x24m0_500k0_swio_rxb0_txb1_lednop_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny261/watchdog_2_s/external_oscillator/24m000000_hz/+500k0_baud/swio_rxb0_txb1/lednop/urboot_t261_2s_x24m0_500k0_swio_rxb0_txb1_lednop_pr_ee.hex)|
-|354|384|u7.7|`weu-jPr-c`|[urboot_t261_2s_x24m0_500k0_swio_rxb0_txb1_lednop_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny261/watchdog_2_s/external_oscillator/24m000000_hz/+500k0_baud/swio_rxb0_txb1/lednop/urboot_t261_2s_x24m0_500k0_swio_rxb0_txb1_lednop_pr_ee_ce.hex)|
+|254|256|u7.7|`w-u-jpr--`|[urboot_t261_2s_x24m0_500k0_swio_rxb0_txb1_lednop.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny261/watchdog_2_s/external_oscillator/24m000000_hz/%2B500k0_baud/swio_rxb0_txb1/lednop/urboot_t261_2s_x24m0_500k0_swio_rxb0_txb1_lednop.hex)|
+|280|288|u7.7|`w-u-jPr--`|[urboot_t261_2s_x24m0_500k0_swio_rxb0_txb1_lednop_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny261/watchdog_2_s/external_oscillator/24m000000_hz/%2B500k0_baud/swio_rxb0_txb1/lednop/urboot_t261_2s_x24m0_500k0_swio_rxb0_txb1_lednop_pr.hex)|
+|288|288|u7.7|`w-u-jPr-c`|[urboot_t261_2s_x24m0_500k0_swio_rxb0_txb1_lednop_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny261/watchdog_2_s/external_oscillator/24m000000_hz/%2B500k0_baud/swio_rxb0_txb1/lednop/urboot_t261_2s_x24m0_500k0_swio_rxb0_txb1_lednop_pr_ce.hex)|
+|348|352|u7.7|`weu-jPr--`|[urboot_t261_2s_x24m0_500k0_swio_rxb0_txb1_lednop_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny261/watchdog_2_s/external_oscillator/24m000000_hz/%2B500k0_baud/swio_rxb0_txb1/lednop/urboot_t261_2s_x24m0_500k0_swio_rxb0_txb1_lednop_pr_ee.hex)|
+|354|384|u7.7|`weu-jPr-c`|[urboot_t261_2s_x24m0_500k0_swio_rxb0_txb1_lednop_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny261/watchdog_2_s/external_oscillator/24m000000_hz/%2B500k0_baud/swio_rxb0_txb1/lednop/urboot_t261_2s_x24m0_500k0_swio_rxb0_txb1_lednop_pr_ee_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

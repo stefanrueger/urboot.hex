@@ -2,11 +2,11 @@ The ATtiny167 exhibits a LINUART baud rate quantisation error of +0.64% for this
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|256|256|u7.7|`w-u-jPr--`|[urboot_t167_1s_x2m0_28k8_uart0_rxa0_txa1_lednop.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny167/watchdog_1_s/external_oscillator/+2m000000_hz/++28k8_baud/uart0_rxa0_txa1/lednop/urboot_t167_1s_x2m0_28k8_uart0_rxa0_txa1_lednop.hex)|
-|256|256|u7.7|`w-u-jPr--`|[urboot_t167_1s_x2m0_28k8_uart0_rxa0_txa1_lednop_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny167/watchdog_1_s/external_oscillator/+2m000000_hz/++28k8_baud/uart0_rxa0_txa1/lednop/urboot_t167_1s_x2m0_28k8_uart0_rxa0_txa1_lednop_pr.hex)|
-|286|384|u7.7|`w-u-jPr-c`|[urboot_t167_1s_x2m0_28k8_uart0_rxa0_txa1_lednop_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny167/watchdog_1_s/external_oscillator/+2m000000_hz/++28k8_baud/uart0_rxa0_txa1/lednop/urboot_t167_1s_x2m0_28k8_uart0_rxa0_txa1_lednop_pr_ce.hex)|
-|322|384|u7.7|`weu-jPr--`|[urboot_t167_1s_x2m0_28k8_uart0_rxa0_txa1_lednop_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny167/watchdog_1_s/external_oscillator/+2m000000_hz/++28k8_baud/uart0_rxa0_txa1/lednop/urboot_t167_1s_x2m0_28k8_uart0_rxa0_txa1_lednop_pr_ee.hex)|
-|348|384|u7.7|`weu-jPr-c`|[urboot_t167_1s_x2m0_28k8_uart0_rxa0_txa1_lednop_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny167/watchdog_1_s/external_oscillator/+2m000000_hz/++28k8_baud/uart0_rxa0_txa1/lednop/urboot_t167_1s_x2m0_28k8_uart0_rxa0_txa1_lednop_pr_ee_ce.hex)|
+|256|256|u7.7|`w-u-jPr--`|[urboot_t167_1s_x2m0_28k8_uart0_rxa0_txa1_lednop.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny167/watchdog_1_s/external_oscillator/%2B2m000000_hz/%2B%2B28k8_baud/uart0_rxa0_txa1/lednop/urboot_t167_1s_x2m0_28k8_uart0_rxa0_txa1_lednop.hex)|
+|256|256|u7.7|`w-u-jPr--`|[urboot_t167_1s_x2m0_28k8_uart0_rxa0_txa1_lednop_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny167/watchdog_1_s/external_oscillator/%2B2m000000_hz/%2B%2B28k8_baud/uart0_rxa0_txa1/lednop/urboot_t167_1s_x2m0_28k8_uart0_rxa0_txa1_lednop_pr.hex)|
+|286|384|u7.7|`w-u-jPr-c`|[urboot_t167_1s_x2m0_28k8_uart0_rxa0_txa1_lednop_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny167/watchdog_1_s/external_oscillator/%2B2m000000_hz/%2B%2B28k8_baud/uart0_rxa0_txa1/lednop/urboot_t167_1s_x2m0_28k8_uart0_rxa0_txa1_lednop_pr_ce.hex)|
+|322|384|u7.7|`weu-jPr--`|[urboot_t167_1s_x2m0_28k8_uart0_rxa0_txa1_lednop_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny167/watchdog_1_s/external_oscillator/%2B2m000000_hz/%2B%2B28k8_baud/uart0_rxa0_txa1/lednop/urboot_t167_1s_x2m0_28k8_uart0_rxa0_txa1_lednop_pr_ee.hex)|
+|348|384|u7.7|`weu-jPr-c`|[urboot_t167_1s_x2m0_28k8_uart0_rxa0_txa1_lednop_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny167/watchdog_1_s/external_oscillator/%2B2m000000_hz/%2B%2B28k8_baud/uart0_rxa0_txa1/lednop/urboot_t167_1s_x2m0_28k8_uart0_rxa0_txa1_lednop_pr_ee_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

@@ -2,13 +2,13 @@ Note that autobaud bootloaders normally can only detect host baud rates = f/8, f
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|254|256|u7.7|`w-u-jPra-`|[urboot_m64_2s_autobaud_uart0_rxe0_txe1_led+b5.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64/watchdog_2_s/autobaud/uart0_rxe0_txe1/led+b5/urboot_m64_2s_autobaud_uart0_rxe0_txe1_led+b5.hex)|
-|254|256|u7.7|`w-u-jPra-`|[urboot_m64_2s_autobaud_uart0_rxe0_txe1_led+b5_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64/watchdog_2_s/autobaud/uart0_rxe0_txe1/led+b5/urboot_m64_2s_autobaud_uart0_rxe0_txe1_led+b5_pr.hex)|
-|292|512|u7.7|`w-u-jPrac`|[urboot_m64_2s_autobaud_uart0_rxe0_txe1_led+b5_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64/watchdog_2_s/autobaud/uart0_rxe0_txe1/led+b5/urboot_m64_2s_autobaud_uart0_rxe0_txe1_led+b5_pr_ce.hex)|
-|328|512|u7.7|`weu-jPra-`|[urboot_m64_2s_autobaud_uart0_rxe0_txe1_led+b5_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64/watchdog_2_s/autobaud/uart0_rxe0_txe1/led+b5/urboot_m64_2s_autobaud_uart0_rxe0_txe1_led+b5_pr_ee.hex)|
-|352|512|u7.7|`weu-jPrac`|[urboot_m64_2s_autobaud_uart0_rxe0_txe1_led+b5_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64/watchdog_2_s/autobaud/uart0_rxe0_txe1/led+b5/urboot_m64_2s_autobaud_uart0_rxe0_txe1_led+b5_pr_ee_ce.hex)|
-|338|1024|u7.7|`weu-hprac`|[urboot_m64_2s_autobaud_uart0_rxe0_txe1_led+b5_ee_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64/watchdog_2_s/autobaud/uart0_rxe0_txe1/led+b5/urboot_m64_2s_autobaud_uart0_rxe0_txe1_led+b5_ee_ce_hw.hex)|
-|442|1024|u7.7|`wes-hprac`|[urboot_m64_2s_autobaud_uart0_rxe0_txe1_led+b5_ee_ce_hw_stk500.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64/watchdog_2_s/autobaud/uart0_rxe0_txe1/led+b5/urboot_m64_2s_autobaud_uart0_rxe0_txe1_led+b5_ee_ce_hw_stk500.hex)|
+|254|256|u7.7|`w-u-jPra-`|[urboot_m64_2s_autobaud_uart0_rxe0_txe1_led+b5.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64/watchdog_2_s/autobaud/uart0_rxe0_txe1/led%2Bb5/urboot_m64_2s_autobaud_uart0_rxe0_txe1_led%2Bb5.hex)|
+|254|256|u7.7|`w-u-jPra-`|[urboot_m64_2s_autobaud_uart0_rxe0_txe1_led+b5_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64/watchdog_2_s/autobaud/uart0_rxe0_txe1/led%2Bb5/urboot_m64_2s_autobaud_uart0_rxe0_txe1_led%2Bb5_pr.hex)|
+|292|512|u7.7|`w-u-jPrac`|[urboot_m64_2s_autobaud_uart0_rxe0_txe1_led+b5_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64/watchdog_2_s/autobaud/uart0_rxe0_txe1/led%2Bb5/urboot_m64_2s_autobaud_uart0_rxe0_txe1_led%2Bb5_pr_ce.hex)|
+|328|512|u7.7|`weu-jPra-`|[urboot_m64_2s_autobaud_uart0_rxe0_txe1_led+b5_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64/watchdog_2_s/autobaud/uart0_rxe0_txe1/led%2Bb5/urboot_m64_2s_autobaud_uart0_rxe0_txe1_led%2Bb5_pr_ee.hex)|
+|352|512|u7.7|`weu-jPrac`|[urboot_m64_2s_autobaud_uart0_rxe0_txe1_led+b5_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64/watchdog_2_s/autobaud/uart0_rxe0_txe1/led%2Bb5/urboot_m64_2s_autobaud_uart0_rxe0_txe1_led%2Bb5_pr_ee_ce.hex)|
+|338|1024|u7.7|`weu-hprac`|[urboot_m64_2s_autobaud_uart0_rxe0_txe1_led+b5_ee_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64/watchdog_2_s/autobaud/uart0_rxe0_txe1/led%2Bb5/urboot_m64_2s_autobaud_uart0_rxe0_txe1_led%2Bb5_ee_ce_hw.hex)|
+|442|1024|u7.7|`wes-hprac`|[urboot_m64_2s_autobaud_uart0_rxe0_txe1_led+b5_ee_ce_hw_stk500.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega64/watchdog_2_s/autobaud/uart0_rxe0_txe1/led%2Bb5/urboot_m64_2s_autobaud_uart0_rxe0_txe1_led%2Bb5_ee_ce_hw_stk500.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

@@ -2,14 +2,14 @@ The ATmega162 exhibits a UART baud rate quantisation error of +0.00% for this F_
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|232|256|u7.7|`w-u-hpr--`|[urboot_atmega162_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega162/watchdog_2_s/external_oscillator/230400_hz/4800_baud/uart0_rxd0_txd1/led+b0/urboot_atmega162_hw.hex)|
-|246|256|u7.7|`w-u-jPr--`|[urboot_atmega162.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega162/watchdog_2_s/external_oscillator/230400_hz/4800_baud/uart0_rxd0_txd1/led+b0/urboot_atmega162.hex)|
-|246|256|u7.7|`w-u-jPr--`|[urboot_atmega162_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega162/watchdog_2_s/external_oscillator/230400_hz/4800_baud/uart0_rxd0_txd1/led+b0/urboot_atmega162_pr.hex)|
-|256|256|u7.7|`w-u-jPr-c`|[urboot_atmega162_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega162/watchdog_2_s/external_oscillator/230400_hz/4800_baud/uart0_rxd0_txd1/led+b0/urboot_atmega162_pr_ce.hex)|
-|310|384|u7.7|`weu-jPr--`|[urboot_atmega162_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega162/watchdog_2_s/external_oscillator/230400_hz/4800_baud/uart0_rxd0_txd1/led+b0/urboot_atmega162_pr_ee.hex)|
-|336|384|u7.7|`weu-jPr-c`|[urboot_atmega162_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega162/watchdog_2_s/external_oscillator/230400_hz/4800_baud/uart0_rxd0_txd1/led+b0/urboot_atmega162_pr_ee_ce.hex)|
-|318|512|u7.7|`weu-hpr-c`|[urboot_atmega162_ee_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega162/watchdog_2_s/external_oscillator/230400_hz/4800_baud/uart0_rxd0_txd1/led+b0/urboot_atmega162_ee_ce_hw.hex)|
-|422|512|u7.7|`wes-hpr-c`|[urboot_atmega162_ee_ce_hw_stk500.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega162/watchdog_2_s/external_oscillator/230400_hz/4800_baud/uart0_rxd0_txd1/led+b0/urboot_atmega162_ee_ce_hw_stk500.hex)|
+|232|256|u7.7|`w-u-hpr--`|[urboot_atmega162_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega162/watchdog_2_s/external_oscillator/230400_hz/4800_baud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega162_hw.hex)|
+|246|256|u7.7|`w-u-jPr--`|[urboot_atmega162.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega162/watchdog_2_s/external_oscillator/230400_hz/4800_baud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega162.hex)|
+|246|256|u7.7|`w-u-jPr--`|[urboot_atmega162_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega162/watchdog_2_s/external_oscillator/230400_hz/4800_baud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega162_pr.hex)|
+|256|256|u7.7|`w-u-jPr-c`|[urboot_atmega162_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega162/watchdog_2_s/external_oscillator/230400_hz/4800_baud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega162_pr_ce.hex)|
+|310|384|u7.7|`weu-jPr--`|[urboot_atmega162_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega162/watchdog_2_s/external_oscillator/230400_hz/4800_baud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega162_pr_ee.hex)|
+|336|384|u7.7|`weu-jPr-c`|[urboot_atmega162_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega162/watchdog_2_s/external_oscillator/230400_hz/4800_baud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega162_pr_ee_ce.hex)|
+|318|512|u7.7|`weu-hpr-c`|[urboot_atmega162_ee_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega162/watchdog_2_s/external_oscillator/230400_hz/4800_baud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega162_ee_ce_hw.hex)|
+|422|512|u7.7|`wes-hpr-c`|[urboot_atmega162_ee_ce_hw_stk500.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega162/watchdog_2_s/external_oscillator/230400_hz/4800_baud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega162_ee_ce_hw_stk500.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

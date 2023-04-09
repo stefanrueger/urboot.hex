@@ -2,13 +2,13 @@ Note that autobaud bootloaders normally can only detect host baud rates = f/8, f
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|256|256|u7.7|`w-u-jpra-`|[urboot_atmega1284.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_2_s/autobaud/uart0_rxd0_txd1/led+b0/urboot_atmega1284.hex)|
-|290|512|u7.7|`w-u-jPra-`|[urboot_atmega1284_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_2_s/autobaud/uart0_rxd0_txd1/led+b0/urboot_atmega1284_pr.hex)|
-|334|512|u7.7|`w-u-jPrac`|[urboot_atmega1284_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_2_s/autobaud/uart0_rxd0_txd1/led+b0/urboot_atmega1284_pr_ce.hex)|
-|352|512|u7.7|`weu-jPra-`|[urboot_atmega1284_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_2_s/autobaud/uart0_rxd0_txd1/led+b0/urboot_atmega1284_pr_ee.hex)|
-|396|512|u7.7|`weu-jPrac`|[urboot_atmega1284_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_2_s/autobaud/uart0_rxd0_txd1/led+b0/urboot_atmega1284_pr_ee_ce.hex)|
-|378|1024|u7.7|`weu-hprac`|[urboot_atmega1284_ee_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_2_s/autobaud/uart0_rxd0_txd1/led+b0/urboot_atmega1284_ee_ce_hw.hex)|
-|484|1024|u7.7|`wes-hprac`|[urboot_atmega1284_ee_ce_hw_stk500.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_2_s/autobaud/uart0_rxd0_txd1/led+b0/urboot_atmega1284_ee_ce_hw_stk500.hex)|
+|256|256|u7.7|`w-u-jpra-`|[urboot_atmega1284.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_2_s/autobaud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega1284.hex)|
+|290|512|u7.7|`w-u-jPra-`|[urboot_atmega1284_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_2_s/autobaud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega1284_pr.hex)|
+|334|512|u7.7|`w-u-jPrac`|[urboot_atmega1284_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_2_s/autobaud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega1284_pr_ce.hex)|
+|352|512|u7.7|`weu-jPra-`|[urboot_atmega1284_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_2_s/autobaud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega1284_pr_ee.hex)|
+|396|512|u7.7|`weu-jPrac`|[urboot_atmega1284_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_2_s/autobaud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega1284_pr_ee_ce.hex)|
+|378|1024|u7.7|`weu-hprac`|[urboot_atmega1284_ee_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_2_s/autobaud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega1284_ee_ce_hw.hex)|
+|484|1024|u7.7|`wes-hprac`|[urboot_atmega1284_ee_ce_hw_stk500.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_2_s/autobaud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega1284_ee_ce_hw_stk500.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

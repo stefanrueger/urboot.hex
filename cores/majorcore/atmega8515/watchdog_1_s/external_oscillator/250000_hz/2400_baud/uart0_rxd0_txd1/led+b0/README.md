@@ -2,14 +2,14 @@ The ATmega8515 exhibits a UART baud rate quantisation error of +0.16% for this F
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|238|256|u7.7|`w-u-hpr--`|[urboot_atmega8515_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega8515/watchdog_1_s/external_oscillator/250000_hz/2400_baud/uart0_rxd0_txd1/led+b0/urboot_atmega8515_hw.hex)|
-|252|256|u7.7|`w-u-jPr--`|[urboot_atmega8515.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega8515/watchdog_1_s/external_oscillator/250000_hz/2400_baud/uart0_rxd0_txd1/led+b0/urboot_atmega8515.hex)|
-|252|256|u7.7|`w-u-jPr--`|[urboot_atmega8515_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega8515/watchdog_1_s/external_oscillator/250000_hz/2400_baud/uart0_rxd0_txd1/led+b0/urboot_atmega8515_pr.hex)|
-|282|320|u7.7|`w-u-jPr-c`|[urboot_atmega8515_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega8515/watchdog_1_s/external_oscillator/250000_hz/2400_baud/uart0_rxd0_txd1/led+b0/urboot_atmega8515_pr_ce.hex)|
-|314|320|u7.7|`weu-jPr--`|[urboot_atmega8515_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega8515/watchdog_1_s/external_oscillator/250000_hz/2400_baud/uart0_rxd0_txd1/led+b0/urboot_atmega8515_pr_ee.hex)|
-|348|384|u7.7|`weu-jPr-c`|[urboot_atmega8515_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega8515/watchdog_1_s/external_oscillator/250000_hz/2400_baud/uart0_rxd0_txd1/led+b0/urboot_atmega8515_pr_ee_ce.hex)|
-|330|512|u7.7|`weu-hpr-c`|[urboot_atmega8515_ee_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega8515/watchdog_1_s/external_oscillator/250000_hz/2400_baud/uart0_rxd0_txd1/led+b0/urboot_atmega8515_ee_ce_hw.hex)|
-|434|512|u7.7|`wes-hpr-c`|[urboot_atmega8515_ee_ce_hw_stk500.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega8515/watchdog_1_s/external_oscillator/250000_hz/2400_baud/uart0_rxd0_txd1/led+b0/urboot_atmega8515_ee_ce_hw_stk500.hex)|
+|238|256|u7.7|`w-u-hpr--`|[urboot_atmega8515_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega8515/watchdog_1_s/external_oscillator/250000_hz/2400_baud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega8515_hw.hex)|
+|252|256|u7.7|`w-u-jPr--`|[urboot_atmega8515.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega8515/watchdog_1_s/external_oscillator/250000_hz/2400_baud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega8515.hex)|
+|252|256|u7.7|`w-u-jPr--`|[urboot_atmega8515_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega8515/watchdog_1_s/external_oscillator/250000_hz/2400_baud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega8515_pr.hex)|
+|282|320|u7.7|`w-u-jPr-c`|[urboot_atmega8515_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega8515/watchdog_1_s/external_oscillator/250000_hz/2400_baud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega8515_pr_ce.hex)|
+|314|320|u7.7|`weu-jPr--`|[urboot_atmega8515_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega8515/watchdog_1_s/external_oscillator/250000_hz/2400_baud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega8515_pr_ee.hex)|
+|348|384|u7.7|`weu-jPr-c`|[urboot_atmega8515_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega8515/watchdog_1_s/external_oscillator/250000_hz/2400_baud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega8515_pr_ee_ce.hex)|
+|330|512|u7.7|`weu-hpr-c`|[urboot_atmega8515_ee_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega8515/watchdog_1_s/external_oscillator/250000_hz/2400_baud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega8515_ee_ce_hw.hex)|
+|434|512|u7.7|`wes-hpr-c`|[urboot_atmega8515_ee_ce_hw_stk500.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/majorcore/atmega8515/watchdog_1_s/external_oscillator/250000_hz/2400_baud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega8515_ee_ce_hw_stk500.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

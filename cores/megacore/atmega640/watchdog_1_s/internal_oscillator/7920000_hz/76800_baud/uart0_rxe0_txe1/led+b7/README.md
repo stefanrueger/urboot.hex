@@ -2,13 +2,13 @@ The ATmega640 exhibits a SWIO baud rate quantisation error of +0.12% for this F_
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|252|256|u7.7|`w-u-jpr--`|[urboot_atmega640.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega640/watchdog_1_s/internal_oscillator/7920000_hz/76800_baud/uart0_rxe0_txe1/led+b7/urboot_atmega640.hex)|
-|280|512|u7.7|`w-u-jPr--`|[urboot_atmega640_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega640/watchdog_1_s/internal_oscillator/7920000_hz/76800_baud/uart0_rxe0_txe1/led+b7/urboot_atmega640_pr.hex)|
-|304|512|u7.7|`w-u-jPr-c`|[urboot_atmega640_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega640/watchdog_1_s/internal_oscillator/7920000_hz/76800_baud/uart0_rxe0_txe1/led+b7/urboot_atmega640_pr_ce.hex)|
-|342|512|u7.7|`weu-jPr--`|[urboot_atmega640_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega640/watchdog_1_s/internal_oscillator/7920000_hz/76800_baud/uart0_rxe0_txe1/led+b7/urboot_atmega640_pr_ee.hex)|
-|366|512|u7.7|`weu-jPr-c`|[urboot_atmega640_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega640/watchdog_1_s/internal_oscillator/7920000_hz/76800_baud/uart0_rxe0_txe1/led+b7/urboot_atmega640_pr_ee_ce.hex)|
-|352|1024|u7.7|`weu-hpr-c`|[urboot_atmega640_ee_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega640/watchdog_1_s/internal_oscillator/7920000_hz/76800_baud/uart0_rxe0_txe1/led+b7/urboot_atmega640_ee_ce_hw.hex)|
-|456|1024|u7.7|`wes-hpr-c`|[urboot_atmega640_ee_ce_hw_stk500.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega640/watchdog_1_s/internal_oscillator/7920000_hz/76800_baud/uart0_rxe0_txe1/led+b7/urboot_atmega640_ee_ce_hw_stk500.hex)|
+|252|256|u7.7|`w-u-jpr--`|[urboot_atmega640.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega640/watchdog_1_s/internal_oscillator/7920000_hz/76800_baud/uart0_rxe0_txe1/led%2Bb7/urboot_atmega640.hex)|
+|280|512|u7.7|`w-u-jPr--`|[urboot_atmega640_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega640/watchdog_1_s/internal_oscillator/7920000_hz/76800_baud/uart0_rxe0_txe1/led%2Bb7/urboot_atmega640_pr.hex)|
+|304|512|u7.7|`w-u-jPr-c`|[urboot_atmega640_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega640/watchdog_1_s/internal_oscillator/7920000_hz/76800_baud/uart0_rxe0_txe1/led%2Bb7/urboot_atmega640_pr_ce.hex)|
+|342|512|u7.7|`weu-jPr--`|[urboot_atmega640_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega640/watchdog_1_s/internal_oscillator/7920000_hz/76800_baud/uart0_rxe0_txe1/led%2Bb7/urboot_atmega640_pr_ee.hex)|
+|366|512|u7.7|`weu-jPr-c`|[urboot_atmega640_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega640/watchdog_1_s/internal_oscillator/7920000_hz/76800_baud/uart0_rxe0_txe1/led%2Bb7/urboot_atmega640_pr_ee_ce.hex)|
+|352|1024|u7.7|`weu-hpr-c`|[urboot_atmega640_ee_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega640/watchdog_1_s/internal_oscillator/7920000_hz/76800_baud/uart0_rxe0_txe1/led%2Bb7/urboot_atmega640_ee_ce_hw.hex)|
+|456|1024|u7.7|`wes-hpr-c`|[urboot_atmega640_ee_ce_hw_stk500.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega640/watchdog_1_s/internal_oscillator/7920000_hz/76800_baud/uart0_rxe0_txe1/led%2Bb7/urboot_atmega640_ee_ce_hw_stk500.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

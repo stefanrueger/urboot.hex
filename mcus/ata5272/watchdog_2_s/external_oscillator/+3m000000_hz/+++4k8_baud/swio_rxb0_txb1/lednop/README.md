@@ -2,11 +2,11 @@ The ATA5272 exhibits a SWIO baud rate quantisation error of +0.32% for this F_CP
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|256|256|u7.7|`w-u-jpr--`|[urboot_a5272_2s_x3m0_4k8_swio_rxb0_txb1_lednop.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata5272/watchdog_2_s/external_oscillator/+3m000000_hz/+++4k8_baud/swio_rxb0_txb1/lednop/urboot_a5272_2s_x3m0_4k8_swio_rxb0_txb1_lednop.hex)|
-|288|384|u7.7|`w-u-jPr--`|[urboot_a5272_2s_x3m0_4k8_swio_rxb0_txb1_lednop_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata5272/watchdog_2_s/external_oscillator/+3m000000_hz/+++4k8_baud/swio_rxb0_txb1/lednop/urboot_a5272_2s_x3m0_4k8_swio_rxb0_txb1_lednop_pr.hex)|
-|314|384|u7.7|`w-u-jPr-c`|[urboot_a5272_2s_x3m0_4k8_swio_rxb0_txb1_lednop_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata5272/watchdog_2_s/external_oscillator/+3m000000_hz/+++4k8_baud/swio_rxb0_txb1/lednop/urboot_a5272_2s_x3m0_4k8_swio_rxb0_txb1_lednop_pr_ce.hex)|
-|350|384|u7.7|`weu-jPr--`|[urboot_a5272_2s_x3m0_4k8_swio_rxb0_txb1_lednop_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata5272/watchdog_2_s/external_oscillator/+3m000000_hz/+++4k8_baud/swio_rxb0_txb1/lednop/urboot_a5272_2s_x3m0_4k8_swio_rxb0_txb1_lednop_pr_ee.hex)|
-|376|384|u7.7|`weu-jPr-c`|[urboot_a5272_2s_x3m0_4k8_swio_rxb0_txb1_lednop_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata5272/watchdog_2_s/external_oscillator/+3m000000_hz/+++4k8_baud/swio_rxb0_txb1/lednop/urboot_a5272_2s_x3m0_4k8_swio_rxb0_txb1_lednop_pr_ee_ce.hex)|
+|256|256|u7.7|`w-u-jpr--`|[urboot_a5272_2s_x3m0_4k8_swio_rxb0_txb1_lednop.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata5272/watchdog_2_s/external_oscillator/%2B3m000000_hz/%2B%2B%2B4k8_baud/swio_rxb0_txb1/lednop/urboot_a5272_2s_x3m0_4k8_swio_rxb0_txb1_lednop.hex)|
+|288|384|u7.7|`w-u-jPr--`|[urboot_a5272_2s_x3m0_4k8_swio_rxb0_txb1_lednop_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata5272/watchdog_2_s/external_oscillator/%2B3m000000_hz/%2B%2B%2B4k8_baud/swio_rxb0_txb1/lednop/urboot_a5272_2s_x3m0_4k8_swio_rxb0_txb1_lednop_pr.hex)|
+|314|384|u7.7|`w-u-jPr-c`|[urboot_a5272_2s_x3m0_4k8_swio_rxb0_txb1_lednop_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata5272/watchdog_2_s/external_oscillator/%2B3m000000_hz/%2B%2B%2B4k8_baud/swio_rxb0_txb1/lednop/urboot_a5272_2s_x3m0_4k8_swio_rxb0_txb1_lednop_pr_ce.hex)|
+|350|384|u7.7|`weu-jPr--`|[urboot_a5272_2s_x3m0_4k8_swio_rxb0_txb1_lednop_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata5272/watchdog_2_s/external_oscillator/%2B3m000000_hz/%2B%2B%2B4k8_baud/swio_rxb0_txb1/lednop/urboot_a5272_2s_x3m0_4k8_swio_rxb0_txb1_lednop_pr_ee.hex)|
+|376|384|u7.7|`weu-jPr-c`|[urboot_a5272_2s_x3m0_4k8_swio_rxb0_txb1_lednop_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/ata5272/watchdog_2_s/external_oscillator/%2B3m000000_hz/%2B%2B%2B4k8_baud/swio_rxb0_txb1/lednop/urboot_a5272_2s_x3m0_4k8_swio_rxb0_txb1_lednop_pr_ee_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

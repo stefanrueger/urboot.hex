@@ -2,13 +2,13 @@ The ATmega1284 exhibits a SWIO baud rate quantisation error of +0.24% for this F
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|298|512|u7.7|`w-u-jPr--`|[urboot_atmega1284.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_1_s/internal_oscillator/1020000_hz/9600_baud/uart1_rxd2_txd3/led+b0/urboot_atmega1284.hex)|
-|298|512|u7.7|`w-u-jPr--`|[urboot_atmega1284_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_1_s/internal_oscillator/1020000_hz/9600_baud/uart1_rxd2_txd3/led+b0/urboot_atmega1284_pr.hex)|
-|342|512|u7.7|`w-u-jPr-c`|[urboot_atmega1284_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_1_s/internal_oscillator/1020000_hz/9600_baud/uart1_rxd2_txd3/led+b0/urboot_atmega1284_pr_ce.hex)|
-|360|512|u7.7|`weu-jPr--`|[urboot_atmega1284_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_1_s/internal_oscillator/1020000_hz/9600_baud/uart1_rxd2_txd3/led+b0/urboot_atmega1284_pr_ee.hex)|
-|404|512|u7.7|`weu-jPr-c`|[urboot_atmega1284_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_1_s/internal_oscillator/1020000_hz/9600_baud/uart1_rxd2_txd3/led+b0/urboot_atmega1284_pr_ee_ce.hex)|
-|386|1024|u7.7|`weu-hpr-c`|[urboot_atmega1284_ee_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_1_s/internal_oscillator/1020000_hz/9600_baud/uart1_rxd2_txd3/led+b0/urboot_atmega1284_ee_ce_hw.hex)|
-|492|1024|u7.7|`wes-hpr-c`|[urboot_atmega1284_ee_ce_hw_stk500.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_1_s/internal_oscillator/1020000_hz/9600_baud/uart1_rxd2_txd3/led+b0/urboot_atmega1284_ee_ce_hw_stk500.hex)|
+|298|512|u7.7|`w-u-jPr--`|[urboot_atmega1284.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_1_s/internal_oscillator/1020000_hz/9600_baud/uart1_rxd2_txd3/led%2Bb0/urboot_atmega1284.hex)|
+|298|512|u7.7|`w-u-jPr--`|[urboot_atmega1284_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_1_s/internal_oscillator/1020000_hz/9600_baud/uart1_rxd2_txd3/led%2Bb0/urboot_atmega1284_pr.hex)|
+|342|512|u7.7|`w-u-jPr-c`|[urboot_atmega1284_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_1_s/internal_oscillator/1020000_hz/9600_baud/uart1_rxd2_txd3/led%2Bb0/urboot_atmega1284_pr_ce.hex)|
+|360|512|u7.7|`weu-jPr--`|[urboot_atmega1284_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_1_s/internal_oscillator/1020000_hz/9600_baud/uart1_rxd2_txd3/led%2Bb0/urboot_atmega1284_pr_ee.hex)|
+|404|512|u7.7|`weu-jPr-c`|[urboot_atmega1284_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_1_s/internal_oscillator/1020000_hz/9600_baud/uart1_rxd2_txd3/led%2Bb0/urboot_atmega1284_pr_ee_ce.hex)|
+|386|1024|u7.7|`weu-hpr-c`|[urboot_atmega1284_ee_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_1_s/internal_oscillator/1020000_hz/9600_baud/uart1_rxd2_txd3/led%2Bb0/urboot_atmega1284_ee_ce_hw.hex)|
+|492|1024|u7.7|`wes-hpr-c`|[urboot_atmega1284_ee_ce_hw_stk500.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega1284/watchdog_1_s/internal_oscillator/1020000_hz/9600_baud/uart1_rxd2_txd3/led%2Bb0/urboot_atmega1284_ee_ce_hw_stk500.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

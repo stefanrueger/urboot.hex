@@ -2,14 +2,14 @@ The ATmega88PB exhibits a SWIO baud rate quantisation error of +0.08% for this F
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|294|320|u7.7|`w-u-jPr--`|[urboot_atmega88pb.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/watchdog_1_s/internal_oscillator/7840000_hz/76800_baud/uart0_rxd0_txd1/led+b5/urboot_atmega88pb.hex)|
-|294|320|u7.7|`w-u-jPr--`|[urboot_atmega88pb_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/watchdog_1_s/internal_oscillator/7840000_hz/76800_baud/uart0_rxd0_txd1/led+b5/urboot_atmega88pb_pr.hex)|
-|320|320|u7.7|`w-u-jPr-c`|[urboot_atmega88pb_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/watchdog_1_s/internal_oscillator/7840000_hz/76800_baud/uart0_rxd0_txd1/led+b5/urboot_atmega88pb_pr_ce.hex)|
-|356|384|u7.7|`weu-jPr--`|[urboot_atmega88pb_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/watchdog_1_s/internal_oscillator/7840000_hz/76800_baud/uart0_rxd0_txd1/led+b5/urboot_atmega88pb_pr_ee.hex)|
-|382|384|u7.7|`weu-jPr-c`|[urboot_atmega88pb_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/watchdog_1_s/internal_oscillator/7840000_hz/76800_baud/uart0_rxd0_txd1/led+b5/urboot_atmega88pb_pr_ee_ce.hex)|
-|276|512|u7.7|`w-u-hpr--`|[urboot_atmega88pb_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/watchdog_1_s/internal_oscillator/7840000_hz/76800_baud/uart0_rxd0_txd1/led+b5/urboot_atmega88pb_hw.hex)|
-|364|512|u7.7|`weu-hpr-c`|[urboot_atmega88pb_ee_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/watchdog_1_s/internal_oscillator/7840000_hz/76800_baud/uart0_rxd0_txd1/led+b5/urboot_atmega88pb_ee_ce_hw.hex)|
-|468|512|u7.7|`wes-hpr-c`|[urboot_atmega88pb_ee_ce_hw_stk500.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/watchdog_1_s/internal_oscillator/7840000_hz/76800_baud/uart0_rxd0_txd1/led+b5/urboot_atmega88pb_ee_ce_hw_stk500.hex)|
+|294|320|u7.7|`w-u-jPr--`|[urboot_atmega88pb.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/watchdog_1_s/internal_oscillator/7840000_hz/76800_baud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega88pb.hex)|
+|294|320|u7.7|`w-u-jPr--`|[urboot_atmega88pb_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/watchdog_1_s/internal_oscillator/7840000_hz/76800_baud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega88pb_pr.hex)|
+|320|320|u7.7|`w-u-jPr-c`|[urboot_atmega88pb_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/watchdog_1_s/internal_oscillator/7840000_hz/76800_baud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega88pb_pr_ce.hex)|
+|356|384|u7.7|`weu-jPr--`|[urboot_atmega88pb_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/watchdog_1_s/internal_oscillator/7840000_hz/76800_baud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega88pb_pr_ee.hex)|
+|382|384|u7.7|`weu-jPr-c`|[urboot_atmega88pb_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/watchdog_1_s/internal_oscillator/7840000_hz/76800_baud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega88pb_pr_ee_ce.hex)|
+|276|512|u7.7|`w-u-hpr--`|[urboot_atmega88pb_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/watchdog_1_s/internal_oscillator/7840000_hz/76800_baud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega88pb_hw.hex)|
+|364|512|u7.7|`weu-hpr-c`|[urboot_atmega88pb_ee_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/watchdog_1_s/internal_oscillator/7840000_hz/76800_baud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega88pb_ee_ce_hw.hex)|
+|468|512|u7.7|`wes-hpr-c`|[urboot_atmega88pb_ee_ce_hw_stk500.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega88pb/watchdog_1_s/internal_oscillator/7840000_hz/76800_baud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega88pb_ee_ce_hw_stk500.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

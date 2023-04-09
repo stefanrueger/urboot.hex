@@ -2,13 +2,13 @@ The ATmega6490P exhibits a SWIO baud rate quantisation error of -0.79% for this 
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|256|256|u7.7|`w-u-jpr--`|[urboot_atmega6490p.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega6490p/watchdog_1_s/external_oscillator/4000000_hz/115200_baud/uart0_rxe0_txe1/led+b7/urboot_atmega6490p.hex)|
-|286|512|u7.7|`w-u-jPr--`|[urboot_atmega6490p_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega6490p/watchdog_1_s/external_oscillator/4000000_hz/115200_baud/uart0_rxe0_txe1/led+b7/urboot_atmega6490p_pr.hex)|
-|310|512|u7.7|`w-u-jPr-c`|[urboot_atmega6490p_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega6490p/watchdog_1_s/external_oscillator/4000000_hz/115200_baud/uart0_rxe0_txe1/led+b7/urboot_atmega6490p_pr_ce.hex)|
-|346|512|u7.7|`weu-jPr--`|[urboot_atmega6490p_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega6490p/watchdog_1_s/external_oscillator/4000000_hz/115200_baud/uart0_rxe0_txe1/led+b7/urboot_atmega6490p_pr_ee.hex)|
-|370|512|u7.7|`weu-jPr-c`|[urboot_atmega6490p_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega6490p/watchdog_1_s/external_oscillator/4000000_hz/115200_baud/uart0_rxe0_txe1/led+b7/urboot_atmega6490p_pr_ee_ce.hex)|
-|356|1024|u7.7|`weu-hpr-c`|[urboot_atmega6490p_ee_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega6490p/watchdog_1_s/external_oscillator/4000000_hz/115200_baud/uart0_rxe0_txe1/led+b7/urboot_atmega6490p_ee_ce_hw.hex)|
-|460|1024|u7.7|`wes-hpr-c`|[urboot_atmega6490p_ee_ce_hw_stk500.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega6490p/watchdog_1_s/external_oscillator/4000000_hz/115200_baud/uart0_rxe0_txe1/led+b7/urboot_atmega6490p_ee_ce_hw_stk500.hex)|
+|256|256|u7.7|`w-u-jpr--`|[urboot_atmega6490p.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega6490p/watchdog_1_s/external_oscillator/4000000_hz/115200_baud/uart0_rxe0_txe1/led%2Bb7/urboot_atmega6490p.hex)|
+|286|512|u7.7|`w-u-jPr--`|[urboot_atmega6490p_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega6490p/watchdog_1_s/external_oscillator/4000000_hz/115200_baud/uart0_rxe0_txe1/led%2Bb7/urboot_atmega6490p_pr.hex)|
+|310|512|u7.7|`w-u-jPr-c`|[urboot_atmega6490p_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega6490p/watchdog_1_s/external_oscillator/4000000_hz/115200_baud/uart0_rxe0_txe1/led%2Bb7/urboot_atmega6490p_pr_ce.hex)|
+|346|512|u7.7|`weu-jPr--`|[urboot_atmega6490p_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega6490p/watchdog_1_s/external_oscillator/4000000_hz/115200_baud/uart0_rxe0_txe1/led%2Bb7/urboot_atmega6490p_pr_ee.hex)|
+|370|512|u7.7|`weu-jPr-c`|[urboot_atmega6490p_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega6490p/watchdog_1_s/external_oscillator/4000000_hz/115200_baud/uart0_rxe0_txe1/led%2Bb7/urboot_atmega6490p_pr_ee_ce.hex)|
+|356|1024|u7.7|`weu-hpr-c`|[urboot_atmega6490p_ee_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega6490p/watchdog_1_s/external_oscillator/4000000_hz/115200_baud/uart0_rxe0_txe1/led%2Bb7/urboot_atmega6490p_ee_ce_hw.hex)|
+|460|1024|u7.7|`wes-hpr-c`|[urboot_atmega6490p_ee_ce_hw_stk500.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/megacore/atmega6490p/watchdog_1_s/external_oscillator/4000000_hz/115200_baud/uart0_rxe0_txe1/led%2Bb7/urboot_atmega6490p_ee_ce_hw_stk500.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

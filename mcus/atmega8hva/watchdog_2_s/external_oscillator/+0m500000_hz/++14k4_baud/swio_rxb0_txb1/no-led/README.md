@@ -2,11 +2,11 @@ The ATmega8HVA exhibits a SWIO baud rate quantisation error of -0.79% for this F
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|256|256|u7.7|`w-u-jpr--`|[urboot_m8hva_2s_x0m5_14k4_swio_rxb0_txb1_no-led.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega8hva/watchdog_2_s/external_oscillator/+0m500000_hz/++14k4_baud/swio_rxb0_txb1/no-led/urboot_m8hva_2s_x0m5_14k4_swio_rxb0_txb1_no-led.hex)|
-|282|384|u7.7|`w-u-jPr--`|[urboot_m8hva_2s_x0m5_14k4_swio_rxb0_txb1_no-led_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega8hva/watchdog_2_s/external_oscillator/+0m500000_hz/++14k4_baud/swio_rxb0_txb1/no-led/urboot_m8hva_2s_x0m5_14k4_swio_rxb0_txb1_no-led_pr.hex)|
-|308|384|u7.7|`w-u-jPr-c`|[urboot_m8hva_2s_x0m5_14k4_swio_rxb0_txb1_no-led_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega8hva/watchdog_2_s/external_oscillator/+0m500000_hz/++14k4_baud/swio_rxb0_txb1/no-led/urboot_m8hva_2s_x0m5_14k4_swio_rxb0_txb1_no-led_pr_ce.hex)|
-|340|384|u7.7|`weu-jPr--`|[urboot_m8hva_2s_x0m5_14k4_swio_rxb0_txb1_no-led_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega8hva/watchdog_2_s/external_oscillator/+0m500000_hz/++14k4_baud/swio_rxb0_txb1/no-led/urboot_m8hva_2s_x0m5_14k4_swio_rxb0_txb1_no-led_pr_ee.hex)|
-|366|384|u7.7|`weu-jPr-c`|[urboot_m8hva_2s_x0m5_14k4_swio_rxb0_txb1_no-led_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega8hva/watchdog_2_s/external_oscillator/+0m500000_hz/++14k4_baud/swio_rxb0_txb1/no-led/urboot_m8hva_2s_x0m5_14k4_swio_rxb0_txb1_no-led_pr_ee_ce.hex)|
+|256|256|u7.7|`w-u-jpr--`|[urboot_m8hva_2s_x0m5_14k4_swio_rxb0_txb1_no-led.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega8hva/watchdog_2_s/external_oscillator/%2B0m500000_hz/%2B%2B14k4_baud/swio_rxb0_txb1/no-led/urboot_m8hva_2s_x0m5_14k4_swio_rxb0_txb1_no-led.hex)|
+|282|384|u7.7|`w-u-jPr--`|[urboot_m8hva_2s_x0m5_14k4_swio_rxb0_txb1_no-led_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega8hva/watchdog_2_s/external_oscillator/%2B0m500000_hz/%2B%2B14k4_baud/swio_rxb0_txb1/no-led/urboot_m8hva_2s_x0m5_14k4_swio_rxb0_txb1_no-led_pr.hex)|
+|308|384|u7.7|`w-u-jPr-c`|[urboot_m8hva_2s_x0m5_14k4_swio_rxb0_txb1_no-led_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega8hva/watchdog_2_s/external_oscillator/%2B0m500000_hz/%2B%2B14k4_baud/swio_rxb0_txb1/no-led/urboot_m8hva_2s_x0m5_14k4_swio_rxb0_txb1_no-led_pr_ce.hex)|
+|340|384|u7.7|`weu-jPr--`|[urboot_m8hva_2s_x0m5_14k4_swio_rxb0_txb1_no-led_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega8hva/watchdog_2_s/external_oscillator/%2B0m500000_hz/%2B%2B14k4_baud/swio_rxb0_txb1/no-led/urboot_m8hva_2s_x0m5_14k4_swio_rxb0_txb1_no-led_pr_ee.hex)|
+|366|384|u7.7|`weu-jPr-c`|[urboot_m8hva_2s_x0m5_14k4_swio_rxb0_txb1_no-led_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega8hva/watchdog_2_s/external_oscillator/%2B0m500000_hz/%2B%2B14k4_baud/swio_rxb0_txb1/no-led/urboot_m8hva_2s_x0m5_14k4_swio_rxb0_txb1_no-led_pr_ee_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

@@ -2,11 +2,11 @@ The ATmega48 exhibits a SWIO baud rate quantisation error of +0.16% for this F_C
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|254|256|u7.7|`w-u-jpr--`|[urboot_atmega48.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega48/watchdog_1_s/external_oscillator/6000000_hz/230400_baud/uart0_rxd0_txd1/led+b5/urboot_atmega48.hex)|
-|280|320|u7.7|`w-u-jPr--`|[urboot_atmega48_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega48/watchdog_1_s/external_oscillator/6000000_hz/230400_baud/uart0_rxd0_txd1/led+b5/urboot_atmega48_pr.hex)|
-|306|320|u7.7|`w-u-jPr-c`|[urboot_atmega48_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega48/watchdog_1_s/external_oscillator/6000000_hz/230400_baud/uart0_rxd0_txd1/led+b5/urboot_atmega48_pr_ce.hex)|
-|342|384|u7.7|`weu-jPr--`|[urboot_atmega48_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega48/watchdog_1_s/external_oscillator/6000000_hz/230400_baud/uart0_rxd0_txd1/led+b5/urboot_atmega48_pr_ee.hex)|
-|368|384|u7.7|`weu-jPr-c`|[urboot_atmega48_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega48/watchdog_1_s/external_oscillator/6000000_hz/230400_baud/uart0_rxd0_txd1/led+b5/urboot_atmega48_pr_ee_ce.hex)|
+|254|256|u7.7|`w-u-jpr--`|[urboot_atmega48.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega48/watchdog_1_s/external_oscillator/6000000_hz/230400_baud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega48.hex)|
+|280|320|u7.7|`w-u-jPr--`|[urboot_atmega48_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega48/watchdog_1_s/external_oscillator/6000000_hz/230400_baud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega48_pr.hex)|
+|306|320|u7.7|`w-u-jPr-c`|[urboot_atmega48_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega48/watchdog_1_s/external_oscillator/6000000_hz/230400_baud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega48_pr_ce.hex)|
+|342|384|u7.7|`weu-jPr--`|[urboot_atmega48_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega48/watchdog_1_s/external_oscillator/6000000_hz/230400_baud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega48_pr_ee.hex)|
+|368|384|u7.7|`weu-jPr-c`|[urboot_atmega48_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega48/watchdog_1_s/external_oscillator/6000000_hz/230400_baud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega48_pr_ee_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

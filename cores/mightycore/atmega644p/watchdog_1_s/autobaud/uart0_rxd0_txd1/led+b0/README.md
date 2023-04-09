@@ -2,13 +2,13 @@ Note that autobaud bootloaders normally can only detect host baud rates = f/8, f
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|256|256|u7.7|`w-u-jPra-`|[urboot_atmega644p.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega644p/watchdog_1_s/autobaud/uart0_rxd0_txd1/led+b0/urboot_atmega644p.hex)|
-|256|256|u7.7|`w-u-jPra-`|[urboot_atmega644p_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega644p/watchdog_1_s/autobaud/uart0_rxd0_txd1/led+b0/urboot_atmega644p_pr.hex)|
-|298|512|u7.7|`w-u-jPrac`|[urboot_atmega644p_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega644p/watchdog_1_s/autobaud/uart0_rxd0_txd1/led+b0/urboot_atmega644p_pr_ce.hex)|
-|336|512|u7.7|`weu-jPra-`|[urboot_atmega644p_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega644p/watchdog_1_s/autobaud/uart0_rxd0_txd1/led+b0/urboot_atmega644p_pr_ee.hex)|
-|360|512|u7.7|`weu-jPrac`|[urboot_atmega644p_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega644p/watchdog_1_s/autobaud/uart0_rxd0_txd1/led+b0/urboot_atmega644p_pr_ee_ce.hex)|
-|346|1024|u7.7|`weu-hprac`|[urboot_atmega644p_ee_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega644p/watchdog_1_s/autobaud/uart0_rxd0_txd1/led+b0/urboot_atmega644p_ee_ce_hw.hex)|
-|450|1024|u7.7|`wes-hprac`|[urboot_atmega644p_ee_ce_hw_stk500.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega644p/watchdog_1_s/autobaud/uart0_rxd0_txd1/led+b0/urboot_atmega644p_ee_ce_hw_stk500.hex)|
+|256|256|u7.7|`w-u-jPra-`|[urboot_atmega644p.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega644p/watchdog_1_s/autobaud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega644p.hex)|
+|256|256|u7.7|`w-u-jPra-`|[urboot_atmega644p_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega644p/watchdog_1_s/autobaud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega644p_pr.hex)|
+|298|512|u7.7|`w-u-jPrac`|[urboot_atmega644p_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega644p/watchdog_1_s/autobaud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega644p_pr_ce.hex)|
+|336|512|u7.7|`weu-jPra-`|[urboot_atmega644p_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega644p/watchdog_1_s/autobaud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega644p_pr_ee.hex)|
+|360|512|u7.7|`weu-jPrac`|[urboot_atmega644p_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega644p/watchdog_1_s/autobaud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega644p_pr_ee_ce.hex)|
+|346|1024|u7.7|`weu-hprac`|[urboot_atmega644p_ee_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega644p/watchdog_1_s/autobaud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega644p_ee_ce_hw.hex)|
+|450|1024|u7.7|`wes-hprac`|[urboot_atmega644p_ee_ce_hw_stk500.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/mightycore/atmega644p/watchdog_1_s/autobaud/uart0_rxd0_txd1/led%2Bb0/urboot_atmega644p_ee_ce_hw_stk500.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

@@ -2,11 +2,11 @@ The ATtiny87 exhibits a LINUART baud rate quantisation error of +0.00% for this 
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|250|256|u7.7|`w-u-jPr--`|[urboot_t87_2s_x12m0_19k2_uart0_rxa0_txa1_no-led.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny87/watchdog_2_s/external_oscillator/12m000000_hz/++19k2_baud/uart0_rxa0_txa1/no-led/urboot_t87_2s_x12m0_19k2_uart0_rxa0_txa1_no-led.hex)|
-|250|256|u7.7|`w-u-jPr--`|[urboot_t87_2s_x12m0_19k2_uart0_rxa0_txa1_no-led_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny87/watchdog_2_s/external_oscillator/12m000000_hz/++19k2_baud/uart0_rxa0_txa1/no-led/urboot_t87_2s_x12m0_19k2_uart0_rxa0_txa1_no-led_pr.hex)|
-|280|384|u7.7|`w-u-jPr-c`|[urboot_t87_2s_x12m0_19k2_uart0_rxa0_txa1_no-led_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny87/watchdog_2_s/external_oscillator/12m000000_hz/++19k2_baud/uart0_rxa0_txa1/no-led/urboot_t87_2s_x12m0_19k2_uart0_rxa0_txa1_no-led_pr_ce.hex)|
-|316|384|u7.7|`weu-jPr--`|[urboot_t87_2s_x12m0_19k2_uart0_rxa0_txa1_no-led_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny87/watchdog_2_s/external_oscillator/12m000000_hz/++19k2_baud/uart0_rxa0_txa1/no-led/urboot_t87_2s_x12m0_19k2_uart0_rxa0_txa1_no-led_pr_ee.hex)|
-|342|384|u7.7|`weu-jPr-c`|[urboot_t87_2s_x12m0_19k2_uart0_rxa0_txa1_no-led_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny87/watchdog_2_s/external_oscillator/12m000000_hz/++19k2_baud/uart0_rxa0_txa1/no-led/urboot_t87_2s_x12m0_19k2_uart0_rxa0_txa1_no-led_pr_ee_ce.hex)|
+|250|256|u7.7|`w-u-jPr--`|[urboot_t87_2s_x12m0_19k2_uart0_rxa0_txa1_no-led.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny87/watchdog_2_s/external_oscillator/12m000000_hz/%2B%2B19k2_baud/uart0_rxa0_txa1/no-led/urboot_t87_2s_x12m0_19k2_uart0_rxa0_txa1_no-led.hex)|
+|250|256|u7.7|`w-u-jPr--`|[urboot_t87_2s_x12m0_19k2_uart0_rxa0_txa1_no-led_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny87/watchdog_2_s/external_oscillator/12m000000_hz/%2B%2B19k2_baud/uart0_rxa0_txa1/no-led/urboot_t87_2s_x12m0_19k2_uart0_rxa0_txa1_no-led_pr.hex)|
+|280|384|u7.7|`w-u-jPr-c`|[urboot_t87_2s_x12m0_19k2_uart0_rxa0_txa1_no-led_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny87/watchdog_2_s/external_oscillator/12m000000_hz/%2B%2B19k2_baud/uart0_rxa0_txa1/no-led/urboot_t87_2s_x12m0_19k2_uart0_rxa0_txa1_no-led_pr_ce.hex)|
+|316|384|u7.7|`weu-jPr--`|[urboot_t87_2s_x12m0_19k2_uart0_rxa0_txa1_no-led_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny87/watchdog_2_s/external_oscillator/12m000000_hz/%2B%2B19k2_baud/uart0_rxa0_txa1/no-led/urboot_t87_2s_x12m0_19k2_uart0_rxa0_txa1_no-led_pr_ee.hex)|
+|342|384|u7.7|`weu-jPr-c`|[urboot_t87_2s_x12m0_19k2_uart0_rxa0_txa1_no-led_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/attiny87/watchdog_2_s/external_oscillator/12m000000_hz/%2B%2B19k2_baud/uart0_rxa0_txa1/no-led/urboot_t87_2s_x12m0_19k2_uart0_rxa0_txa1_no-led_pr_ee_ce.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size

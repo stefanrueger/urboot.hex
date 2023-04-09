@@ -2,14 +2,14 @@ The ATmega8 exhibits a UART baud rate quantisation error of +0.00% for this F_CP
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|234|256|u7.7|`w-u-hpr--`|[urboot_atmega8_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega8/watchdog_1_s/external_oscillator/2764800_hz/14400_baud/uart0_rxd0_txd1/led+b5/urboot_atmega8_hw.hex)|
-|248|256|u7.7|`w-u-jPr--`|[urboot_atmega8.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega8/watchdog_1_s/external_oscillator/2764800_hz/14400_baud/uart0_rxd0_txd1/led+b5/urboot_atmega8.hex)|
-|248|256|u7.7|`w-u-jPr--`|[urboot_atmega8_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega8/watchdog_1_s/external_oscillator/2764800_hz/14400_baud/uart0_rxd0_txd1/led+b5/urboot_atmega8_pr.hex)|
-|256|256|u7.7|`w-u-jPr-c`|[urboot_atmega8_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega8/watchdog_1_s/external_oscillator/2764800_hz/14400_baud/uart0_rxd0_txd1/led+b5/urboot_atmega8_pr_ce.hex)|
-|318|320|u7.7|`weu-jPr--`|[urboot_atmega8_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega8/watchdog_1_s/external_oscillator/2764800_hz/14400_baud/uart0_rxd0_txd1/led+b5/urboot_atmega8_pr_ee.hex)|
-|344|384|u7.7|`weu-jPr-c`|[urboot_atmega8_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega8/watchdog_1_s/external_oscillator/2764800_hz/14400_baud/uart0_rxd0_txd1/led+b5/urboot_atmega8_pr_ee_ce.hex)|
-|326|512|u7.7|`weu-hpr-c`|[urboot_atmega8_ee_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega8/watchdog_1_s/external_oscillator/2764800_hz/14400_baud/uart0_rxd0_txd1/led+b5/urboot_atmega8_ee_ce_hw.hex)|
-|428|512|u7.7|`wes-hpr-c`|[urboot_atmega8_ee_ce_hw_stk500.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega8/watchdog_1_s/external_oscillator/2764800_hz/14400_baud/uart0_rxd0_txd1/led+b5/urboot_atmega8_ee_ce_hw_stk500.hex)|
+|234|256|u7.7|`w-u-hpr--`|[urboot_atmega8_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega8/watchdog_1_s/external_oscillator/2764800_hz/14400_baud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega8_hw.hex)|
+|248|256|u7.7|`w-u-jPr--`|[urboot_atmega8.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega8/watchdog_1_s/external_oscillator/2764800_hz/14400_baud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega8.hex)|
+|248|256|u7.7|`w-u-jPr--`|[urboot_atmega8_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega8/watchdog_1_s/external_oscillator/2764800_hz/14400_baud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega8_pr.hex)|
+|256|256|u7.7|`w-u-jPr-c`|[urboot_atmega8_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega8/watchdog_1_s/external_oscillator/2764800_hz/14400_baud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega8_pr_ce.hex)|
+|318|320|u7.7|`weu-jPr--`|[urboot_atmega8_pr_ee.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega8/watchdog_1_s/external_oscillator/2764800_hz/14400_baud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega8_pr_ee.hex)|
+|344|384|u7.7|`weu-jPr-c`|[urboot_atmega8_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega8/watchdog_1_s/external_oscillator/2764800_hz/14400_baud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega8_pr_ee_ce.hex)|
+|326|512|u7.7|`weu-hpr-c`|[urboot_atmega8_ee_ce_hw.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega8/watchdog_1_s/external_oscillator/2764800_hz/14400_baud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega8_ee_ce_hw.hex)|
+|428|512|u7.7|`wes-hpr-c`|[urboot_atmega8_ee_ce_hw_stk500.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/cores/minicore/atmega8/watchdog_1_s/external_oscillator/2764800_hz/14400_baud/uart0_rxd0_txd1/led%2Bb5/urboot_atmega8_ee_ce_hw_stk500.hex)|
 
 - **Size:** Bootloader code size including small table at top end
 - **Usage:** How many bytes of flash are needed, ie, HW boot section or a multiple of the page size
