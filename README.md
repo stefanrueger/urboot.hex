@@ -48,7 +48,7 @@ no need to select a bootloader with [blinkenlights](https://en.wikipedia.org/wik
 a silent bootloader from the corresponding `mcus` tree which has either `_lednop` or no `_led`
 in the filename would equally be suitable for the board/core in consideration.
 
-All in all, this repository contains 1,066,518 *different* bootloaders. There are actually 4,709,458
+All in all, this repository contains 1,195,558 *different* bootloaders. There are actually 4,964,650
 `.hex` files in the  `mcus` tree but these often are copies of each other because, eg, a bootloader
 on 115,200 baud for 16 MHz is *exactly* the same as a bootloader on 57,600 baud for 8 MHz. The
 copies under different names and directories are provided for convenience.
