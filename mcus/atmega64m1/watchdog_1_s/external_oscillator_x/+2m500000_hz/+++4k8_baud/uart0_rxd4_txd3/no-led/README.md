@@ -28,7 +28,7 @@ The ATmega64M1 exhibits a LINUART baud rate quantisation error of +0.16% for thi
 - **Hex file:** often qualified by the MCU name and/or configuration
   + `1s` watchdog timeout, ie, time window for upload after external reset
   + `x2m5` is F<sub>CPU</sub> of an external oscillator, here 2.5 MHz
-  + `m64m1` is F<sub>CPU</sub> of a too fast internal oscillator, here 64.1 MHz + 4%
+  + `m64m1` is F<sub>CPU</sub> of a too fast internal oscillator, here 64.1 MHz + 5.00%
   + `4k8` shows the fixed communication baud rate, here 4800 baud
   + `uart0` UART number
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`

@@ -27,7 +27,7 @@ The ATmega1284RFR2 exhibits a UART baud rate quantisation error of -0.35% for th
   + `-` corresponding feature not present
 - **Hex file:** often qualified by the MCU name and/or configuration
   + `2s` watchdog timeout, ie, time window for upload after external reset
-  + `d1m0` is F<sub>CPU</sub> of a too slow internal oscillator, here 1.0 MHz - 5%
+  + `d1m0` is F<sub>CPU</sub> of a too slow internal oscillator, here 1.0 MHz - 6.25%
   + `2k4` shows the fixed communication baud rate, here 2400 baud
   + `uart1` UART number
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`

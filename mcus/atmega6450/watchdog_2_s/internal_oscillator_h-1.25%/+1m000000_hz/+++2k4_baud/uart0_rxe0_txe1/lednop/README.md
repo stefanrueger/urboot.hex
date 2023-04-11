@@ -27,7 +27,7 @@ The ATmega6450 exhibits a SWIO baud rate quantisation error of +0.11% for this F
   + `-` corresponding feature not present
 - **Hex file:** often qualified by the MCU name and/or configuration
   + `2s` watchdog timeout, ie, time window for upload after external reset
-  + `h1m0` is F<sub>CPU</sub> of a too slow internal oscillator, here 1.0 MHz - 1%
+  + `h1m0` is F<sub>CPU</sub> of a too slow internal oscillator, here 1.0 MHz - 1.25%
   + `2k4` shows the fixed communication baud rate, here 2400 baud
   + `swio` software I/O (not UART)
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`

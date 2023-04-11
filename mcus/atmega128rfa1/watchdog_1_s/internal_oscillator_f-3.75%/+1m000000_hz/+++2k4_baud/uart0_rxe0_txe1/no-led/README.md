@@ -27,7 +27,7 @@ The ATmega128RFA1 exhibits a UART baud rate quantisation error of +0.26% for thi
   + `-` corresponding feature not present
 - **Hex file:** often qualified by the MCU name and/or configuration
   + `1s` watchdog timeout, ie, time window for upload after external reset
-  + `f1m0` is F<sub>CPU</sub> of a too slow internal oscillator, here 1.0 MHz - 3%
+  + `f1m0` is F<sub>CPU</sub> of a too slow internal oscillator, here 1.0 MHz - 3.75%
   + `2k4` shows the fixed communication baud rate, here 2400 baud
   + `uart0` UART number
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`

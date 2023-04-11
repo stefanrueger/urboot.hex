@@ -22,7 +22,7 @@ The ATtiny2313 exhibits a UART baud rate quantisation error of +0.00% for this F
   + `-` corresponding feature not present
 - **Hex file:** often qualified by the MCU name and/or configuration
   + `2s` watchdog timeout, ie, time window for upload after external reset
-  + `p0m128` is F<sub>CPU</sub> of a too fast internal oscillator, here 0.128 MHz + 7%
+  + `p0m128` is F<sub>CPU</sub> of a too fast internal oscillator, here 0.128 MHz + 8.75%
   + `0k3` shows the fixed communication baud rate, here 300 baud
   + `uart0` UART number
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`

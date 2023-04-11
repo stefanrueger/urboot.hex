@@ -27,7 +27,7 @@ The AT90USB646 exhibits a UART baud rate quantisation error of -0.57% for this F
   + `-` corresponding feature not present
 - **Hex file:** often qualified by the MCU name and/or configuration
   + `2s` watchdog timeout, ie, time window for upload after external reset
-  + `m8m0` is F<sub>CPU</sub> of a too fast internal oscillator, here 8.0 MHz + 4%
+  + `m8m0` is F<sub>CPU</sub> of a too fast internal oscillator, here 8.0 MHz + 5.00%
   + `9k6` shows the fixed communication baud rate, here 9600 baud
   + `uart0` UART number
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`

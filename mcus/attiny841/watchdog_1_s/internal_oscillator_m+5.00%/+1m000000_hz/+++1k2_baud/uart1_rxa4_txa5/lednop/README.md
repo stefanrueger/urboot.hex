@@ -22,7 +22,7 @@ The ATtiny841 exhibits a UART baud rate quantisation error of -0.57% for this F_
   + `-` corresponding feature not present
 - **Hex file:** often qualified by the MCU name and/or configuration
   + `1s` watchdog timeout, ie, time window for upload after external reset
-  + `m1m0` is F<sub>CPU</sub> of a too fast internal oscillator, here 1.0 MHz + 4%
+  + `m1m0` is F<sub>CPU</sub> of a too fast internal oscillator, here 1.0 MHz + 5.00%
   + `1k2` shows the fixed communication baud rate, here 1200 baud
   + `uart1` UART number
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`

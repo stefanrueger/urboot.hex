@@ -28,7 +28,7 @@ The ATA6286 exhibits a SWIO baud rate quantisation error of -0.22% for this F_CP
   + `-` corresponding feature not present
 - **Hex file:** often qualified by the MCU name and/or configuration
   + `1s` watchdog timeout, ie, time window for upload after external reset
-  + `k0m125` is F<sub>CPU</sub> of a too fast internal oscillator, here 0.125 MHz + 2%
+  + `k0m125` is F<sub>CPU</sub> of a too fast internal oscillator, here 0.125 MHz + 2.50%
   + `0k6` shows the fixed communication baud rate, here 600 baud
   + `swio` software I/O (not UART)
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`

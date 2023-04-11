@@ -22,7 +22,7 @@ The ATtiny45 exhibits a SWIO baud rate quantisation error of -0.42% for this F_C
   + `-` corresponding feature not present
 - **Hex file:** often qualified by the MCU name and/or configuration
   + `1s` watchdog timeout, ie, time window for upload after external reset
-  + `e6m4` is F<sub>CPU</sub> of a too slow internal oscillator, here 6.4 MHz - 4%
+  + `e6m4` is F<sub>CPU</sub> of a too slow internal oscillator, here 6.4 MHz - 5.00%
   + `57k6` shows the fixed communication baud rate, here 57600 baud
   + `swio` software I/O (not UART)
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`

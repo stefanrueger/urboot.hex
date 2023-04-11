@@ -23,7 +23,7 @@ The ATtiny841 exhibits a SWIO baud rate quantisation error of -0.17% for this F_
   + `-` corresponding feature not present
 - **Hex file:** often qualified by the MCU name and/or configuration
   + `2s` watchdog timeout, ie, time window for upload after external reset
-  + `e0m512` is F<sub>CPU</sub> of a too slow internal oscillator, here 0.512 MHz - 4%
+  + `e0m512` is F<sub>CPU</sub> of a too slow internal oscillator, here 0.512 MHz - 5.00%
   + `2k4` shows the fixed communication baud rate, here 2400 baud
   + `swio` software I/O (not UART)
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`

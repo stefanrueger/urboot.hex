@@ -28,7 +28,7 @@ Note that autobaud bootloaders normally can only detect host baud rates = f/8, f
   + `-` corresponding feature not present
 - **Hex file:** often qualified by the MCU name and/or configuration
   + `2s` watchdog timeout, ie, time window for upload after external reset
-  + `m16m1` is F<sub>CPU</sub> of a too fast internal oscillator, here 16.1 MHz + 4%
+  + `m16m1` is F<sub>CPU</sub> of a too fast internal oscillator, here 16.1 MHz + 5.00%
   + `autobaud` detects host baud rate f/8, f/16, f/24, ..., f/2048 (f=F<sub>CPU</sub>)
   + `uart0` UART number
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`

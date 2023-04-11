@@ -27,7 +27,7 @@ The ATmega16U2 exhibits a UART baud rate quantisation error of -0.05% for this F
   + `-` corresponding feature not present
 - **Hex file:** often qualified by the MCU name and/or configuration
   + `1s` watchdog timeout, ie, time window for upload after external reset
-  + `e8m0` is F<sub>CPU</sub> of a too slow internal oscillator, here 8.0 MHz - 4%
+  + `e8m0` is F<sub>CPU</sub> of a too slow internal oscillator, here 8.0 MHz - 5.00%
   + `14k4` shows the fixed communication baud rate, here 14400 baud
   + `uart0` UART number
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`

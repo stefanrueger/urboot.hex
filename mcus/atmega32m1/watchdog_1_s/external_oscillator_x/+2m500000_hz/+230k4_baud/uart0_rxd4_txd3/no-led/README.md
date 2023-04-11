@@ -28,7 +28,7 @@ The ATmega32M1 exhibits a LINUART baud rate quantisation error of -1.36% for thi
 - **Hex file:** often qualified by the MCU name and/or configuration
   + `1s` watchdog timeout, ie, time window for upload after external reset
   + `x2m5` is F<sub>CPU</sub> of an external oscillator, here 2.5 MHz
-  + `m32m1` is F<sub>CPU</sub> of a too fast internal oscillator, here 32.1 MHz + 4%
+  + `m32m1` is F<sub>CPU</sub> of a too fast internal oscillator, here 32.1 MHz + 5.00%
   + `230k4` shows the fixed communication baud rate, here 230400 baud
   + `uart0` UART number
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`

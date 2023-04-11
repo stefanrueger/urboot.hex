@@ -22,7 +22,7 @@ The ATtiny441 exhibits a UART baud rate quantisation error of +0.00% for this F_
   + `-` corresponding feature not present
 - **Hex file:** often qualified by the MCU name and/or configuration
   + `2s` watchdog timeout, ie, time window for upload after external reset
-  + `d0m512` is F<sub>CPU</sub> of a too slow internal oscillator, here 0.512 MHz - 5%
+  + `d0m512` is F<sub>CPU</sub> of a too slow internal oscillator, here 0.512 MHz - 6.25%
   + `0k6` shows the fixed communication baud rate, here 600 baud
   + `uart0` UART number
   + `alt1` alternative RX/TX pin assignment

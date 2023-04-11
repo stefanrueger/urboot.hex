@@ -23,7 +23,7 @@ The ATtiny13A exhibits a SWIO baud rate quantisation error of -0.09% for this F_
   + `-` corresponding feature not present
 - **Hex file:** often qualified by the MCU name and/or configuration
   + `1s` watchdog timeout, ie, time window for upload after external reset
-  + `o4m8` is F<sub>CPU</sub> of a too fast internal oscillator, here 4.8 MHz + 6%
+  + `o4m8` is F<sub>CPU</sub> of a too fast internal oscillator, here 4.8 MHz + 7.50%
   + `9k6` shows the fixed communication baud rate, here 9600 baud
   + `swio` software I/O (not UART)
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`

@@ -28,7 +28,7 @@ The ATmega16A exhibits a UART baud rate quantisation error of +0.26% for this F_
   + `-` corresponding feature not present
 - **Hex file:** often qualified by the MCU name and/or configuration
   + `1s` watchdog timeout, ie, time window for upload after external reset
-  + `f4m0` is F<sub>CPU</sub> of a too slow internal oscillator, here 4.0 MHz - 3%
+  + `f4m0` is F<sub>CPU</sub> of a too slow internal oscillator, here 4.0 MHz - 3.75%
   + `4k8` shows the fixed communication baud rate, here 4800 baud
   + `uart0` UART number
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`

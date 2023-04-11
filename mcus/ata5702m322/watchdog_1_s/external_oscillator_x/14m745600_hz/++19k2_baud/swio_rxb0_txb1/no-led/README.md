@@ -24,7 +24,7 @@ The ATA5702M322 exhibits a SWIO baud rate quantisation error of +0.13% for this 
 - **Hex file:** often qualified by the MCU name and/or configuration
   + `1s` watchdog timeout, ie, time window for upload after external reset
   + `x14m7456` is F<sub>CPU</sub> of an external oscillator, here 14.7456 MHz
-  + `a5702m322` is F<sub>CPU</sub> of a too slow internal oscillator, here 5702.322 MHz - 8%
+  + `a5702m322` is F<sub>CPU</sub> of a too slow internal oscillator, here 5702.322 MHz - 10.00%
   + `19k2` shows the fixed communication baud rate, here 19200 baud
   + `swio` software I/O (not UART)
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`

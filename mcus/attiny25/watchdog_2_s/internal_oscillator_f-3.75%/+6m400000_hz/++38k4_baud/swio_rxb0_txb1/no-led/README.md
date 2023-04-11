@@ -22,7 +22,7 @@ The ATtiny25 exhibits a SWIO baud rate quantisation error of +0.26% for this F_C
   + `-` corresponding feature not present
 - **Hex file:** often qualified by the MCU name and/or configuration
   + `2s` watchdog timeout, ie, time window for upload after external reset
-  + `f6m4` is F<sub>CPU</sub> of a too slow internal oscillator, here 6.4 MHz - 3%
+  + `f6m4` is F<sub>CPU</sub> of a too slow internal oscillator, here 6.4 MHz - 3.75%
   + `38k4` shows the fixed communication baud rate, here 38400 baud
   + `swio` software I/O (not UART)
   + `rxd0 txd1` I/O using, in this example, lines RX `D0` and TX `D1`
