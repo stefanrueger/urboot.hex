@@ -31,7 +31,7 @@ an *internal* oscillator, which more often than not exhibit a deviation of 2% or
 nominal clock frequency. For the former, the pre-compiled urboot bootloaders tend to be shorter and
 faster at the cost of potentially higher quantisation errors for the baud rate, up to 2.1%. For the
 latter the bootloaders tend to be slower but have a baud rate quantisation error of less than 0.5%;
-there are a number of bootloaders on offer in steps of 1% around the nominal F<sub>CPU</sub> so
+there are a number of bootloaders on offer in steps of 1.25% around the nominal F<sub>CPU</sub> so
 that a particular board can be furnished with a suitable bootloader for the *actual* internal clock
 frequency. All in all the aim is to ensure baud rate errors are below 2.5% to facilitate reliable
 serial communication.
@@ -45,7 +45,7 @@ reset of the board at the beginning of each character read `getc()` routine and 
 at the end of each `getc()`. When the bootloader times out at the end of its engagement the LED
 is switched off (unless, of course, it is used thereafter in the uploaded application). There is
 no need to select a bootloader with [blinkenlights](https://en.wikipedia.org/wiki/Blinkenlights):
-a silent bootloader from the corresponding `mcus` tree which has either `_lednop` or no `_led`
+a silent bootloader from the corresponding `mcus` tree which has `_no-led`
 in the filename would equally be suitable for the board/core in consideration.
 
 All in all, this repository contains 1,283,806 *different* bootloaders. There are actually 5,229,026
