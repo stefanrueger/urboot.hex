@@ -61,3 +61,9 @@ Click on the links below to get more information about
  - [Using](https://github.com/stefanrueger/urboot/blob/main/README.md#usage) them
  - How they [compare](https://github.com/stefanrueger/urboot/blob/main/README.md#comparison) to optiboot
  - And, finally, how to [trouble-shoot](https://github.com/stefanrueger/urboot/blob/main/README.md#trouble-shooting) them if things go wrong
+
+Cloning this repository can take long and create a large directory (some 70 GB). Pro tip: Download a zip file instead from github or execute on the command line
+``` sh
+curl -L https://github.com/stefanrueger/urboot.hex/tarball/master >urboot-hex.tar
+```
+This creates a roughly 2 GB gzip compressed tar file from the current snapshot.
