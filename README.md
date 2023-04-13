@@ -19,11 +19,11 @@ Mega](https://github.com/stefanrueger/urboot.hex/tree/main/boards/moteinomega/at
 and the ATmega2560 [Mega R3
 board](https://github.com/stefanrueger/urboot.hex/tree/main/boards/mega-r3/atmega2560/watchdog_1_s/autobaud/uart0_rxe0_txe1/led+b7/README.md);
 or, eg, some 16 MHz and 115,200 baud bootloaders for the [ATtiny167 based Digispark
-Pro](https://github.com/stefanrueger/urboot.hex/tree/main/boards/digispark-pro/attiny167/watchdog_1_s/external_oscillator/16m000000_hz/+115k2_baud/uart0_rxa0_txa1/led+b1/README.md),
+Pro](https://github.com/stefanrueger/urboot.hex/tree/main/boards/digispark-pro/attiny167/watchdog_1_s/external_oscillator_x/16m000000_hz/+115k2_baud/uart0_rxa0_txa1/led+b1/README.md),
 the [ATtiny85 based
-Disgispark](https://github.com/stefanrueger/urboot.hex/tree/main/boards/digispark/attiny85/watchdog_1_s/external_oscillator/16m000000_hz/+115k2_baud/swio_rxb4_txb3/led+b1/README.md)
+Disgispark](https://github.com/stefanrueger/urboot.hex/tree/main/boards/digispark/attiny85/watchdog_1_s/external_oscillator_x/16m000000_hz/+115k2_baud/swio_rxb4_txb3/led+b1/README.md)
 and the [ATtiny84 based
-Luminet](https://github.com/stefanrueger/urboot.hex/tree/main/boards/luminet/attiny84/watchdog_1_s/external_oscillator/16m000000_hz/+115k2_baud/swio_rxa3_txa2/led+a4/README.md).
+Luminet](https://github.com/stefanrueger/urboot.hex/tree/main/boards/luminet/attiny84/watchdog_1_s/external_oscillator_x/16m000000_hz/+115k2_baud/swio_rxa3_txa2/led+a4/README.md).
 
 There is a subtle distinction between bootloaders for MCUs driven by an *external* oscillator,
 which tend to have a small (< 0.2%) deviation from the nominal F<sub>CPU</sub>, and MCUs running on
