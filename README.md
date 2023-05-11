@@ -41,8 +41,8 @@ Finally, there are pre-compiled urboot bootloaders for popular Arduino cores in 
 `.hex` bootloaders of the `boards` and `cores` directories are copies of selected relevant
 bootloaders in the `mcus` tree, typically engaging the correct activity LED for visual feedback
 while the bootloader is active. With these bootloaders the board LED comes on after an external
-reset of the board at the beginning of each character read `getc()` routine and is switched off
-at the end of each `getc()`. When the bootloader times out at the end of its engagement the LED
+reset of the board at the beginning of each character read `getch()` routine and is switched off
+at the end of each `getch()`. When the bootloader times out at the end of its engagement the LED
 is switched off (unless, of course, it is used thereafter in the uploaded application). There is
 no need to select a bootloader with [blinkenlights](https://en.wikipedia.org/wiki/Blinkenlights):
 a silent bootloader from the corresponding `mcus` tree which has `_no-led`
