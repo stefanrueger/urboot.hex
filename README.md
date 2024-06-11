@@ -1,7 +1,8 @@
 # urboot.hex
-### Pre-compiled [urboot](https://github.com/stefanrueger/urboot/) bootloaders
+### Pre-compiled `u8.0` [urboot](https://github.com/stefanrueger/urboot/) bootloaders
 
-This repository contains pre-compiled bootloaders in the directory tree
+This repository contains pre-compiled AVR bootloaders to be used with the `avrdude -c urclock`
+uploader. They are all in the directory tree
 [`mcus`](https://github.com/stefanrueger/urboot.hex/tree/main/mcus/) sorted by MCU name, eg,
 autobaud bootloaders for the
 [ATmega328P](https://github.com/stefanrueger/urboot.hex/blob/main/mcus/atmega328p/watchdog_1_s/autobaud/uart0_rxd0_txd1/no-led/README.md).
@@ -25,6 +26,9 @@ Disgispark](https://github.com/stefanrueger/urboot.hex/tree/main/boards/digispar
 and the [ATtiny84 based
 Luminet](https://github.com/stefanrueger/urboot.hex/tree/main/boards/luminet/attiny84/watchdog_1_s/external_oscillator_x/16m000000_hz/+115k2_baud/swio_rxa3_txa2/led+a4/README.md).
 
+Finally, there are pre-compiled urboot bootloaders for popular Arduino cores in the
+[`cores`](https://github.com/stefanrueger/urboot.hex/tree/main/cores) directory. 
+
 There is a subtle distinction between bootloaders for MCUs driven by an *external* oscillator,
 which tend to have a small (< 0.2%) deviation from the nominal F<sub>CPU</sub>, and MCUs running on
 an *internal* oscillator, which more often than not exhibit a deviation of 2% or more from the
@@ -36,22 +40,36 @@ that a particular board can be furnished with a suitable bootloader for the *act
 frequency. All in all the aim is to ensure baud rate errors are below 2.5% to facilitate reliable
 serial communication.
 
-Finally, there are pre-compiled urboot bootloaders for popular Arduino cores in the
-[`cores`](https://github.com/stefanrueger/urboot.hex/tree/main/cores) directory. The pre-compiled
-`.hex` bootloaders of the `boards` and `cores` directories are copies of selected relevant
-bootloaders in the `mcus` tree, typically engaging the correct activity LED for visual feedback
-while the bootloader is active. With these bootloaders the board LED comes on after an external
-reset of the board at the beginning of each character read `getch()` routine and is switched off
-at the end of each `getch()`. When the bootloader times out at the end of its engagement the LED
-is switched off (unless, of course, it is used thereafter in the uploaded application). There is
-no need to select a bootloader with [blinkenlights](https://en.wikipedia.org/wiki/Blinkenlights):
-a silent bootloader from the corresponding `mcus` tree which has `_no-led`
-in the filename would equally be suitable for the board/core in consideration.
+The pre-compiled `.hex` bootloaders of the
+[`boards`](https://github.com/stefanrueger/urboot.hex/tree/main/boards/) and
+[`cores`](https://github.com/stefanrueger/urboot.hex/tree/main/cores/) directories are copies of
+selected relevant bootloaders in the
+[`mcus`](https://github.com/stefanrueger/urboot.hex/tree/main/mcus/) tree, typically engaging the
+correct activity LED for visual feedback while the bootloader is active. With these bootloaders the
+board LED comes on after an external reset of the board at the beginning of each character read
+`getch()` routine and is switched off at the end of each `getch()`. When the bootloader times out
+at the end of its engagement the LED is switched off (unless, of course, it is used thereafter in
+the uploaded application). There is no need to select a bootloader with
+[blinkenlights](https://en.wikipedia.org/wiki/Blinkenlights): a silent bootloader from the
+corresponding [`mcus`](https://github.com/stefanrueger/urboot.hex/tree/main/mcus/) tree which has
+`_no-led` in the filename would equally be suitable for the board/core in consideration.
 
-All in all, this repository contains 1,283,806 *different* bootloaders. There are actually 5,229,026
-`.hex` files in the  `mcus` tree but these often are copies of each other because, eg, a bootloader
-on 115,200 baud for 16 MHz is *exactly* the same as a bootloader on 57,600 baud for 8 MHz. The
-copies under different names and directories are provided for convenience.
+All in all, this repository contains 1,106,502 *different* current `u8.0` bootloaders amongst the
+7,871,292 bootloader files on offer in the
+[`mcus`](https://github.com/stefanrueger/urboot.hex/tree/main/mcus/) tree (4,546,918), the
+[`boards`](https://github.com/stefanrueger/urboot.hex/tree/main/boards/) tree (1,037,340) and the
+[`cores`](https://github.com/stefanrueger/urboot.hex/tree/main/cores/) tree (2,287,034). One reason
+why these bootloaders can be copies of each other is because, eg, a bootloader on 115,200 baud for
+16 MHz is *exactly* the same as a bootloader on 57,600 baud for 8 MHz. The copies under different
+names and boards/cores directories are provided for convenience.
+
+For historic interest there are an additional 1,283,806 *different* bootloaders of the previous
+version in the [`u7.7`](https://github.com/stefanrueger/urboot.hex/tree/main/u7.7/) directory tree.
+These are less interesting as they are usually bigger for the same features, and none of then has
+the update feature introduced in `u8.0`. The `u7.7` directory contains, however, a number of now
+deprecated `s`-type bootloaders that follow a skeleton STK500v1 protocol; these bootloaders can be
+used with `avrdude -c arduino` and older avrdude versions instead of the `avrdude -c urclock`
+programmer that urboot bootloaders otherwise require.
 
 Click on the links below to get more information about
  - The [urboot](https://github.com/stefanrueger/urboot/) project
@@ -62,8 +80,8 @@ Click on the links below to get more information about
  - How they [compare](https://github.com/stefanrueger/urboot/blob/main/README.md#comparison) to optiboot
  - And, finally, how to [trouble-shoot](https://github.com/stefanrueger/urboot/blob/main/README.md#trouble-shooting) them if things go wrong
 
-Cloning this repository can take long and create a large directory (some 70 GB). Pro tip: Download a zip file instead from github or execute on the command line
+Cloning this repository can take long and create a large directory (some 150 GB). Pro tip: Download a zip file instead from github or execute on the command line
 ``` sh
 curl -L https://github.com/stefanrueger/urboot.hex/tarball/master >urboot-hex.tar
 ```
-This creates a roughly 2 GB gzip compressed tar file from the current snapshot.
+This creates a roughly 4 GB gzip compressed tar file from the current snapshot.
