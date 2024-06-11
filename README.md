@@ -59,17 +59,17 @@ All in all, this repository contains 1,106,502 *different* current `u8.0` bootlo
 [`mcus`](https://github.com/stefanrueger/urboot.hex/tree/main/mcus/) tree (4,546,918), the
 [`boards`](https://github.com/stefanrueger/urboot.hex/tree/main/boards/) tree (1,037,340) and the
 [`cores`](https://github.com/stefanrueger/urboot.hex/tree/main/cores/) tree (2,287,034). One reason
-why these bootloaders can be copies of each other is because, eg, a bootloader on 115,200 baud for
-16 MHz is *exactly* the same as a bootloader on 57,600 baud for 8 MHz. The copies under different
+why some bootloaders are copies of each other is because, eg, a bootloader on 115,200 baud for 16
+MHz is *exactly* the same as a bootloader on 57,600 baud for 8 MHz. The copies under different
 names and boards/cores directories are provided for convenience.
 
-For historic interest there are an additional 1,283,806 *different* bootloaders of the previous
-version in the [`u7.7`](https://github.com/stefanrueger/urboot.hex/tree/main/u7.7/) directory tree.
-These are less interesting as they are usually bigger for the same features, and none of then has
-the update feature introduced in `u8.0`. The `u7.7` directory contains, however, a number of now
-deprecated `s`-type bootloaders that follow a skeleton STK500v1 protocol; these bootloaders can be
-used with `avrdude -c arduino` and older avrdude versions instead of the `avrdude -c urclock`
-programmer that urboot bootloaders otherwise require.
+The 1,283,806 *different* bootloaders of the previous version in the
+[`u7.7`](https://github.com/stefanrueger/urboot.hex/tree/main/u7.7/) directory tree are less
+interesting as they are usually bigger for the same features; none of them has the update feature
+introduced in `u8.0`. The `u7.7` directory contains, however, a number of now deprecated `s`-type
+bootloaders that follow a skeleton STK500v1 protocol; these bootloaders can be used with `avrdude
+-c arduino` and older avrdude versions instead of the `avrdude -c urclock` programmer that urboot
+bootloaders otherwise require.
 
 Click on the links below to get more information about
  - The [urboot](https://github.com/stefanrueger/urboot/) project
@@ -80,8 +80,8 @@ Click on the links below to get more information about
  - How they [compare](https://github.com/stefanrueger/urboot/blob/main/README.md#comparison) to optiboot
  - And, finally, how to [trouble-shoot](https://github.com/stefanrueger/urboot/blob/main/README.md#trouble-shooting) them if things go wrong
 
-Cloning this repository can take long and create a large directory (some 150 GB). Pro tip: Download a zip file instead from github or execute on the command line
-``` sh
+Cloning this repository can take long and create a large directory (some 120 GB). Pro tip: Download a zip file instead from github or execute on the command line
+```
 curl -L https://github.com/stefanrueger/urboot.hex/tarball/master >urboot-hex.tar
 ```
-This creates a roughly 4 GB gzip compressed tar file from the current snapshot.
+This creates 3.4 GB gzip compressed tar file from the current snapshot.
