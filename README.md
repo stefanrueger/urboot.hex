@@ -54,7 +54,7 @@ the uploaded application). There is no need to select a bootloader with
 corresponding [`mcus`](https://github.com/stefanrueger/urboot.hex/tree/main/mcus/) tree which has
 `_no-led` in the filename would equally be suitable for the board/core in consideration.
 
-All in all, this repository contains 1,119,102 *different* current `u8.0` bootloaders amongst the
+All in all, this repository contains 1,115,682 *different* current `u8.0` bootloaders amongst the
 8,044,668 bootloader files on offer in the
 [`mcus`](https://github.com/stefanrueger/urboot.hex/tree/main/mcus/) tree (4,611,934), the
 [`boards`](https://github.com/stefanrueger/urboot.hex/tree/main/boards/) tree (1,080,684) and the
@@ -80,8 +80,8 @@ Click on the links below to get more information about
  - How they [compare](https://github.com/stefanrueger/urboot/blob/main/README.md#comparison) to optiboot
  - And, finally, how to [trouble-shoot](https://github.com/stefanrueger/urboot/blob/main/README.md#trouble-shooting) them if things go wrong
 
-Cloning this repository can take long and create a large directory (some 120 GB). Pro tip: Download a zip file instead from github or execute on the command line
+Cloning this repository can take an hour or longer and create a large directory (some 170 GB). Pro tip: [Download a zip file](https://github.com/stefanrueger/urboot.hex/archive/refs/heads/main.zip) instead from github or execute
 ```
 curl -L https://github.com/stefanrueger/urboot.hex/tarball/master >urboot-hex.tar
 ```
-This creates 3.4 GB gzip compressed tar file from the current snapshot.
+The latter creates a 3.4 GB gzip compressed tar file from the current snapshot.
