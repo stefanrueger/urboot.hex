@@ -1,5 +1,5 @@
 # urboot.hex
-### Pre-compiled `u8.0` [urboot](https://github.com/stefanrueger/urboot/) bootloaders
+### Pre-compiled `u8.0`/`u8.1` [urboot](https://github.com/stefanrueger/urboot/) bootloaders
 
 This repository contains pre-compiled AVR bootloaders to be used with the `avrdude -c urclock`
 uploader. They are all in the directory tree
@@ -54,11 +54,11 @@ the uploaded application). There is no need to select a bootloader with
 corresponding [`mcus`](https://github.com/stefanrueger/urboot.hex/tree/main/mcus/) tree which has
 `_no-led` in the filename would equally be suitable for the board/core in consideration.
 
-All in all, this repository contains 1,115,682 *different* current `u8.0` bootloaders amongst the
-8,044,668 bootloader files on offer in the
-[`mcus`](https://github.com/stefanrueger/urboot.hex/tree/main/mcus/) tree (4,611,934), the
-[`boards`](https://github.com/stefanrueger/urboot.hex/tree/main/boards/) tree (1,080,684) and the
-[`cores`](https://github.com/stefanrueger/urboot.hex/tree/main/cores/) tree (2,352,050). One reason
+All in all, this repository contains 1,110,260 *different* current `u8.0`/`u8.1` bootloaders amongst the
+8,046,464 bootloader files on offer in the
+[`mcus`](https://github.com/stefanrueger/urboot.hex/tree/main/mcus/) tree (4,613,010), the
+[`boards`](https://github.com/stefanrueger/urboot.hex/tree/main/boards/) tree (1,080,972) and the
+[`cores`](https://github.com/stefanrueger/urboot.hex/tree/main/cores/) tree (2,352,482). One reason
 why some bootloaders are copies of each other is because, eg, a bootloader on 115,200 baud for 16
 MHz is *exactly* the same as a bootloader on 57,600 baud for 8 MHz. The copies under different
 names and boards/cores directories are provided for convenience.
