@@ -2,7 +2,7 @@ The ATmega406 exhibits a SWIO baud rate quantisation error of +0.00% for this F_
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|328|384|u8.0|`w-U-jPr--`|[urboot_m406_1s_x8m0_125k0_swio_rxb0_txb1_lednop.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega406/watchdog_1_s/external_oscillator_x/%2B8m000000_hz/%2B125k0_baud/swio_rxb0_txb1/lednop/urboot_m406_1s_x8m0_125k0_swio_rxb0_txb1_lednop.hex)|
+|328|384|u8.0|`w-U-jpr--`|[urboot_m406_1s_x8m0_125k0_swio_rxb0_txb1_lednop.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega406/watchdog_1_s/external_oscillator_x/%2B8m000000_hz/%2B125k0_baud/swio_rxb0_txb1/lednop/urboot_m406_1s_x8m0_125k0_swio_rxb0_txb1_lednop.hex)|
 |328|384|u8.0|`w-U-jpr--`|[urboot_m406_1s_x8m0_125k0_swio_rxb0_txb1_lednop_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega406/watchdog_1_s/external_oscillator_x/%2B8m000000_hz/%2B125k0_baud/swio_rxb0_txb1/lednop/urboot_m406_1s_x8m0_125k0_swio_rxb0_txb1_lednop_pr.hex)|
 |364|384|u8.0|`we--jpr-c`|[urboot_m406_1s_x8m0_125k0_swio_rxb0_txb1_lednop_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega406/watchdog_1_s/external_oscillator_x/%2B8m000000_hz/%2B125k0_baud/swio_rxb0_txb1/lednop/urboot_m406_1s_x8m0_125k0_swio_rxb0_txb1_lednop_pr_ee_ce.hex)|
 |374|384|u8.0|`w-U-jpr-c`|[urboot_m406_1s_x8m0_125k0_swio_rxb0_txb1_lednop_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega406/watchdog_1_s/external_oscillator_x/%2B8m000000_hz/%2B125k0_baud/swio_rxb0_txb1/lednop/urboot_m406_1s_x8m0_125k0_swio_rxb0_txb1_lednop_pr_ce.hex)|
@@ -19,7 +19,6 @@ The ATmega406 exhibits a SWIO baud rate quantisation error of +0.00% for this F_
   + `h` hardware boot section: make sure fuses are set for reset to jump to boot section
   + `j` vector bootloader: applications *need to be patched externally*, eg, using `avrdude -c urclock`
   + `p` bootloader protects itself from being overwritten
-  + `P` vector bootloader only: protects itself and reset vector from being overwritten
   + `r` preserves reset flags for the application in the register R2
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present

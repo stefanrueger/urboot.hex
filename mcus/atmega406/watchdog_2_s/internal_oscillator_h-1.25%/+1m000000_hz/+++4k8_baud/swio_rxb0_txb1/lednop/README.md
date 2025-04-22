@@ -1,8 +1,8 @@
-The ATmega406 exhibits a SWIO baud rate quantisation error of -0.15% for this F_CPU and baud rate combination. Assuming perfect F<sub>CPU</sub>, the actual baud rate is therefore 0.15% lower than wanted. An overall deviation (including that of the oscillator and that of the uploading computer) of up to 1.5% is well within communication tolerance. In practice, up to 2.5% deviation is likely to work with short cables and benign line noise.
+The ATmega406 exhibits a SWIO baud rate quantisation error of -0.13% for this F_CPU and baud rate combination. Assuming perfect F<sub>CPU</sub>, the actual baud rate is therefore 0.13% lower than wanted. An overall deviation (including that of the oscillator and that of the uploading computer) of up to 1.5% is well within communication tolerance. In practice, up to 2.5% deviation is likely to work with short cables and benign line noise.
 
 |Size|Usage|Version|Features|Hex file|
 |:-:|:-:|:-:|:-:|:--|
-|328|384|u8.0|`w-U-jPr--`|[urboot_m406_2s_h1m0_4k8_swio_rxb0_txb1_lednop.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega406/watchdog_2_s/internal_oscillator_h-1.25%25/%2B1m000000_hz/%2B%2B%2B4k8_baud/swio_rxb0_txb1/lednop/urboot_m406_2s_h1m0_4k8_swio_rxb0_txb1_lednop.hex)|
+|328|384|u8.0|`w-U-jpr--`|[urboot_m406_2s_h1m0_4k8_swio_rxb0_txb1_lednop.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega406/watchdog_2_s/internal_oscillator_h-1.25%25/%2B1m000000_hz/%2B%2B%2B4k8_baud/swio_rxb0_txb1/lednop/urboot_m406_2s_h1m0_4k8_swio_rxb0_txb1_lednop.hex)|
 |328|384|u8.0|`w-U-jpr--`|[urboot_m406_2s_h1m0_4k8_swio_rxb0_txb1_lednop_pr.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega406/watchdog_2_s/internal_oscillator_h-1.25%25/%2B1m000000_hz/%2B%2B%2B4k8_baud/swio_rxb0_txb1/lednop/urboot_m406_2s_h1m0_4k8_swio_rxb0_txb1_lednop_pr.hex)|
 |364|384|u8.0|`we--jpr-c`|[urboot_m406_2s_h1m0_4k8_swio_rxb0_txb1_lednop_pr_ee_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega406/watchdog_2_s/internal_oscillator_h-1.25%25/%2B1m000000_hz/%2B%2B%2B4k8_baud/swio_rxb0_txb1/lednop/urboot_m406_2s_h1m0_4k8_swio_rxb0_txb1_lednop_pr_ee_ce.hex)|
 |374|384|u8.0|`w-U-jpr-c`|[urboot_m406_2s_h1m0_4k8_swio_rxb0_txb1_lednop_pr_ce.hex](https://raw.githubusercontent.com/stefanrueger/urboot.hex/main/mcus/atmega406/watchdog_2_s/internal_oscillator_h-1.25%25/%2B1m000000_hz/%2B%2B%2B4k8_baud/swio_rxb0_txb1/lednop/urboot_m406_2s_h1m0_4k8_swio_rxb0_txb1_lednop_pr_ce.hex)|
@@ -19,7 +19,6 @@ The ATmega406 exhibits a SWIO baud rate quantisation error of -0.15% for this F_
   + `h` hardware boot section: make sure fuses are set for reset to jump to boot section
   + `j` vector bootloader: applications *need to be patched externally*, eg, using `avrdude -c urclock`
   + `p` bootloader protects itself from being overwritten
-  + `P` vector bootloader only: protects itself and reset vector from being overwritten
   + `r` preserves reset flags for the application in the register R2
   + `c` bootloader provides chip erase functionality (recommended for large MCUs)
   + `-` corresponding feature not present
